@@ -1,20 +1,20 @@
 <template>
   <div>
-    <Layout>
-      <div class="flex items-center justify-center bg-gray-100">
-    <span class="block text-2xl font-pop">TODO: Build Your App</span>
-  </div>
-    </Layout>
+    <PageLayout>
+      <div class="bg-gray-100 flex items-center justify-center">
+        <span class="block font-pop text-2xl">TODO: Build Your App</span>
+      </div>
+    </PageLayout>
   </div>
 </template>
 
 <script>
-import Layout from '@/components/Layout/Layout.vue';
+import PageLayout from '@/components/Layout/PageLayout.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    Layout
-  }
-}
+    PageLayout,
+  },
+};
 </script>

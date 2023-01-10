@@ -11,16 +11,16 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter var', ...theme.fontFamily.sans],
-        pop: ['Poppins', 'sans-serif']
+        pop: ['Poppins', 'sans-serif'],
       },
     },
     colors: {
-      'brand': '#BB48BD',
-      'success': '#30D158',
-      'error': '#FF453A',
-      'warning': '#EBAF65',
-      'white': '#FFFFFF'
-    }
+      brand: '#BB48BD',
+      success: '#30D158',
+      error: '#FF453A',
+      warning: '#EBAF65',
+      white: '#FFFFFF',
+    },
   },
   plugins: [],
 };

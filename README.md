@@ -6,11 +6,12 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
-
 ## Getting Started
+
 All yarn commands should be run from the `root` directory.
 
 **Commands**
+
 - `yarn dev`: run a development build with hot reload
 - `yarn build`: build a production ready app that is compiled in `/dist`
 - `yarn preview`: local preview of the result of `yarn build` (performance testing)
