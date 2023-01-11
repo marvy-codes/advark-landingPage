@@ -11,8 +11,12 @@ body {
   background-color: #151315;
   color: #ffffff99;
 }
-.custom__gradient {
-  background: -webkit-linear-gradient(#db00fb, #ff6000);
+.custom_text_gradient {
+  background: -webkit-linear-gradient(45deg, #db00fb, #ff6000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.custom_border_gradient {
+  border-image: -webkit-linear-gradient(45deg, #db00fb, #ff6000);
+  border-image-slice: 1;
 }
