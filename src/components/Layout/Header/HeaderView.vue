@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-between md:my-4">
-    <div>
+    <div class="h-[27px] w-[127px] md:h-[41px] md:w-[184px]">
       <img src="../../../assets/advark.svg" alt="aardvark" />
     </div>
 
@@ -23,12 +23,12 @@
       </div>
       <div class="flex">
         <img src="../../../assets/twitter.svg" alt="twitter" />
-        <img src="../../../assets/discord.png" alt="discord" />
+        <img src="../../../assets/discord.png" alt="discord" class="ml-4" />
       </div>
     </div>
 
     <div
-      class="fixed right-6 top-10 z-10 cursor-pointer text-4xl md:hidden md:hidden"
+      class="right-6 top-5 z-10 cursor-pointer text-3xl md:hidden"
       @click="MenuOpen()"
     >
       <i :class="[open ? 'bi bi-x' : 'bi bi-list']"></i>
@@ -37,32 +37,53 @@
 
   <!-- mobile navigation -->
   <div
-    class="absolute top-0 bottom-0 w-full bg-[#151315] duration-700 ease-in md:hidden"
+    class="absolute top-0 bottom-0 h-screen w-full bg-[#151315] duration-700 ease-in md:hidden"
     :class="[open ? 'left-0' : 'left-[-100%]']"
   >
-    <ul class="mx-auto text-center">
-      <li v-for="link in Links" :key="link.link" class="mx-auto my-6">
+    <div class="mx-auto mt-7 h-[27px] w-[127px]">
+      <img src="../../../assets/advark.svg" alt="aardvark" />
+    </div>
+
+    <ul class="mx-auto mt-28 text-center">
+      <li
+        v-for="link in Links"
+        :key="link.link"
+        class="mx-auto my-6 text-3xl font-semibold leading-10"
+      >
         <a :href="link.link">{{ link.name }}</a>
       </li>
     </ul>
 
-    <div class="mx-auto text-center">
+    <div class="mx-auto mt-28 text-center">
       <div class="">
-        <button>Lunch Dapp</button>
+        <DappButton />
       </div>
-      <div class="spaced-around mx-auto flex text-center">
-        <img src="../../../assets/twitter.svg" alt="twitter" />
-        <img src="../../../assets/discord.png" alt="discord" />
-      </div>
+    </div>
+
+    <div class="mx-auto mt-28 flex justify-center text-center">
+      <img
+        src="../../../assets/twitter.svg"
+        alt="twitter"
+        class="h-[48px] w-[48px]"
+      />
+      <img
+        src="../../../assets/discord.png"
+        alt="discord"
+        class="ml-4 h-[48px] w-[48px]"
+      />
     </div>
   </div>
 </template>
 
 <script>
 import { ref } from 'vue';
+import DappButton from '../DappButton.vue';
 
 export default {
   name: 'HeaderView',
+  components: {
+    DappButton,
+  },
   setup() {
     let open = ref(false);
     let Links = [

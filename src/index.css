@@ -9,11 +9,10 @@
 }
 body {
   background-color: #151315;
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff99;
 }
-.text_gradient {
-  font-size: 72px;
-  background: -webkit-linear-gradient(#eee, #333);
+.custom__gradient {
+  background: -webkit-linear-gradient(#db00fb, #ff6000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
