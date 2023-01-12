@@ -35,11 +35,11 @@
             </h1>
           </div>
         </div>
-        <div class="text-center text-sm mt-[32px] leading-[22px] mx-[42px]">
+        <div class="mx-[42px] mt-[32px] text-center text-sm leading-[22px]">
           Experience secure, private messaging on the blockchain. Join our
           decentralized platform and take control of your online communication.
         </div>
-        <div class="text-center mt-[48px]">
+        <div class="mt-[48px] text-center">
           <DappButton />
         </div>
       </div>
@@ -55,7 +55,7 @@ export default {
   name: 'HomeView',
   components: {
     PageLayout,
-    DappButton
+    DappButton,
   },
 };
 </script>
