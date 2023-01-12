@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <button
-      class="custom_text_gradient rounded-lg border-[1px] px-[12px] py-[3px] text-sm font-semibold leading-8 text-[#FFFFFF]"
+      class="custom_text_gradient text-sm font-semibold leading-8 custom_border_gradient"
     >
       Launch Dapp
       <img

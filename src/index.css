@@ -12,11 +12,27 @@ body {
   color: #ffffff99;
 }
 .custom_text_gradient {
-  background: -webkit-linear-gradient(45deg, #db00fb, #ff6000);
+  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6000);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; 
+  position: relative;
+}  
+
+.custom_border_gradient{
+  position: relative;
+  padding: 3.5px 14px;
+  border-radius: 8px;
 }
-.custom_border_gradient {
-  border-image: -webkit-linear-gradient(45deg, #db00fb, #ff6000);
-  border-image-slice: 1;
+.custom_border_gradient::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  border: 1px solid transparent; /*2*/
+  background:linear-gradient(45deg, #db00fb, #ff6000) border-box; 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
 }
