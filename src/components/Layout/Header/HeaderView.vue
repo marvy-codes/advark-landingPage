@@ -1,5 +1,7 @@
 <template>
-  <div class="flex items-center justify-between md:my-4">
+  <div
+    class="mb-[40px] flex items-center justify-between md:my-4 md:mb-[160px]"
+  >
     <div class="h-[27px] w-[127px] md:h-[41px] md:w-[184px]">
       <img src="../../../assets/advark.svg" alt="aardvark" />
     </div>
@@ -30,10 +32,9 @@
     </div>
   </div>
 
-
   <!-- mobile navigation -->
   <div
-    class="absolute top-0 bottom-0 h-screen w-full bg-[#151315] duration-700 ease-in lg:hidden"
+    class="absolute top-0 bottom-0 h-screen h-screen w-full bg-[#151315] duration-700 ease-in lg:hidden"
     :class="[open ? 'left-0' : 'left-[-100%]']"
   >
     <div class="mx-auto mt-7 h-[27px] w-[127px]">
@@ -56,7 +57,7 @@
       </div>
     </div>
 
-    <div class="mx-auto mt-28 flex justify-center text-center">
+    <div class="mx-auto mt-28 mb-8 flex justify-center text-center">
       <img
         src="../../../assets/twitter.svg"
         alt="twitter"
