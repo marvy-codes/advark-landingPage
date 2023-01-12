@@ -10,7 +10,7 @@
           />
           <img
             src="../assets/background.png"
-            class="absolute top-0 right-0 -z-10 mr-[0px] h-screen"
+            class="absolute top-0 right-0 -z-10 mr-[0px] h-screen hidden md:block"
           />
         </div>
         <div
@@ -52,6 +52,12 @@
         <div class="mt-[48px] text-center">
           <DappButton />
         </div>
+        <div class="mt-[76px]">
+          <span>
+            Trusted by
+          </span>
+        </div>
+
       </div>
     </PageLayout>
   </div>
