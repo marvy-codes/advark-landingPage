@@ -70,6 +70,7 @@
           </div>
         </div>
 
+        
         <!-- why aadvark section -->
         <div class="mt-[56px]">
           <div>
@@ -83,6 +84,7 @@
           </div>
         </div>
 
+
         <!-- Features section -->
         <div class="mt-[56px]">
           <div>
@@ -91,13 +93,12 @@
           <div
             class="mx-[42px] mt-[18px] text-center text-sm leading-[22px] lg:mx-auto lg:w-[900px] lg:text-base lg:font-normal lg:leading-6"
           >
-            Explore below to see why Aardvark Messenger is a powerful, easy to
-            use and secure web messenger.
+          Aardvark messenger offers the following in app features
           </div>
         </div>
 
-        <!-- Supported blockchains -->
 
+        <!-- Supported blockchains -->
         <div class="mt-[56px]">
           <div>
             <SubHeading>Supported blockchains</SubHeading>
