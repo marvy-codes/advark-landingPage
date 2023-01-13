@@ -34,7 +34,7 @@
 
   <!-- mobile navigation -->
   <div
-    class="absolute top-0 bottom-0 h-screen h-screen w-full bg-[#151315] duration-700 ease-in lg:hidden z-10"
+    class="absolute top-0 bottom-0 z-10 h-screen h-screen w-full bg-[#151315] duration-700 ease-in lg:hidden"
     :class="[open ? 'left-0' : 'left-[-100%]']"
   >
     <div class="mx-auto mt-7 h-[27px] w-[127px]">
@@ -74,8 +74,8 @@
 
 <script>
 import { ref } from 'vue';
-import DappButton from '../Button/DappButton.vue';
-import DappButtonLite from '../Button/DappButtonLite.vue';
+import DappButton from '../../Button/DappButton.vue';
+import DappButtonLite from '../../Button/DappButtonLite.vue';
 
 export default {
   name: 'HeaderView',

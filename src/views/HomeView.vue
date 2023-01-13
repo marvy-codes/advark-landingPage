@@ -10,7 +10,7 @@
           />
           <img
             src="../assets/background.png"
-            class="absolute top-0 right-0 -z-10 mr-[0px] h-screen hidden md:block"
+            class="absolute top-0 right-0 -z-10 mr-[0px] hidden h-screen md:block"
           />
         </div>
         <div
@@ -52,26 +52,62 @@
         <div class="mt-[48px] text-center">
           <DappButton />
         </div>
-        <div class="mt-[76px] font-semibold text-base leading-6">
-          <span>
-            Trusted by
-          </span>
-          <div class="flex ">
-              <div>
-                <img src="../assets/thundercorelogo.png" alt="logo"/>
-              </div>
-              <div>
-                <img src="../assets/mlogo.png" alt="logo"/>
-              </div>
-              <div>
-                <img src="../assets/defilogo.png" alt="logo"/>
-              </div>
-              <div>
-                <img src="../assets/undeadlogo.png" alt="logo"/>
-              </div>
+        <div class="mt-[76px] text-base font-semibold leading-6">
+          <span> Trusted by </span>
+          <div class="flex">
+            <div class="h-[46px] w-[213px]">
+              <img src="../assets/thundercorelogo.png" alt="logo" />
+            </div>
+            <div class="h-[75px] w-[75px]">
+              <img src="../assets/mlogo.png" alt="logo" />
+            </div>
+            <div class="h-[29px] w-[213px]">
+              <img src="../assets/defilogo.png" alt="logo" />
+            </div>
+            <div class="h-[42px] w-[62px]">
+              <img src="../assets/undeadlogo.png" alt="logo" />
+            </div>
           </div>
         </div>
 
+        <!-- why aadvark section -->
+        <div class="mt-[56px]">
+          <div>
+            <SubHeading>Why use Aardvark</SubHeading>
+          </div>
+          <div
+            class="mx-[42px] mt-[18px] text-center text-sm leading-[22px] lg:mx-auto lg:w-[900px] lg:text-base lg:font-normal lg:leading-6"
+          >
+            Explore below to see why Aardvark Messenger is a powerful, easy to
+            use and secure web messenger.
+          </div>
+        </div>
+
+        <!-- Features section -->
+        <div class="mt-[56px]">
+          <div>
+            <SubHeading>Features</SubHeading>
+          </div>
+          <div
+            class="mx-[42px] mt-[18px] text-center text-sm leading-[22px] lg:mx-auto lg:w-[900px] lg:text-base lg:font-normal lg:leading-6"
+          >
+            Explore below to see why Aardvark Messenger is a powerful, easy to
+            use and secure web messenger.
+          </div>
+        </div>
+
+        <!-- Supported blockchains -->
+
+        <div class="mt-[56px]">
+          <div>
+            <SubHeading>Supported blockchains</SubHeading>
+          </div>
+          <div
+            class="mx-[42px] mt-[18px] text-center text-sm leading-[22px] lg:mx-auto lg:w-[900px] lg:text-base lg:font-normal lg:leading-6"
+          >
+            Aardvark messenger is available on your favorite blockchains
+          </div>
+        </div>
       </div>
     </PageLayout>
   </div>
@@ -79,13 +115,15 @@
 
 <script>
 import PageLayout from '@/components/Layout/PageLayout.vue';
-import DappButton from '@/components/Layout/Button/DappButton.vue';
+import DappButton from '@/components/Button/DappButton.vue';
+import SubHeading from '@/components/utils/SubHeading.vue';
 
 export default {
   name: 'HomeView',
   components: {
     PageLayout,
     DappButton,
+    SubHeading,
   },
 };
 </script>
