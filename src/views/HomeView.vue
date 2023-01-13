@@ -70,7 +70,6 @@
           </div>
         </div>
 
-        
         <!-- why aadvark section -->
         <div class="mt-[56px]">
           <div>
@@ -82,8 +81,32 @@
             Explore below to see why Aardvark Messenger is a powerful, easy to
             use and secure web messenger.
           </div>
-        </div>
 
+          <div class="mt-[mkkkkkkkkkkk48px]">
+            <div class="md:flex">
+              <div class="text-center  ">
+                <h2 class="custom_text_gradient ">End to End Encryption</h2>
+                <div class="px-[14px]">
+                  Aardvark messenger is equipped with end-to-end encryption to
+                  ensure the security and privacy of your conversations. This
+                  means that all messages sent through the app are encrypted and
+                  can only be decrypted by the intended recipient. In addition,
+                  our end-to-end encryption is powered by the decentralized and
+                  secure nature of the web3 ecosystem, providing an extra layer
+                  of protection for your messages. Rest assured that your
+                  conversations are secure when using our app.
+                </div>
+              </div>
+              <div>
+                <img src="../assets/whyimage1.png" alt="encryption" />
+              </div>
+            </div>
+
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
 
         <!-- Features section -->
         <div class="mt-[56px]">
@@ -93,10 +116,9 @@
           <div
             class="mx-[42px] mt-[18px] text-center text-sm leading-[22px] lg:mx-auto lg:w-[900px] lg:text-base lg:font-normal lg:leading-6"
           >
-          Aardvark messenger offers the following in app features
+            Aardvark messenger offers the following in app features
           </div>
         </div>
-
 
         <!-- Supported blockchains -->
         <div class="mt-[56px]">
