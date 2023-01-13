@@ -82,11 +82,11 @@
             use and secure web messenger.
           </div>
 
-          <div class="mt-[mkkkkkkkkkkk48px]">
+          <div class="mt-[48px]">
             <div class="md:flex">
-              <div class="text-center  ">
-                <h2 class="custom_text_gradient ">End to End Encryption</h2>
-                <div class="px-[14px]">
+              <div class="text-center">
+                <h2 class="custom_text_gradient font-bold text-[32px] mx-auto w-[300px] sm:w-auto">End to End Encryption</h2>
+                <div class="px-[14px] ">
                   Aardvark messenger is equipped with end-to-end encryption to
                   ensure the security and privacy of your conversations. This
                   means that all messages sent through the app are encrypted and
