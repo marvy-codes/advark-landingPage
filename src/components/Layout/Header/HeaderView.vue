@@ -25,7 +25,7 @@
     </div>
 
     <div
-      class="right-6 top-5 z-10 cursor-pointer text-3xl md:hidden"
+      class="right-6 top-5 z-20 cursor-pointer text-3xl md:hidden"
       @click="MenuOpen()"
     >
       <i :class="[open ? 'bi bi-x' : 'bi bi-list']"></i>
@@ -34,7 +34,7 @@
 
   <!-- mobile navigation -->
   <div
-    class="absolute top-0 bottom-0 h-screen h-screen w-full bg-[#151315] duration-700 ease-in lg:hidden"
+    class="absolute top-0 bottom-0 h-screen h-screen w-full bg-[#151315] duration-700 ease-in lg:hidden z-10"
     :class="[open ? 'left-0' : 'left-[-100%]']"
   >
     <div class="mx-auto mt-7 h-[27px] w-[127px]">

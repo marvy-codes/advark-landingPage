@@ -41,7 +41,7 @@ body {
   border-radius: 8px;
 }
 .message::after {
-  z-index: -12;
+  z-index: -8;
   content: '';
   position: absolute;
   inset: 0;

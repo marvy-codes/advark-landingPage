@@ -52,10 +52,24 @@
         <div class="mt-[48px] text-center">
           <DappButton />
         </div>
-        <div class="mt-[76px]">
+        <div class="mt-[76px] font-semibold text-base leading-6">
           <span>
             Trusted by
           </span>
+          <div class="flex ">
+              <div>
+                <img src="../assets/thundercorelogo.png" alt="logo"/>
+              </div>
+              <div>
+                <img src="../assets/mlogo.png" alt="logo"/>
+              </div>
+              <div>
+                <img src="../assets/defilogo.png" alt="logo"/>
+              </div>
+              <div>
+                <img src="../assets/undeadlogo.png" alt="logo"/>
+              </div>
+          </div>
         </div>
 
       </div>
