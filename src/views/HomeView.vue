@@ -16,14 +16,14 @@
         <div
           class="relative mx-auto w-[340px] text-center sm:w-[650px] md:w-[700px] lg:w-[1100px] lg:pl-10"
         >
-          <div class="absolute -left-8 top-5 hidden lg:block">
+          <div class="absolute -left-8 top-5 hidden xl:block">
             <img src="../assets/pharaohicon.svg" class="h-[161px] w-[122px]" />
           </div>
           <div class="">
             <h1
               class="md: text-[40px] font-bold leading-[64px] text-white lg:text-[64px] lg:leading-[104px]"
             >
-              Experience the
+              <span class="lg:-ml-[54px]">Experience</span> the
               <span class="mr-[-28px] sm:mr-[0px]"
                 ><img
                   src="../assets/earthicon.png"
@@ -82,11 +82,21 @@
             use and secure web messenger.
           </div>
 
+          <!-- cards -->
+          <!-- card 1 -->
           <div class="mt-[48px]">
-            <div class="md:flex">
-              <div class="text-center">
-                <h2 class="custom_text_gradient font-bold text-[32px] mx-auto w-[300px] sm:w-auto">End to End Encryption</h2>
-                <div class="px-[14px] ">
+            <div
+              class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px]"
+            >
+              <div
+                class="text-center lg:ml-[78px] lg:mb-[110px] lg:w-[450px] lg:text-left"
+              >
+                <h2
+                  class="custom_text_gradient mx-auto mt-[24px] w-[320px] px-[14px] text-[32px] font-bold sm:w-auto md:w-auto xl:mt-[50px]"
+                >
+                  End to End Encryption
+                </h2>
+                <div class="mt-[16px] px-[14px]">
                   Aardvark messenger is equipped with end-to-end encryption to
                   ensure the security and privacy of your conversations. This
                   means that all messages sent through the app are encrypted and
@@ -97,14 +107,119 @@
                   conversations are secure when using our app.
                 </div>
               </div>
-              <div>
-                <img src="../assets/whyimage1.png" alt="encryption" />
+              <div
+                class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
+              >
+                <img
+                  class="-top-20 xl:absolute"
+                  src="../assets/whyimage1.png"
+                  alt="encryption"
+                />
               </div>
             </div>
 
-            <div></div>
-            <div></div>
-            <div></div>
+            <!-- card 2 -->
+            <div class="mt-[48px]">
+              <div
+                class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px] xl:h-[470px]"
+              >
+                <div
+                  class="text-center lg:mb-[110px] lg:w-[450px] lg:text-left xl:-translate-x-36"
+                >
+                  <h2
+                    class="custom_text_gradient mx-auto mt-[24px] w-[320px] px-[14px] text-[32px] font-bold sm:w-auto md:w-auto xl:mt-[50px]"
+                  >
+                    Intuitive interface
+                  </h2>
+                  <div class="mt-[16px] px-[14px]">
+                    Aardvark messenger is designed to be easy to use, no matter
+                    your level of technical expertise. With a simple and
+                    intuitive interface, you can start chatting with your
+                    friends and family in just a few taps.
+                  </div>
+                </div>
+                <div
+                  class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
+                >
+                  <img
+                    class="-top-20 -left-14 xl:absolute xl:h-[600px]"
+                    src="../assets/whyimage2.png"
+                    alt="encryption"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="mt-[48px]">
+              <div
+                class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px]"
+              >
+                <div
+                  class="text-center lg:ml-[78px] lg:mb-[110px] lg:w-[450px] lg:text-left"
+                >
+                  <h2
+                    class="custom_text_gradient mx-auto mt-[24px] w-[320px] px-[14px] text-[32px] font-bold sm:w-auto md:w-auto xl:mt-[50px]"
+                  >
+                    Blazing fast set-up
+                  </h2>
+                  <div class="mt-[16px] px-[14px]">
+                    Aardvark uses your wallets to verify ownership, all you need
+                    to do is sign a message with your wallet that Aardvark can
+                    verify, proving you own the wallet. Then you can receive
+                    messages sent to that wallet!
+                  </div>
+                </div>
+                <div
+                  class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
+                >
+                  <img
+                    class="-top-20 xl:absolute"
+                    src="../assets/whyimage3.png"
+                    alt="encryption"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="mt-[48px]">
+              <div
+                class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px] xl:h-[470px]"
+              >
+                <div
+                  class="text-center lg:mb-[110px] lg:w-[450px] lg:text-left xl:-translate-x-36"
+                >
+                  <h2
+                    class="custom_text_gradient mx-auto mt-[24px] w-[320px] px-[14px] text-[32px] font-bold sm:w-auto md:w-auto xl:mt-[50px]"
+                  >
+                    Cross platform
+                  </h2>
+                  <div class="mt-[16px] px-[14px]">
+                    One of the biggest benefits of Aardvark messenger is that it
+                    is cross-platform. This means that you can use it on any
+                    device, including your phone, tablet, or computer, as long
+                    as you have an internet connection. This makes it easy to
+                    stay in touch with your loved ones no matter where you are
+                    or what device you are using.
+                  </div>
+                  <div class="flex">
+                    <div class="">x</div>
+                    <div class="">y</div>
+                    <div class="">z</div>
+                  </div>
+                </div>
+                <div
+                  class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
+                >
+                  <img
+                    class="-top-20 -left-14 xl:absolute xl:h-[600px]"
+                    src="../assets/whyimage4.png"
+                    alt="encryption"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
