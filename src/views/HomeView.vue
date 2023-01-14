@@ -201,10 +201,10 @@
                     stay in touch with your loved ones no matter where you are
                     or what device you are using.
                   </div>
-                  <div class="flex">
-                    <div class="">x</div>
-                    <div class="">y</div>
-                    <div class="">z</div>
+                  <div class="flex justify-center">
+                    <div class="">web</div>
+                    <div class="">Android</div>
+                    <div class="">IOS</div>
                   </div>
                 </div>
                 <div
