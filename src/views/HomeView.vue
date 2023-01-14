@@ -201,10 +201,44 @@
                     stay in touch with your loved ones no matter where you are
                     or what device you are using.
                   </div>
-                  <div class="flex justify-center">
-                    <div class="">web</div>
-                    <div class="">Android</div>
-                    <div class="">IOS</div>
+                  <div class="mt-[48px] flex justify-center">
+                    <div
+                      class="cross__gradient m-[8px] h-[92px] w-[98px] rounded-2xl p-4 text-center text-white sm:h-[81px] sm:w-[150px]"
+                    >
+                      <div class="lg:-ml-10 lg:mt-2 lg:text-[20px]">
+                        <img
+                          src="../assets/web.png"
+                          alt="web"
+                          class="mx-auto lg:inline lg:mr-2"
+                        />web
+                      </div>
+                    </div>
+                    <div
+                      class="cross__gradient m-[8px] h-[92px] w-[98px] rounded-2xl p-4 text-center text-white sm:h-[81px] sm:w-[150px]"
+                    >
+                      <div>
+                        <div class="lg:-ml-2 lg:mt-2 lg:text-[18px]">
+                        <img
+                          src="../assets/android.png"
+                          alt="web"
+                          class="mx-auto lg:inline lg:mr-2"
+                        />Android
+                      </div>
+                    </div>
+                    </div>
+                    <div
+                      class="cross__gradient m-[8px] h-[92px] w-[98px] rounded-2xl p-4 text-center text-white sm:h-[81px] sm:w-[150px]"
+                    >
+                      <div>
+                        <div class="lg:-ml-12 lg:mt-2 lg:text-[20px]">
+                        <img
+                          src="../assets/ios.png"
+                          alt="ios"
+                          class="mx-auto lg:inline lg:mr-2"
+                        />IOS
+                      </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div
