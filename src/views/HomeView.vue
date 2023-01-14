@@ -54,19 +54,17 @@
         </div>
         <div class="mt-[76px] text-base font-semibold leading-6">
           <span> Trusted by </span>
-          <div class="flex">
-            <div class="h-[46px] w-[213px]">
-              <img src="../assets/thundercorelogo.png" alt="logo" />
-            </div>
-            <div class="h-[75px] w-[75px]">
-              <img src="../assets/mlogo.png" alt="logo" />
-            </div>
-            <div class="h-[29px] w-[213px]">
-              <img src="../assets/defilogo.png" alt="logo" />
-            </div>
-            <div class="h-[42px] w-[62px]">
-              <img src="../assets/undeadlogo.png" alt="logo" />
-            </div>
+          <div
+            class="spaced-between w-[100%] flex-wrap justify-center text-center md:flex"
+          >
+            <img
+              src="../assets/thundercorelogo.png"
+              alt="logo"
+              class="inline"
+            />
+            <img src="../assets/mlogo.png" alt="logo" class="inline" />
+            <img src="../assets/defilogo.png" alt="logo" class="inline" />
+            <img src="../assets/undeadlogo.png" alt="logo" class="inline" />
           </div>
         </div>
 
@@ -232,6 +230,126 @@
             class="mx-[42px] mt-[18px] text-center text-sm leading-[22px] lg:mx-auto lg:w-[900px] lg:text-base lg:font-normal lg:leading-6"
           >
             Aardvark messenger offers the following in app features
+          </div>
+          <!-- cards -->
+          <div
+            class="mx-auto mt-[40px] flex-wrap justify-center md:mt-[70px] md:flex"
+          >
+            <div
+              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-center md:w-[340px] md:text-left xl:w-[380px]"
+            >
+              <div
+                class="md:leading-40px mx-auto mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+              >
+                <img
+                  src="../assets/Consolidatedinbox.png"
+                  alt=""
+                  class="mr-3 md:h-[48px] md:w-[48px]"
+                />Consolidated Inbox
+              </div>
+              <div class="text-sm font-normal leading-6">
+                With our consolidated inbox, you can easily view and manage all
+                of your messages and transactions from a single interface. This
+                saves you the time and effort of switching between different
+                wallets or apps to check your messages and transactions.
+              </div>
+            </div>
+            <div
+              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-center md:w-[340px] md:text-left xl:w-[380px]"
+            >
+              <div
+                class="md:leading-40px mx-auto mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+              >
+                <img
+                  src="../assets/Multichain.png"
+                  alt=""
+                  class="mr-3 md:h-[48px] md:w-[48px]"
+                />multi-chain support
+              </div>
+              <div class="text-sm font-normal leading-6">
+                With our multi-chain support feature, you can easily switch
+                between different blockchain networks within the app, giving you
+                the flexibility to connect with your desired blockchain of
+                choice. that best suits your needs.
+              </div>
+            </div>
+            <div
+              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-center md:w-[340px] md:text-left xl:w-[380px]"
+            >
+              <div
+                class="md:leading-40px mx-auto mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+              >
+                <img
+                  src="../assets/Consolidatedinbox.png"
+                  alt=""
+                  class="mr-3 md:h-[48px] md:w-[48px]"
+                />Send Token/NFT
+              </div>
+              <div class="text-sm font-normal leading-6">
+                Our send token/NFT feature is a convenient and easy way to share
+                cryptocurrency and other digital assets with your contacts
+                within the app. Whether you are sending a gift or just want to
+                share a digital asset, our app makes it easy to do so on the go!
+              </div>
+            </div>
+            <div
+              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-center md:w-[340px] md:text-left xl:w-[380px]"
+            >
+              <div
+                class="md:leading-40px mx-auto mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+              >
+                <img
+                  src="../assets/Nft.png"
+                  alt=""
+                  class="mr-3 md:h-[48px] md:w-[48px]"
+                />NFT PFP
+              </div>
+              <div class="text-sm font-normal leading-6">
+                Aardvark messenger app allows you to use non-fungible tokens
+                (NFTs) as your profile picture. This is especially useful if you
+                want to use unique or one-of-a-kind digital assets to represent
+                yourself within the app.
+              </div>
+            </div>
+            <div
+              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-center md:w-[340px] md:text-left xl:w-[380px]"
+            >
+              <div
+                class="md:leading-40px mx-auto mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+              >
+                <img
+                  src="../assets/community.png"
+                  alt=""
+                  class="mr-3 md:h-[48px] md:w-[48px]"
+                />Secure Communities
+              </div>
+              <div class="text-sm font-normal leading-6">
+                Within the community feature, you can join groups or forums
+                based on your interests and participate in discussions with
+                other members. You can also start your own group or forum and
+                invite others to join.
+              </div>
+            </div>
+            <div
+              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-center md:w-[340px] md:text-left xl:w-[380px]"
+            >
+              <div
+                class="md:leading-40px mx-auto mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+              >
+                <img
+                  src="../assets/Missions.png"
+                  alt=""
+                  class="mr-3 md:h-[48px] md:w-[48px]"
+                />Aardvark missions
+              </div>
+              <div class="text-sm font-normal leading-6">
+                Aardvark messenger includes a missions feature that allows you
+                to complete tasks and earn rewards. These missions can be as
+                simple as inviting a friend to join the app or sharing a piece
+                of content, or they can be more complex and require you to
+                complete multiple steps.
+              </div>
+            </div>
           </div>
         </div>
 
