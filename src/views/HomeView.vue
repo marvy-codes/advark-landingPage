@@ -159,7 +159,7 @@
                   class="text-center lg:ml-[78px] lg:mb-[110px] lg:w-[450px] lg:text-left"
                 >
                   <h2
-                    class="custom_text_gradient mx-auto mt-[24px] w-[320px] px-[14px] text-[32px] font-bold sm:w-auto md:w-auto xl:mt-[50px]"
+                    class="custom_text_gradient mx-auto mt-[24px] w-[270px] px-[14px] text-[32px] font-bold sm:w-[320px] sm:w-auto md:w-auto xl:mt-[50px]"
                   >
                     Blazing fast set-up
                   </h2>
