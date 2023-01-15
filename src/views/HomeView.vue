@@ -53,18 +53,35 @@
           <DappButton />
         </div>
         <div class="mt-[76px] text-base font-semibold leading-6">
-          <span> Trusted by </span>
-          <div
-            class="spaced-between w-[100%] flex-wrap justify-center text-center md:flex"
-          >
+          <span class="ml-3 text-white md:ml-14"> Trusted by </span>
+          <div class="text-center sm:ml-20 xl:hidden">
             <img
               src="../assets/thundercorelogo.png"
               alt="logo"
-              class="inline"
+              class="mr-16 inline"
             />
-            <img src="../assets/mlogo.png" alt="logo" class="inline" />
-            <img src="../assets/defilogo.png" alt="logo" class="inline" />
-            <img src="../assets/undeadlogo.png" alt="logo" class="inline" />
+            <img src="../assets/mlogo.png" alt="logo" class="inline sm:mr-16" />
+            <img src="../assets/defilogo.png" alt="logo" class="mr-16 inline" />
+            <img
+              src="../assets/undeadlogo.png"
+              alt="logo"
+              class="inline sm:mr-16"
+            />
+          </div>
+          <!--  -->
+          <div class="hidden text-center xl:block">
+            <img
+              src="../assets/dthundercorelogo.png"
+              alt="logo"
+              class="mr-32 inline"
+            />
+            <img src="../assets/dmlogo.png" alt="logo" class="mr-28 inline" />
+            <img
+              src="../assets/ddefilogo.png"
+              alt="logo"
+              class="mr-32 inline"
+            />
+            <img src="../assets/dundeadlogo.png" alt="logo" class="inline" />
           </div>
         </div>
 
@@ -79,7 +96,6 @@
             Explore below to see why Aardvark Messenger is a powerful, easy to
             use and secure web messenger.
           </div>
-
           <!-- cards -->
           <!-- card 1 -->
           <div class="mt-[48px]">
@@ -115,7 +131,6 @@
                 />
               </div>
             </div>
-
             <!-- card 2 -->
             <div class="mt-[48px]">
               <div
@@ -147,7 +162,6 @@
                 </div>
               </div>
             </div>
-
             <!-- card 3 -->
             <div class="mt-[48px]">
               <div
@@ -179,7 +193,6 @@
                 </div>
               </div>
             </div>
-
             <!-- card 4 -->
             <div class="mt-[48px]">
               <div
@@ -209,7 +222,7 @@
                         <img
                           src="../assets/web.png"
                           alt="web"
-                          class="mx-auto lg:inline lg:mr-2"
+                          class="mx-auto lg:mr-2 lg:inline"
                         />web
                       </div>
                     </div>
@@ -218,25 +231,25 @@
                     >
                       <div>
                         <div class="lg:-ml-2 lg:mt-2 lg:text-[18px]">
-                        <img
-                          src="../assets/android.png"
-                          alt="web"
-                          class="mx-auto lg:inline lg:mr-2"
-                        />Android
+                          <img
+                            src="../assets/android.png"
+                            alt="web"
+                            class="mx-auto lg:mr-2 lg:inline"
+                          />Android
+                        </div>
                       </div>
-                    </div>
                     </div>
                     <div
                       class="cross__gradient m-[8px] h-[92px] w-[98px] rounded-2xl p-4 text-center text-white sm:h-[81px] sm:w-[150px]"
                     >
                       <div>
                         <div class="lg:-ml-12 lg:mt-2 lg:text-[20px]">
-                        <img
-                          src="../assets/ios.png"
-                          alt="ios"
-                          class="mx-auto lg:inline lg:mr-2"
-                        />IOS
-                      </div>
+                          <img
+                            src="../assets/ios.png"
+                            alt="ios"
+                            class="mx-auto lg:mr-2 lg:inline"
+                          />IOS
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -396,6 +409,45 @@
             class="mx-[42px] mt-[18px] text-center text-sm leading-[22px] lg:mx-auto lg:w-[900px] lg:text-base lg:font-normal lg:leading-6"
           >
             Aardvark messenger is available on your favorite blockchains
+          </div>
+          <div class="mt-[36px]">
+            <div>
+              <img
+                src="../assets/supportedmobile.png"
+                alt="aadvark"
+                class="mx-auto sm:hidden"
+              />
+            </div>
+            <div>
+              <img
+                src="../assets/supportdesktop.png"
+                alt="aadvark"
+                class="mx-auto hidden max-h-[687px] sm:block"
+              />
+            </div>
+          </div>
+          <div
+            class="mt-[75px] mb-[140px] text-center md:mt-[90px] md:mb-[160px]"
+          >
+            <DappButton />
+          </div>
+        </div>
+
+        <!-- contact us -->
+        <div
+          class="mt-[8px] rounded-lg bg-gradient-to-tr from-[#db00fb] to-[#ff6000] px-[16px] pt-[1px] pb-[46px] sm:px-[48px]"
+        >
+          <div class="mt-[38px]"><SubHeading>contact us</SubHeading></div>
+          <div
+            class="mx-auto text-center text-sm font-normal leading-6 text-[#ffffffde] md:w-[600px]"
+          >
+            Please email info@aardvark.sh for any complaints or request and
+            we’ll get back to you as fast as we can.
+          </div>
+          <div class="mt-[42px] flex justify-center">
+            <img src="../assets/ctwitter.png" alt="aardvark" class="mr-3" />
+            <img src="../assets/cgithub.png" alt="aardvark" class="mr-3" />
+            <img src="../assets/cdiscord.png" alt="aardvark" />
           </div>
         </div>
       </div>
