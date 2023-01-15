@@ -4,11 +4,10 @@ import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/advark-landingPage/',
   plugins: [vue()],
-  // resolve: {
-  //   alias: {
-  //     '@': resolve(__dirname, 'src'),
-  //   },
-  // },
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src'),
+    },
+  },
 });
