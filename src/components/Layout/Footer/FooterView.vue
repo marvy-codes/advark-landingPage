@@ -1,6 +1,5 @@
 <template>
   <div class="mt-[100px] border-t-[1px] border-[#ffffff1a] lg:mt-[128px]  py-[87px] md:py-[45px]  lg:flex justify-between">
-
     <div class="text-center lg:text-left">
       <div class="">
         <img src="../../../assets/advark.svg" alt="aardvark" class="mx-auto " />
@@ -14,7 +13,6 @@
         </button>
       </div>
     </div>
-              
     <div class="flex flex-wrap justify-evenly mt-[58px] lg:mt-[0px]">
         <div class="mx-[10px]  mt-[10px]">
           <ul class="text-sm leading-6 w-[148px]"> 
@@ -49,17 +47,6 @@
           </ul>
         </div>
     </div>
-    
-  </div>
-
-
-
-
-
-
-
-  <div class="p-[12px]">
-    <div>copyright</div>
   </div>
 </template>
 
