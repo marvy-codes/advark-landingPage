@@ -258,8 +258,13 @@
                   class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
                 >
                   <img
-                    class="-top-20 -left-14 xl:absolute xl:h-[600px]"
+                    class="-top-20 -left-14 xl:absolute xl:h-[600px] block md:hidden"
                     src="../assets/whyimage4.png"
+                    alt="encryption"
+                  />
+                  <img
+                    class="-top-20 -left-14 xl:absolute xl:h-[600px] hidden md:block"
+                    src="../assets/whyimage4d.png"
                     alt="encryption"
                   />
                 </div>
@@ -269,7 +274,7 @@
         </div>
 
         <!-- Features section -->
-        <div class="mt-[56px]">
+        <div class="mt-[100px]">
           <div>
             <SubHeading>Features</SubHeading>
           </div>
@@ -292,7 +297,7 @@
                   src="../assets/Consolidatedinbox.png"
                   alt=""
                   class="mr-3 md:h-[48px] md:w-[48px]"
-                />Consolidated Inbox
+                />Consolidated Inbox``
               </div>
               <div class="text-sm font-normal leading-6">
                 With our consolidated inbox, you can easily view and manage all
