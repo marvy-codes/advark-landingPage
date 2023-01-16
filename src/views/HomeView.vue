@@ -3,16 +3,21 @@
     <PageLayout>
       <!-- Hero -->
       <div class="z-20">
+
+        <!-- background images -->
         <div class="">
           <img
             src="../assets/background.png"
-            class="absolute top-0 left-0 -z-30 -ml-[40px] h-screen"
+            class="absolute top-0 md:left-0 -z-30 md:-ml-[40px] h-screen"
           />
           <img
             src="../assets/background.png"
             class="absolute top-0 right-0 -z-30 mr-[0px] hidden h-screen md:block"
           />
         </div>
+        <!--  -->
+
+
         <div
           class="relative mx-auto w-[340px] text-center sm:w-[650px] md:w-[700px] lg:w-[1100px] lg:pl-10"
         >
@@ -53,7 +58,9 @@
           <DappButton />
         </div>
         <div class="mt-[76px] text-base font-semibold leading-6">
-          <span class="ml-3 text-white md:ml-14"> Trusted by </span>
+          <div class="relative">
+            <span class="ml-3 text-white md:ml-14"> Trusted by <img src="../assets/line.png" alt="aadvark" class="absolute mt-[14px] right-0 inline w-[100%] translate-x-[110px]  md:translate-x-[210px]"/></span>
+          </div>
           <div class="text-center sm:ml-20 xl:hidden">
             <img
               src="../assets/thundercorelogo.png"
@@ -83,6 +90,7 @@
             />
             <img src="../assets/dundeadlogo.png" alt="logo" class="inline" />
           </div>
+          <img src="../assets/line.png" alt="aadvark" class="absolute mt-[14px] right-0 inline w-[80%] -translate-x-[110px]  md:-translate-x-[310px]"/>
         </div>
 
         <!-- why aadvark section -->
