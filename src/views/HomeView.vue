@@ -2,7 +2,7 @@
   <div>
     <PageLayout>
       <!-- Hero -->
-      <div class="z-20">
+      <div>
 
         <!-- background images -->
         <div class="">
@@ -57,7 +57,7 @@
         <div class="mt-[48px] text-center">
           <DappButton />
         </div>
-        <div class="mt-[76px] text-base font-semibold leading-6">
+        <div class="mt-[76px] text-base font-semibold leading-6 overflow-hidden">
           <div class="relative">
             <span class="ml-3 text-white md:ml-14"> Trusted by <img src="../assets/line.png" alt="aadvark" class="absolute mt-[14px] right-0 inline w-[100%] translate-x-[110px]  md:translate-x-[210px]"/></span>
           </div>
@@ -90,7 +90,7 @@
             />
             <img src="../assets/dundeadlogo.png" alt="logo" class="inline" />
           </div>
-          <img src="../assets/line.png" alt="aadvark" class="absolute mt-[14px] right-0 inline w-[80%] -translate-x-[110px]  md:-translate-x-[310px]"/>
+          <img src="../assets/line.png" alt="aadvark" class="absolute mt-[14px] h-[1px] right-0 inline w-[80%] -translate-x-[110px]  md:-translate-x-[310px]"/>
         </div>
 
         <!-- why aadvark section -->
