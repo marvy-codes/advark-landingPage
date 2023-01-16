@@ -2,7 +2,7 @@
   <div>
     <PageLayout>
       <!-- Hero -->
-      <div class="relative">
+      <div class="z-20">
         <div class="">
           <img
             src="../assets/background.png"
@@ -97,7 +97,7 @@
             use and secure web messenger.
           </div>
           <!-- cards -->
-          <div class="mt-[48px] relative">
+          <div class="mt-[48px]">
             <!-- card 1 -->
             <div
               class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px]"
@@ -131,6 +131,8 @@
                 />
               </div>
             </div>
+
+            <img src="../assets/bgright.png" class="absolute right-0 -z-30 h-[1200px] md:h-auto" />
             <!-- card 2 -->
             <div class="mt-[48px]">
               <div
@@ -274,6 +276,7 @@
           </div>
         </div>
 
+        <img src="../assets/bgleft.png" class="absolute left-0 -z-30 h-[1200px] md:h-auto" />
         <!-- Features section -->
         <div class="mt-[100px]">
           <div>
@@ -405,6 +408,8 @@
             </div>
           </div>
         </div>
+
+        <img src="../assets/bgright.png" class="absolute right-0 -z-30 h-[1200px] md:h-auto" />
 
         <!-- Supported blockchains -->
         <div class="mt-[56px]">
