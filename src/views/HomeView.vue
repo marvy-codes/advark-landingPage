@@ -2,15 +2,15 @@
   <div>
     <PageLayout>
       <!-- Hero -->
-      <div>
+      <div class="relative">
         <div class="">
           <img
             src="../assets/background.png"
-            class="absolute top-0 left-0 -z-10 -ml-[40px] h-screen"
+            class="absolute top-0 left-0 -z-30 -ml-[40px] h-screen"
           />
           <img
             src="../assets/background.png"
-            class="absolute top-0 right-0 -z-10 mr-[0px] hidden h-screen md:block"
+            class="absolute top-0 right-0 -z-30 mr-[0px] hidden h-screen md:block"
           />
         </div>
         <div
@@ -97,8 +97,8 @@
             use and secure web messenger.
           </div>
           <!-- cards -->
-          <!-- card 1 -->
-          <div class="mt-[48px]">
+          <div class="mt-[48px] relative">
+            <!-- card 1 -->
             <div
               class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px]"
             >
@@ -162,6 +162,7 @@
                 </div>
               </div>
             </div>
+
             <!-- card 3 -->
             <div class="mt-[48px]">
               <div
@@ -258,12 +259,12 @@
                   class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
                 >
                   <img
-                    class="-top-20 -left-14 xl:absolute xl:h-[600px] block md:hidden"
+                    class="-top-20 -left-14 block lg:hidden xl:absolute xl:h-[600px]"
                     src="../assets/whyimage4.png"
                     alt="encryption"
                   />
                   <img
-                    class="-top-20 -left-14 xl:absolute xl:h-[600px] hidden md:block"
+                    class="-top-20 -left-14 hidden lg:block xl:absolute xl:h-[600px]"
                     src="../assets/whyimage4d.png"
                     alt="encryption"
                   />
