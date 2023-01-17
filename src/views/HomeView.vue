@@ -3,12 +3,11 @@
     <PageLayout>
       <!-- Hero -->
       <div>
-
         <!-- background images -->
         <div class="">
           <img
             src="../assets/background.png"
-            class="absolute top-0 md:left-0 -z-30 md:-ml-[40px] h-screen"
+            class="absolute top-0 -z-30 h-screen md:left-0 md:-ml-[40px]"
           />
           <img
             src="../assets/background.png"
@@ -16,7 +15,6 @@
           />
         </div>
         <!--  -->
-
 
         <div
           class="relative mx-auto w-[340px] text-center sm:w-[650px] md:w-[700px] lg:w-[1100px] lg:pl-10"
@@ -57,9 +55,17 @@
         <div class="mt-[48px] text-center">
           <DappButton />
         </div>
-        <div class="mt-[76px] text-base font-semibold leading-6 overflow-hidden">
+        <div
+          class="mt-[76px] overflow-hidden text-base font-semibold leading-6"
+        >
           <div class="relative">
-            <span class="ml-3 text-white md:ml-14"> Trusted by <img src="../assets/line.png" alt="aadvark" class="absolute mt-[14px] right-0 inline w-[100%] translate-x-[110px]  md:translate-x-[210px]"/></span>
+            <span class="ml-3 text-white md:ml-14">
+              Trusted by
+              <img
+                src="../assets/line.png"
+                alt="aadvark"
+                class="absolute right-0 mt-[14px] inline w-[100%] translate-x-[110px] md:translate-x-[210px]"
+            /></span>
           </div>
           <div class="text-center sm:ml-20 xl:hidden">
             <img
@@ -90,7 +96,11 @@
             />
             <img src="../assets/dundeadlogo.png" alt="logo" class="inline" />
           </div>
-          <img src="../assets/line.png" alt="aadvark" class="absolute mt-[14px] h-[1px] right-0 inline w-[80%] -translate-x-[110px]  md:-translate-x-[310px]"/>
+          <img
+            src="../assets/line.png"
+            alt="aadvark"
+            class="absolute right-0 mt-[14px] inline h-[1px] w-[80%] -translate-x-[110px] md:-translate-x-[310px]"
+          />
         </div>
 
         <!-- why aadvark section -->
@@ -140,7 +150,10 @@
               </div>
             </div>
 
-            <img src="../assets/bgright.png" class="absolute right-0 -z-30 h-[1200px] md:h-auto" />
+            <img
+              src="../assets/bgright.png"
+              class="absolute right-0 -z-30 h-[1200px] md:h-auto"
+            />
             <!-- card 2 -->
             <div class="mt-[48px]">
               <div
@@ -284,9 +297,12 @@
           </div>
         </div>
 
-        <img src="../assets/bgleft.png" class="absolute left-0 -z-30 h-[1200px] md:h-auto" />
+        <img
+          src="../assets/bgleft.png"
+          class="absolute left-0 -z-30 h-[1200px] md:h-auto"
+        />
         <!-- Features section -->
-        <div class="mt-[100px]" id="features">
+        <div id="features" class="mt-[100px]">
           <div>
             <SubHeading>Features</SubHeading>
           </div>
@@ -417,7 +433,10 @@
           </div>
         </div>
 
-        <img src="../assets/bgright.png" class="absolute right-0 -z-30 h-[1200px] md:h-auto" />
+        <img
+          src="../assets/bgright.png"
+          class="absolute right-0 -z-30 h-[1200px] md:h-auto"
+        />
 
         <!-- Supported blockchains -->
         <div class="mt-[56px]">
@@ -454,7 +473,7 @@
 
         <!-- contact us -->
         <div
-        id="contact"
+          id="contact"
           class="mt-[8px] rounded-lg bg-gradient-to-tr from-[#db00fb] to-[#ff6000] px-[16px] pt-[1px] pb-[46px] sm:px-[48px]"
         >
           <div class="mt-[38px]"><SubHeading>contact us</SubHeading></div>
