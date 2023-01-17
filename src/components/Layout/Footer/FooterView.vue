@@ -17,33 +17,33 @@
         <div class="mx-[10px]  mt-[10px]">
           <ul class="text-sm leading-6 w-[148px]"> 
             <li class="text-white text-base mb-[19px]">Learn</li>
-            <li class="mb-[16px]">Home</li>
-            <li class="mb-[16px]">The team</li>
-            <li class="mb-[16px]">About us</li> 
-            <li>Careers</li>
+            <li class="mb-[16px]"><a>Home</a></li>
+            <li class="mb-[16px]"><a>The team</a></li>
+            <li class="mb-[16px]"><a>About us</a></li> 
+            <li><a>Careers</a></li>
           </ul>
         </div>
         
         <div class=" mx-[10px]  mt-[10px]">
           <ul class="text-sm leading-6 w-[148px]"> 
             <li class="text-white text-base mb-[19px]">Partner</li>
-            <li class="mb-[16px]">Apply for partnership</li>
+            <li class="mb-[16px]"><a>Apply for partnership</a></li>
           </ul>
         </div>
 
         <div class=" mx-[10px] mt-[10px]">
           <ul class="text-sm leading-6 w-[148px] mt-[25px] sm:mt-[0px]"> 
             <li class="text-white text-base mb-[19px]">Develop</li>
-            <li class="mb-[16px]">Documentation</li>
-            <li class="mb-[16px]">Integration</li>
+            <li class="mb-[16px]"><a>Documentation</a></li>
+            <li class="mb-[16px]"><a>Integration</a></li>
           </ul>
         </div>
 
         <div class=" mx-[10px] mt-[10px]">
           <ul class="text-sm leading-6 w-[148px] mt-[25px] sm:mt-[0px]"> 
             <li class="text-white text-base mb-[19px]">Legal</li>
-            <li class="mb-[16px]">Terms of service</li>
-            <li class="mb-[16px]">Privacy policy</li>
+            <li class="mb-[16px]"><a>Terms of service</a></li>
+            <li class="mb-[16px]"><a>Privacy policy</a></li>
           </ul>
         </div>
     </div>

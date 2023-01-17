@@ -16,7 +16,16 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+a:hover {
+  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a:active {
+  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .custom_border_gradient {
   position: relative;
   padding: 3.5px 14px;

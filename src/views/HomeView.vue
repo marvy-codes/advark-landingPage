@@ -95,7 +95,7 @@
 
         <!-- why aadvark section -->
         <div class="mt-[56px]">
-          <div>
+          <div id="about">
             <SubHeading>Why use Aardvark</SubHeading>
           </div>
           <div
@@ -286,7 +286,7 @@
 
         <img src="../assets/bgleft.png" class="absolute left-0 -z-30 h-[1200px] md:h-auto" />
         <!-- Features section -->
-        <div class="mt-[100px]">
+        <div class="mt-[100px]" id="features">
           <div>
             <SubHeading>Features</SubHeading>
           </div>
@@ -454,6 +454,7 @@
 
         <!-- contact us -->
         <div
+        id="contact"
           class="mt-[8px] rounded-lg bg-gradient-to-tr from-[#db00fb] to-[#ff6000] px-[16px] pt-[1px] pb-[46px] sm:px-[48px]"
         >
           <div class="mt-[38px]"><SubHeading>contact us</SubHeading></div>
