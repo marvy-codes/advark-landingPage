@@ -42,7 +42,9 @@
                   <img
                     src="../assets/twitter.svg"
                     class="inline h-[32px] w-[32px]"
-                  /><span class="custom_text_gradient ml-3 font-bold">JoeyRitcher</span>
+                  /><span class="custom_text_gradient ml-3 font-bold"
+                    >JoeyRitcher</span
+                  >
                 </a>
               </div>
               <div class="mt-[16px] px-[14px]">
@@ -71,7 +73,7 @@
             class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] px-4 md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px]"
           >
             <div
-              class="text-center lg:pl-[120px] lg:mb-[110px] lg:w-[700px] lg:-translate-x-24 lg:text-left"
+              class="text-center lg:mb-[110px] lg:w-[700px] lg:-translate-x-24 lg:pl-[120px] lg:text-left"
             >
               <div class="mt-[24px] px-[14px] xl:mt-[50px]">Co-Founder</div>
               <div class="items-center justify-between lg:flex">

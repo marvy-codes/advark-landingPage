@@ -26,22 +26,28 @@
           <li class="mb-[16px]"><a href="/">Home</a></li>
           <li class="mb-[16px]"><a href="/team">The team</a></li>
           <li class="mb-[16px]"><a href="/#about ">About us</a></li>
-          <li><a>Careers</a></li>
+          <li><a href="/Careers">Careers</a></li>
         </ul>
       </div>
 
       <div class="mx-[10px] mt-[10px]">
         <ul class="w-[148px] text-sm leading-6">
           <li class="mb-[19px] text-base text-white">Partner</li>
-          <li class="mb-[16px]"><a href="https://aardvark.sh/partnerships">Apply for partnership</a></li>
+          <li class="mb-[16px]">
+            <a href="https://aardvark.sh/partnerships">Apply for partnership</a>
+          </li>
         </ul>
       </div>
 
       <div class="mx-[10px] mt-[10px]">
         <ul class="mt-[25px] w-[148px] text-sm leading-6 sm:mt-[0px]">
           <li class="mb-[19px] text-base text-white">Develop</li>
-          <li class="mb-[16px]"><a href="https://docs.aardvark.sh/">Documentation</a></li>
-          <li class="mb-[16px]"><a href="https://developer.aardvark.sh/">Integration</a></li>
+          <li class="mb-[16px]">
+            <a href="https://docs.aardvark.sh/">Documentation</a>
+          </li>
+          <li class="mb-[16px]">
+            <a href="https://developer.aardvark.sh/">Integration</a>
+          </li>
         </ul>
       </div>
 

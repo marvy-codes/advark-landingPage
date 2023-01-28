@@ -12,17 +12,17 @@ body {
   color: #ffffff99;
 }
 .custom_text_gradient {
-  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6000);
+  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 a:hover {
-  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6000);
+  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 a:active {
-  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6000);
+  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

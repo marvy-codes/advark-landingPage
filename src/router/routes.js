@@ -2,7 +2,8 @@ const routeNames = {
   HOME: 'Home',
   TEAM: 'Team',
   TERMS: 'Terms',
-  PRIVACY: 'Privacy'
+  PRIVACY: 'Privacy',
+  CAREERS: 'Careers',
 };
 
 const routes = [
@@ -21,6 +22,10 @@ const routes = [
   {
     name: routeNames.PRIVACY,
     path: '/Privacy',
+  },
+  {
+    name: routeNames.CAREERS,
+    path: '/Careers',
   },
 ];
 
