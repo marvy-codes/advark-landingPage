@@ -89,6 +89,7 @@ export default {
       { name: 'About', link: '#about' },
       { name: 'Features', link: '#features' },
       { name: 'Contact us', link: '#contact' },
+      { name: 'Team', link: '/team' },
       { name: 'Docs', link: '#' },
     ];
 
