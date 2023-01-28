@@ -1,6 +1,8 @@
 const routeNames = {
   HOME: 'Home',
   TEAM: 'Team',
+  TERMS: 'Terms',
+  PRIVACY: 'Privacy'
 };
 
 const routes = [
@@ -11,6 +13,14 @@ const routes = [
   {
     name: routeNames.TEAM,
     path: '/Team',
+  },
+  {
+    name: routeNames.TERMS,
+    path: '/Terms',
+  },
+  {
+    name: routeNames.PRIVACY,
+    path: '/Privacy',
   },
 ];
 

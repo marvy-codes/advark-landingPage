@@ -170,7 +170,7 @@ import PageLayout from '@/components/Layout/PageLayout.vue';
 import SubHeading from '@/components/utils/SubHeading.vue';
 
 export default {
-  name: 'HomeView',
+  name: 'TeamView',
   components: {
     PageLayout,
     SubHeading,
