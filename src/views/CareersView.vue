@@ -39,7 +39,7 @@
         </p>
 
         <h2
-          class="mt-[44px] mb-[16px] text-center font-semibold leading-[24px] text-[#ffffffde] md:text-left md:text-[24px] md:leading-[40px]"
+          class="mt-[44px] mb-[16px] text-center text-[24px] font-semibold leading-[24px] text-[#ffffffde] md:text-left md:leading-[40px]"
         >
           Marketing
         </h2>
@@ -104,7 +104,9 @@
             Even if you don't see an open position below that fits you, we'd
             love to hear from you and learn more about you! Please feel free to
             send your resume or applicable credentials along to
-            info@aardvark.sh!
+            <a href="mailto:info@aardvark.sh!" class="text-white">info@aardvark.sh!</a>
+
+            
           </p>
       </div>
     </PageLayout>
