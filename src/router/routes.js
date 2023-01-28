@@ -1,6 +1,6 @@
 const routeNames = {
   HOME: 'Home',
-  TEAM: 'Team'
+  TEAM: 'Team',
 };
 
 const routes = [
@@ -10,8 +10,8 @@ const routes = [
   },
   {
     name: routeNames.TEAM,
-    path: '/Team'
-  }
+    path: '/Team',
+  },
 ];
 
 export { routes, routeNames };
