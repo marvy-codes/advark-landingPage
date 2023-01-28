@@ -38,12 +38,12 @@
                     Joey Ritcher
                   </h2>
                 </div>
-                <div class="mt-4 lg:mt-[0px]">
+                <a href="https://aardvark.sh/" class="mt-4 lg:mt-[0px]">
                   <img
                     src="../assets/twitter.svg"
                     class="inline h-[32px] w-[32px]"
-                  /><span class="custom_text_gradient ml-3">JoeyRitcher</span>
-                </div>
+                  /><span class="custom_text_gradient ml-3 font-bold">JoeyRitcher</span>
+                </a>
               </div>
               <div class="mt-[16px] px-[14px]">
                 Joey is an experienced engineer that has a diverse background in
@@ -82,14 +82,14 @@
                     Austin Zurfluh
                   </h2>
                 </div>
-                <div class="mt-4 lg:mt-[0px]">
+                <a href="https://aardvark.sh/" class="mt-4 lg:mt-[0px]">
                   <img
                     src="../assets/twitter.svg"
                     class="inline h-[32px] w-[32px]"
-                  /><span class="custom_text_gradient ml-3"
+                  /><span class="custom_text_gradient ml-3 font-bold"
                     >Austin Zurfluh</span
                   >
-                </div>
+                </a>
               </div>
               <div class="mt-[16px] px-[14px]">
                 Austin is a software engineer by trade with 10 years experience
@@ -128,14 +128,14 @@
                     Claire Buscato
                   </h2>
                 </div>
-                <div class="mt-4 lg:mt-[0px]">
+                <a href="https://aardvark.sh/" class="mt-4 lg:mt-[0px]">
                   <img
                     src="../assets/twitter.svg"
                     class="inline h-[32px] w-[32px]"
-                  /><span class="custom_text_gradient ml-3"
+                  /><span class="custom_text_gradient ml-3 font-bold"
                     >Claire Buscato</span
                   >
-                </div>
+                </a>
               </div>
               <div class="mt-[16px] px-[14px]">
                 Claire is currently based in the Philippines and is an IRL
