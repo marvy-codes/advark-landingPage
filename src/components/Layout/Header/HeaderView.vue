@@ -18,7 +18,7 @@
       <div class="">
         <DappButtonLite />
       </div>
-      <div class="hidden lg:flex">
+      <div class="hidden xl:flex">
         <img src="../../../assets/twitter.svg" alt="twitter" />
         <img src="../../../assets/discord.png" alt="discord" class="mx-4" />
       </div>

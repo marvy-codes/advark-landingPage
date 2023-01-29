@@ -29,6 +29,33 @@
           below.
         </div>
 
+        <!--  -->
+        <div
+          class="mt-[47px] hidden rounded-lg bg-[#BB48BD] py-[16px] text-white md:px-[62px] xl:block"
+        >
+          For all positions, please email
+          <a href="mailto:info@aardvark.sh!" class="text-white underline"
+            >info@aardvark.sh!</a
+          >
+          and attach your resume or applicable credentials! We will get back to
+          you shortly.
+        </div>
+
+        <div class="mx-auto bg-[#BB48BD]">
+          <div
+            class="mt-[47px] rounded-lg bg-[#BB48BD] py-[10px] pb-[2px] text-white md:px-[82px] xl:hidden"
+          >
+            <marquee>
+              For all positions, please email
+              <a href="mailto:info@aardvark.sh!" class="text-white underline"
+                >info@aardvark.sh!</a
+              >
+              and attach your resume or applicable credentials! We will get back
+              to you shortly.
+            </marquee>
+          </div>
+        </div>
+
         <h2
           class="mt-[64px] mb-[16px] text-center text-[24px] font-semibold leading-[24px] text-[#ffffffde] md:text-left md:leading-[40px]"
         >
@@ -47,7 +74,7 @@
           class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] p-[24px]"
         >
           <h2
-            class="custom_text_gradient mx-auto text-center text-[24px] font-bold md:text-left"
+            class="custom_text_gradient mx-auto text-center text-[24px] font-bold md:text-left w-fit sm:ml-[0px] w-fit sm:ml-[0px]"
           >
             Marketing Specialist
           </h2>
@@ -68,7 +95,7 @@
           class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] p-[24px]"
         >
           <h2
-            class="custom_text_gradient mx-auto text-center text-[24px] font-bold md:text-left"
+            class="custom_text_gradient mx-auto text-center text-[24px] font-bold md:text-left w-fit sm:ml-[0px]"
           >
             Head of Business Development
           </h2>
@@ -91,7 +118,7 @@
           class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] p-[24px]"
         >
           <h2
-            class="custom_text_gradient mx-auto text-center text-[24px] font-bold md:text-left"
+            class="custom_text_gradient mx-auto text-center text-[24px] font-bold md:text-left w-fit sm:ml-[0px]"
           >
             Discord moderators
           </h2>
@@ -101,13 +128,13 @@
           </div>
         </div>
         <p class="mt-[72px] mb-[64px] md:mt-[106px] md:mb-[80px]">
-            Even if you don't see an open position below that fits you, we'd
-            love to hear from you and learn more about you! Please feel free to
-            send your resume or applicable credentials along to
-            <a href="mailto:info@aardvark.sh!" class="text-white">info@aardvark.sh!</a>
-
-            
-          </p>
+          Even if you don't see an open position below that fits you, we'd love
+          to hear from you and learn more about you! Please feel free to send
+          your resume or applicable credentials along to
+          <a href="mailto:info@aardvark.sh!" class="text-white"
+            >info@aardvark.sh!</a
+          >
+        </p>
       </div>
     </PageLayout>
   </div>
