@@ -30,7 +30,7 @@
         </ul>
       </div>
 
-      <div class="mx-[10px] mt-[10px]">
+      <div class="mx-[10px] mt-[10px] md:mr-14">
         <ul class="w-[148px] text-sm leading-6">
           <li class="mb-[19px] text-base text-white">Partner</li>
           <li class="mb-[16px]">
