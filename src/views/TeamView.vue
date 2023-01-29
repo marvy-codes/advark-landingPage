@@ -24,7 +24,7 @@
         <!-- cards -->
         <div class="mt-12 md:mt-28">
           <div
-            class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] px-4 md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px]"
+            class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] px-4 md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto"
           >
             <div
               class="text-center lg:ml-[78px] lg:mb-[110px] lg:w-[700px] lg:-translate-x-24 lg:text-left"
@@ -70,7 +70,7 @@
 
         <div class="mt-2 md:mt-6">
           <div
-            class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] px-4 md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px]"
+            class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] px-4 md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto"
           >
             <div
               class="text-center lg:mb-[110px] lg:w-[700px] lg:-translate-x-24 lg:pl-[120px] lg:text-left"
@@ -114,7 +114,7 @@
 
         <div class="mt-2 md:mt-6">
           <div
-            class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] px-4 md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px]"
+            class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] px-4 md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto"
           >
             <div
               class="text-center lg:ml-[78px] lg:mb-[110px] lg:w-[700px] lg:-translate-x-24 lg:text-left"

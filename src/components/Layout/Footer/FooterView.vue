@@ -54,8 +54,8 @@
       <div class="mx-[10px] mt-[10px]">
         <ul class="mt-[25px] w-[148px] text-sm leading-6 sm:mt-[0px]">
           <li class="mb-[19px] text-base text-white">Legal</li>
-          <li class="mb-[16px]"><a>Terms of service</a></li>
-          <li class="mb-[16px]"><a>Privacy policy</a></li>
+          <li class="mb-[16px]"><a href="/terms">Terms of service</a></li>
+          <li class="mb-[16px]"><a href="/privacy">Privacy policy</a></li>
         </ul>
       </div>
     </div>

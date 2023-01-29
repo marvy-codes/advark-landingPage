@@ -41,21 +41,21 @@
           you shortly.
         </div>
 
-          <div
-            class="mt-[47px] bg-[#BB48BD] py-[10px] pb-[2px] text-white  xl:hidden w-full absolute left-0 right-0"
-          >
-            <marquee>
-              For all positions, please email
-              <a href="mailto:info@aardvark.sh!" class="text-white underline"
-                >info@aardvark.sh!</a
-              >
-              and attach your resume or applicable credentials! We will get back
-              to you shortly.
-            </marquee>
-          </div>
+        <div
+          class="absolute left-0 right-0 mt-[47px] w-full bg-[#BB48BD] py-[10px] pb-[2px] text-white xl:hidden"
+        >
+          <marquee>
+            For all positions, please email
+            <a href="mailto:info@aardvark.sh!" class="text-white underline"
+              >info@aardvark.sh!</a
+            >
+            and attach your resume or applicable credentials! We will get back
+            to you shortly.
+          </marquee>
+        </div>
 
         <h2
-          class="mt-[140px] xl:mt-[64px] mb-[16px] text-center text-[24px] font-semibold leading-[24px] text-[#ffffffde] md:text-left md:leading-[40px]"
+          class="mt-[140px] mb-[16px] text-center text-[24px] font-semibold leading-[24px] text-[#ffffffde] md:text-left md:leading-[40px] xl:mt-[64px]"
         >
           Engineering
         </h2>
@@ -69,7 +69,7 @@
           Marketing
         </h2>
         <div
-          class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] p-[24px]"
+          class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff1a] p-[24px]"
         >
           <h2
             class="custom_text_gradient mx-auto w-fit w-fit text-center text-[24px] font-bold sm:ml-[0px] sm:ml-[0px] md:text-left"
@@ -90,7 +90,7 @@
           Business Development
         </h2>
         <div
-          class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] p-[24px]"
+          class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff1a] p-[24px]"
         >
           <h2
             class="custom_text_gradient mx-auto w-fit text-center text-[24px] font-bold sm:ml-[0px] md:text-left"
@@ -113,7 +113,7 @@
           Community
         </h2>
         <div
-          class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] p-[24px]"
+          class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff1a] p-[24px]"
         >
           <h2
             class="custom_text_gradient mx-auto w-fit text-center text-[24px] font-bold sm:ml-[0px] md:text-left"
