@@ -24,7 +24,7 @@
 
         <div class="mx-auto">
           <h2
-            class="mt-[44px] mb-[16px] text-center text-[24px] font-semibold leading-[24px] text-[#ffffffde] md:text-left md:leading-[40px]"
+            class="mt-[82px] mb-[16px] text-center text-[24px] font-semibold leading-[24px] text-[#ffffffde] md:text-left md:leading-[40px]"
           >
             AGREEMENT TO TERMS
           </h2>
@@ -936,7 +936,7 @@
             info@aardvark.sh
           </p>
         </div>
-        </div>
+      </div>
     </PageLayout>
   </div>
 </template>

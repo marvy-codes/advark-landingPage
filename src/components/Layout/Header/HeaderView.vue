@@ -19,8 +19,12 @@
         <DappButtonLite />
       </div>
       <div class="hidden xl:flex">
-        <img src="../../../assets/twitter.svg" alt="twitter" />
-        <img src="../../../assets/discord.png" alt="discord" class="mx-4" />
+        <a href="https://twitter.com/Aard_Tech"
+          ><img src="../../../assets/twitter.svg" alt="twitter"
+        /></a>
+        <a href="https://discord.com/invite/ME56FFeTJN"
+          ><img src="../../../assets/discord.png" alt="discord" class="mx-4"
+        /></a>
       </div>
     </div>
 
