@@ -41,9 +41,8 @@
           you shortly.
         </div>
 
-        <div class="mx-auto bg-[#BB48BD]">
           <div
-            class="mt-[47px] rounded-lg bg-[#BB48BD] py-[10px] pb-[2px] text-white md:px-[82px] xl:hidden"
+            class="mt-[47px] bg-[#BB48BD] py-[10px] pb-[2px] text-white  xl:hidden w-full absolute left-0 right-0"
           >
             <marquee>
               For all positions, please email
@@ -54,10 +53,9 @@
               to you shortly.
             </marquee>
           </div>
-        </div>
 
         <h2
-          class="mt-[64px] mb-[16px] text-center text-[24px] font-semibold leading-[24px] text-[#ffffffde] md:text-left md:leading-[40px]"
+          class="mt-[140px] xl:mt-[64px] mb-[16px] text-center text-[24px] font-semibold leading-[24px] text-[#ffffffde] md:text-left md:leading-[40px]"
         >
           Engineering
         </h2>
@@ -74,7 +72,7 @@
           class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] p-[24px]"
         >
           <h2
-            class="custom_text_gradient mx-auto text-center text-[24px] font-bold md:text-left w-fit sm:ml-[0px] w-fit sm:ml-[0px]"
+            class="custom_text_gradient mx-auto w-fit w-fit text-center text-[24px] font-bold sm:ml-[0px] sm:ml-[0px] md:text-left"
           >
             Marketing Specialist
           </h2>
@@ -95,7 +93,7 @@
           class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] p-[24px]"
         >
           <h2
-            class="custom_text_gradient mx-auto text-center text-[24px] font-bold md:text-left w-fit sm:ml-[0px]"
+            class="custom_text_gradient mx-auto w-fit text-center text-[24px] font-bold sm:ml-[0px] md:text-left"
           >
             Head of Business Development
           </h2>
@@ -118,7 +116,7 @@
           class="mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#151315] p-[24px]"
         >
           <h2
-            class="custom_text_gradient mx-auto text-center text-[24px] font-bold md:text-left w-fit sm:ml-[0px]"
+            class="custom_text_gradient mx-auto w-fit text-center text-[24px] font-bold sm:ml-[0px] md:text-left"
           >
             Discord moderators
           </h2>
