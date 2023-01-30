@@ -55,56 +55,41 @@
         <div class="mt-[48px] text-center">
           <DappButton />
         </div>
+
         <div
-          class="mt-[76px] overflow-hidden text-base font-semibold leading-6"
+          class="mt-[76px] bg-[#ffffff0d] absolute left-0 right-0"
         >
-          <div class="relative">
-            <span class="ml-3 text-white md:ml-14">
-              Trusted by
-              <img
-                src="../assets/line.png"
-                alt="aadvark"
-                class="absolute right-0 mt-[14px] inline w-[100%] translate-x-[110px] md:translate-x-[210px]"
-            /></span>
-          </div>
-          <div class="text-center sm:ml-20 xl:hidden">
-            <img
-              src="../assets/thundercorelogo.png"
-              alt="logo"
-              class="mr-16 inline"
-            />
-            <img src="../assets/mlogo.png" alt="logo" class="inline sm:mr-16" />
-            <img src="../assets/defilogo.png" alt="logo" class="mr-16 inline" />
-            <img
-              src="../assets/undeadlogo.png"
-              alt="logo"
-              class="inline sm:mr-16"
-            />
-          </div>
+
+          <div>
+            <div class="text-center sm:ml-20 xl:hidden">
+              <img src="../assets/thundercorelogo.png" alt="logo" class="mr-16 inline" />
+              <img src="../assets/mlogo.png" alt="logo" class="inline sm:mr-16" />
+              <img src="../assets/defilogo.png" alt="logo" class="mr-16 inline" />
+              <img src="../assets/undeadlogo.png" alt="logo" class="inline sm:mr-16" />
+            </div>
           <!--  -->
-          <div class="hidden text-center xl:block">
-            <img
-              src="../assets/dthundercorelogo.png"
-              alt="logo"
-              class="mr-32 inline"
-            />
-            <img src="../assets/dmlogo.png" alt="logo" class="mr-28 inline" />
-            <img
-              src="../assets/ddefilogo.png"
-              alt="logo"
-              class="mr-32 inline"
-            />
-            <img src="../assets/dundeadlogo.png" alt="logo" class="inline" />
+            <div class="hidden text-center xl:block">
+              <img
+                src="../assets/dthundercorelogo.png"
+                alt="logo"
+                class="mr-32 inline"
+              />
+              <img src="../assets/dmlogo.png" alt="logo" class="mr-28 inline" />
+              <img
+                src="../assets/ddefilogo.png"
+                alt="logo"
+                class="mr-32 inline"
+              />
+              <img src="../assets/dundeadlogo.png" alt="logo" class="inline" />
+            </div>
           </div>
-          <img
-            src="../assets/line.png"
-            alt="aadvark"
-            class="absolute right-0 mt-[14px] inline h-[1px] w-[80%] -translate-x-[110px] md:-translate-x-[310px]"
-          />
+
         </div>
 
+
+
         <!-- why aadvark section -->
-        <div class="mt-[56px]">
+        <div class="mt-[246px]">
           <div id="about">
             <SubHeading>Why use Aardvark</SubHeading>
           </div>
