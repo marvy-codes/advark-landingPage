@@ -19,11 +19,15 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 a:hover {
+  color: #ffffff;
+}
+/* a:visited {
   background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+}  */
 a:active {
   background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
   -webkit-background-clip: text;

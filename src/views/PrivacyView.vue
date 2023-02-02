@@ -17,7 +17,7 @@
 
         <!--  -->
         <h1
-          class="text-center text-[40px] font-bold leading-[64px] text-white lg:text-[64px]"
+          class="mt-[168px] text-center text-[40px] font-bold leading-[64px] text-white md:mt-[240px] lg:text-[64px]"
         >
           Privacy policy
         </h1>
@@ -51,13 +51,27 @@
             We don’t share any personally identifying information publicly or
             with third-parties, except when required to by law.
           </p>
-          <p class="mt-[14px] mb-[14px]">Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>
-          <p class="mt-[14px] mb-[14px]">You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.</p>
-          <p class="mt-[14px] mb-[14px]">Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
-          <p class="mt-[14px] mb-[14px]">This policy is effective as of 30 June 2022.</p>
+          <p class="mt-[14px] mb-[14px]">
+            Our website may link to external sites that are not operated by us.
+            Please be aware that we have no control over the content and
+            practices of these sites, and cannot accept responsibility or
+            liability for their respective privacy policies.
+          </p>
+          <p class="mt-[14px] mb-[14px]">
+            You are free to refuse our request for your personal information,
+            with the understanding that we may be unable to provide you with
+            some of your desired services.
+          </p>
+          <p class="mt-[14px] mb-[14px]">
+            Your continued use of our website will be regarded as acceptance of
+            our practices around privacy and personal information. If you have
+            any questions about how we handle user data and personal
+            information, feel free to contact us.
+          </p>
+          <p class="mt-[14px] mb-[14px]">
+            This policy is effective as of 30 June 2022.
+          </p>
         </div>
-
-        
       </div>
     </PageLayout>
   </div>

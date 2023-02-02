@@ -16,9 +16,9 @@
         </div>
         <!--  -->
         <h1
-          class="text-center text-[40px] font-bold leading-[64px] text-white lg:text-[64px]"
+          class="mt-[168px] text-center text-[40px] font-bold leading-[64px] text-white md:mt-[240px] lg:text-[64px]"
         >
-          MEET THE TEAM
+          Meet the team
         </h1>
 
         <!-- cards -->

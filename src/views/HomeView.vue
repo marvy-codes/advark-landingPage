@@ -17,14 +17,14 @@
         <!--  -->
 
         <div
-          class="relative mx-auto w-[340px] text-center sm:w-[650px] md:w-[700px] lg:w-[1100px] lg:pl-10"
+          class="relative mx-auto mt-[168px] w-[340px] text-center sm:w-[650px] md:mt-[240px] md:w-[700px] lg:w-[1100px] lg:pl-10"
         >
           <div class="absolute -left-8 top-5 hidden xl:block">
             <img src="../assets/pharaohicon.svg" class="h-[161px] w-[122px]" />
           </div>
           <div class="">
             <h1
-              class="md: text-[40px] font-bold leading-[64px] text-white lg:text-[64px] lg:leading-[104px]"
+              class="text-[40px] font-bold leading-[64px] text-white lg:text-[64px] lg:leading-[104px]"
             >
               <span class="lg:-ml-[54px]">Experience</span> the
               <span class="mr-[-28px] sm:mr-[0px]"
@@ -47,27 +47,43 @@
           </div>
         </div>
         <div
-          class="mx-[42px] mt-[32px] text-center text-sm leading-[22px] lg:mx-auto lg:w-[700px] lg:text-base lg:font-normal lg:leading-6"
+          class="mx-[42px] mt-[32px] text-center text-sm leading-[22px] md:mt-[44px] lg:mx-auto lg:w-[700px] lg:text-base lg:font-normal lg:leading-6"
         >
           Experience secure, private messaging on the blockchain. Join our
           decentralized platform and take control of your online communication.
         </div>
-        <div class="mt-[48px] text-center">
+        <div class="mt-[60px] text-center md:mt-[70px]">
           <DappButton />
         </div>
 
         <div
-          class="mt-[76px] bg-[#ffffff0d] absolute left-0 right-0"
+          class="absolute left-0 right-0 mt-[125px] bg-[#ffffff0d] pt-4 pb-7 md:mt-[168px] md:pb-5"
         >
-
           <div>
             <div class="text-center sm:ml-20 xl:hidden">
-              <img src="../assets/thundercorelogo.png" alt="logo" class="mr-16 inline" />
-              <img src="../assets/mlogo.png" alt="logo" class="inline sm:mr-16" />
-              <img src="../assets/defilogo.png" alt="logo" class="mr-16 inline" />
-              <img src="../assets/undeadlogo.png" alt="logo" class="inline sm:mr-16" />
+              <img
+                src="../assets/thundercorelogo.png"
+                alt="logo"
+                class="mr-16 inline"
+              />
+              <img
+                src="../assets/mlogo.png"
+                alt="logo"
+                class="inline sm:mr-16"
+              />
+              <img
+                src="../assets/defilogo.png"
+                alt="logo"
+                class="mr-16 inline"
+              />
+              <img
+                src="../assets/undeadlogo.png"
+                alt="logo"
+                class="inline sm:mr-16"
+              />
             </div>
-          <!--  -->
+            <!--  -->
+
             <div class="hidden text-center xl:block">
               <img
                 src="../assets/dthundercorelogo.png"
@@ -83,13 +99,10 @@
               <img src="../assets/dundeadlogo.png" alt="logo" class="inline" />
             </div>
           </div>
-
         </div>
 
-
-
         <!-- why aadvark section -->
-        <div class="mt-[246px]">
+        <div class="mt-[440px] md:mt-[486px]">
           <div id="about">
             <SubHeading>Why use Aardvark</SubHeading>
           </div>
@@ -100,7 +113,7 @@
             use and secure web messenger.
           </div>
           <!-- cards -->
-          <div class="mt-[48px]">
+          <div class="mt-[48px] md:mt-[88px]">
             <!-- card 1 -->
             <div
               class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px]"
@@ -287,7 +300,7 @@
           class="absolute left-0 -z-30 h-[1200px] md:h-auto"
         />
         <!-- Features section -->
-        <div id="features" class="mt-[100px]">
+        <div id="features" class="mt-[125px] md:mt-[150px]">
           <div>
             <SubHeading>Features</SubHeading>
           </div>
@@ -424,7 +437,7 @@
         />
 
         <!-- Supported blockchains -->
-        <div class="mt-[56px]">
+        <div class="mt-[125px] md:mt-[150px]">
           <div>
             <SubHeading>Supported blockchains</SubHeading>
           </div>
@@ -433,7 +446,7 @@
           >
             Aardvark messenger is available on your favorite blockchains
           </div>
-          <div class="mt-[36px]">
+          <div class="mt-[36px] md:mt-[114px]">
             <div>
               <img
                 src="../assets/supportedmobile.png"
@@ -456,22 +469,37 @@
           </div>
         </div>
 
+        <!-- Partnership -->
+        <div class="mt-[125px] md:mt-[150px]"></div>
+
         <!-- contact us -->
         <div
           id="contact"
-          class="mt-[8px] rounded-lg bg-gradient-to-tr from-[#db00fb] to-[#ff6000] px-[16px] pt-[1px] pb-[46px] sm:px-[48px]"
+          class="mt-[8px] rounded-[32px] bg-gradient-to-tr from-[#db00fb] to-[#ff6000] px-[16px] pt-[1px] pb-[46px] sm:px-[48px]"
         >
           <div class="mt-[38px]"><SubHeading>contact us</SubHeading></div>
           <div
-            class="mx-auto text-center text-sm font-normal leading-6 text-[#ffffffde] md:w-[600px]"
+            class="mx-auto text-center text-sm font-normal leading-[24px] text-[#ffffffde] md:w-[600px] md:text-base"
           >
-            Please email info@aardvark.sh for any complaints or request and
-            we’ll get back to you as fast as we can.
+            Please email
+            <a
+              href="mailto:info@aardvark.sh!"
+              class="font-semibold text-white underline"
+              >info@aardvark.sh</a
+            >
+            for any complaints or request and we’ll get back to you as fast as
+            we can.
           </div>
           <div class="mt-[42px] flex justify-center">
-            <img src="../assets/ctwitter.png" alt="aardvark" class="mr-3" />
-            <img src="../assets/cgithub.png" alt="aardvark" class="mr-3" />
-            <img src="../assets/cdiscord.png" alt="aardvark" />
+            <a href="https://twitter.com/Aard_Tech"
+              ><img src="../assets/ctwitter.png" alt="aardvark" class="mr-3"
+            /></a>
+            <a href="/"
+              ><img src="../assets/cgithub.png" alt="aardvark" class="mr-3"
+            /></a>
+            <a href="https://discord.com/invite/ME56FFeTJN"
+              ><img src="../assets/cdiscord.png" alt="aardvark"
+            /></a>
           </div>
         </div>
       </div>
