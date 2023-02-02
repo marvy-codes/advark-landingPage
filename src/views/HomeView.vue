@@ -141,7 +141,7 @@
                 class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
               >
                 <img
-                  class="-top-20 xl:absolute translate-y-20 md:translate-y-0 scale-150 md:scale-100 "
+                  class="-top-20 translate-y-20 scale-150 md:translate-y-0 md:scale-100 xl:absolute"
                   src="../assets/whyimage1.png"
                   alt="encryption"
                 />
@@ -281,12 +281,12 @@
                   class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
                 >
                   <img
-                    class="-top-20 -left-14 block lg:hidden xl:absolute xl:h-[600px] translate-y-16 md:translate-y-0 scale-125 md:scale-100 "
+                    class="-top-20 -left-14 block translate-y-16 scale-125 md:translate-y-0 md:scale-100 lg:hidden xl:absolute xl:h-[600px]"
                     src="../assets/whyimage4.png"
                     alt="encryption"
                   />
                   <img
-                    class="-top-20 -left-14 hidden lg:block xl:absolute xl:h-[600px] "
+                    class="-top-20 -left-14 hidden lg:block xl:absolute xl:h-[600px]"
                     src="../assets/whyimage4d.png"
                     alt="encryption"
                   />
@@ -485,10 +485,9 @@
           </div>
           <!--  -->
           <a
-            class="mt-[56px] rounded-lg bg-white mx-auto  px-[24px] py-[14px] text-xl font-semibold leading-8 block w-[246px] partner"
+            class="partner mx-auto mt-[56px] block w-[246px] rounded-lg bg-white px-[24px] py-[14px] text-xl font-semibold leading-8"
             href="https://aardvark.sh/partnerships"
-            ></a
-          >
+          ></a>
         </div>
 
         <!-- contact us -->
