@@ -116,7 +116,7 @@
           <div class="mt-[48px] md:mt-[88px]">
             <!-- card 1 -->
             <div
-              class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px]"
+              class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:min-h-[470px] lg:w-auto lg:max-w-[1200px]"
             >
               <div
                 class="text-center lg:ml-[78px] lg:mb-[110px] lg:w-[450px] lg:text-left"
@@ -141,7 +141,7 @@
                 class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
               >
                 <img
-                  class="-top-20 xl:absolute"
+                  class="-top-20 xl:absolute translate-y-20 md:translate-y-0 scale-150 md:scale-100 "
                   src="../assets/whyimage1.png"
                   alt="encryption"
                 />
@@ -155,7 +155,7 @@
             <!-- card 2 -->
             <div class="mt-[48px]">
               <div
-                class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px] xl:h-[470px]"
+                class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:min-h-[470px] lg:w-auto lg:max-w-[1200px] xl:h-[470px]"
               >
                 <div
                   class="text-center lg:mb-[110px] lg:w-[450px] lg:text-left xl:-translate-x-36"
@@ -187,7 +187,7 @@
             <!-- card 3 -->
             <div class="mt-[48px]">
               <div
-                class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px]"
+                class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:min-h-[470px] lg:w-auto lg:max-w-[1200px]"
               >
                 <div
                   class="text-center lg:ml-[78px] lg:mb-[110px] lg:w-[450px] lg:text-left"
@@ -208,17 +208,18 @@
                   class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
                 >
                   <img
-                    class="-top-20 xl:absolute"
+                    class="xl:absolute"
                     src="../assets/whyimage3.png"
                     alt="encryption"
                   />
                 </div>
               </div>
             </div>
+
             <!-- card 4 -->
             <div class="mt-[48px]">
               <div
-                class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:max-h-[470px] lg:w-auto lg:max-w-[1200px] xl:h-[470px]"
+                class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:min-h-[470px] lg:w-auto lg:max-w-[1200px] xl:h-[470px]"
               >
                 <div
                   class="text-center lg:mb-[110px] lg:w-[450px] lg:text-left xl:-translate-x-36"
@@ -280,12 +281,12 @@
                   class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
                 >
                   <img
-                    class="-top-20 -left-14 block lg:hidden xl:absolute xl:h-[600px]"
+                    class="-top-20 -left-14 block lg:hidden xl:absolute xl:h-[600px] translate-y-16 md:translate-y-0 scale-125 md:scale-100 "
                     src="../assets/whyimage4.png"
                     alt="encryption"
                   />
                   <img
-                    class="-top-20 -left-14 hidden lg:block xl:absolute xl:h-[600px]"
+                    class="-top-20 -left-14 hidden lg:block xl:absolute xl:h-[600px] "
                     src="../assets/whyimage4d.png"
                     alt="encryption"
                   />
@@ -472,7 +473,7 @@
         <!-- Partnership -->
         <div class="mt-[14 5px] md:mt-[190px]">
           <h1
-            class="custom_text_gradient mx-auto mb-[16px] w-min px-[65px] text-center text-[40px] font-bold leading-[64px] md:text-[48px] md:leading-[80px]"
+            class="custom_text_gradient mx-auto mb-[16px] w-min px-[65px] text-center text-[40px] font-bold leading-[64px] md:text-[64px] md:leading-[80px]"
           >
             Partnership
           </h1>
