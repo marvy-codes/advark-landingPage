@@ -323,7 +323,7 @@
                   src="../assets/Consolidatedinbox.png"
                   alt=""
                   class="mr-3 md:h-[48px] md:w-[48px]"
-                />Consolidated Inbox``
+                />Consolidated Inbox
               </div>
               <div class="text-sm font-normal leading-6">
                 With our consolidated inbox, you can easily view and manage all
@@ -470,12 +470,30 @@
         </div>
 
         <!-- Partnership -->
-        <div class="mt-[125px] md:mt-[150px]"></div>
+        <div class="mt-[14 5px] md:mt-[190px]">
+          <h1
+            class="custom_text_gradient mx-auto mb-[16px] w-min px-[65px] text-center text-[40px] font-bold leading-[64px] md:text-[48px] md:leading-[80px]"
+          >
+            Partnership
+          </h1>
+          <div
+            class="mx-[42px] mt-[18px] max-w-[600px] text-center text-sm leading-[22px] lg:mx-auto lg:w-[900px] lg:text-base lg:font-normal lg:leading-6"
+          >
+            Have an idea? We'd love to hear it! We are actively looking for
+            partnerships and collaborations to be a part of.
+          </div>
+          <!--  -->
+          <a
+            class="mt-[56px] rounded-lg bg-white mx-auto  px-[24px] py-[14px] text-xl font-semibold leading-8 block w-[246px] partner"
+            href="https://aardvark.sh/partnerships"
+            ></a
+          >
+        </div>
 
         <!-- contact us -->
         <div
           id="contact"
-          class="mt-[8px] rounded-[32px] bg-gradient-to-tr from-[#db00fb] to-[#ff6000] px-[16px] pt-[1px] pb-[46px] sm:px-[48px]"
+          class="mt-[182px] rounded-[32px] bg-gradient-to-tr from-[#db00fb] to-[#ff6000] px-[16px] pt-[1px] pb-[46px] sm:px-[48px]"
         >
           <div class="mt-[38px]"><SubHeading>contact us</SubHeading></div>
           <div
