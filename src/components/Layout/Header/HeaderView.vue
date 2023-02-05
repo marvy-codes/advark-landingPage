@@ -82,7 +82,7 @@
         </div>
 
         <div
-          class="top-5 z-30 -translate-x-[16px] cursor-pointer text-3xl lg:hidden  text-white"
+          class="top-5 z-30 -translate-x-[16px] cursor-pointer text-3xl text-white lg:hidden"
           @click="MenuOpen()"
         >
           <i :class="[open ? 'bi bi-x' : 'bi bi-list']"></i>
@@ -101,7 +101,7 @@
         <ul class="mx-auto text-base duration-500 ease-in">
           <li class="flex flex-col text-base">
             <a
-              class="border-t-[0.1px] border-b-[0.1px] pt-[32px]  text-white pb-[32px] pl-[32px] font-semibold leading-[24px] hover:font-bold md:pl-[64px]"
+              class="border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px] pl-[32px] font-semibold leading-[24px] text-white hover:font-bold md:pl-[64px]"
               :class="[Productopen ? 'bg-[#bb48bd0f]' : '']"
               @click="toggleProduct()"
               ><span :class="[Productopen ? 'custom_text_gradient' : '']"
@@ -162,7 +162,7 @@
           >
             <a
               :href="link.link"
-              class="-translate-y-[0.5px] border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px] text-white pl-[32px] font-semibold leading-[24px] md:pl-[64px]"
+              class="-translate-y-[0.5px] border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px] pl-[32px] font-semibold leading-[24px] text-white md:pl-[64px]"
               >{{ link.name }}</a
             >
           </li>
@@ -170,14 +170,25 @@
 
         <div class="mx-auto mt-14 text-center">
           <div class="">
-            <DappButtonLite />
+            <button
+              class="custom_text_gradient custom_border_gradient text-sm font-semibold leading-10"
+            >
+              Launch Dapp
+              <img
+                src="../../../assets/rocketlite.png"
+                alt="rocket"
+                class="ml-1 inline"
+              />
+            </button>
           </div>
         </div>
 
-        <div >
-          <img class="absolute left-0 right-0 w-[100%] bottom-0" src="../../../assets/frame.png"/>
+        <div>
+          <img
+            class="absolute left-0 right-0 bottom-0 w-[100%]"
+            src="../../../assets/frame.png"
+          />
         </div>
-
       </div>
     </div>
   </div>
