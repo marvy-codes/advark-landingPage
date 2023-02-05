@@ -14,10 +14,10 @@
         <!-- desktop navigation -->
         <ul class="mx-auto hidden text-center md:items-center lg:flex">
           <li class="overlay_container">
-            <a class="trigger">Products</a>
-            <div class="overlay absolute w-[396px] bg-[#FFFFFF] rounded-2xl -translate-x-4 top-16">
-              <img src="../../../assets/polygon.png" class="-translate-y-3 translate-x-9" />
-              <div class="ml-[50px] mt-[24px]">
+            <a class="trigger hover:font-bold py-[8px] lg:px-[12px]">Products</a>
+            <div class="overlay absolute w-[396px]  h-[232px] bg-[#FFFFFF] rounded-2xl -translate-x-4 top-16 border_gradient shadow-lg shadow-[#c52eb348]">
+              <img src="../../../assets/polygon.png" class="-translate-y-[15px] translate-x-9 " />
+              <div class="ml-[50px] mt-[4px]">
                 <div class="-translate-x-[26px]"><a href="/" class="product__one"><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized messenger<i class="bi bi-arrow-right arrow text-[20px] ml-2"></i></a></div>
                 <div class="product__description text-left mt-[8px]">Gain access to Aardvark messengers sophisticated features. Experience.</div>
               </div>
@@ -28,7 +28,7 @@
             </div>
           </li>
           <li v-for="link in Links" :key="link.link" class="ml-5 xl:ml-14">
-            <a class="duration-900 transition ease-in" :href="link.link">{{
+            <a class="duration-900 transition ease-in hover:font-bold py-[8px] lg:px-[12px]" :href="link.link">{{
               link.name
             }}</a>
           </li>
@@ -63,17 +63,17 @@
 
       <!-- mobile navigation -->
       <div
-        class="absolute left-0 top-0 bottom-0 z-10 block h-screen w-full bg-[#151315] duration-500 ease-in lg:hidden"
+        class="absolute left-0 top-0 bottom-0 z-10 block h-screen w-full bg-[#151315] duration-500 ease-in lg:hidden overflow-scroll"
         :class="[open ? 'top-0' : 'top-[-1600%]']"
       >
-        <div class="ml-[32px]  mt-7 h-[27px] w-[127px]">
+        <div class="ml-[32px]  mt-7 h-[27px] w-[127px] mb-[80px]">
           <img src="../../../assets/advark.svg" alt="aardvark" />
         </div>
 
-        <ul class="mx-auto mt-[27px] ml- text-base">
-          <li class=" text-base border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px]">
-            <a class="ml-[32px]  font-semibold leading-[24px]" @click="toggleProduct()">Products  <i :class="[Productopen ? 'bi bi-chevron-up' : 'bi bi-chevron-down']"></i></a>
-            <div  :class="[Productopen ? 'block' : 'hidden']">
+        <ul class="mx-auto text-base ">
+          <li class=" text-base  flex flex-col">
+            <a class="font-semibold leading-[24px] border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px] pl-[32px] md:pl-[64px]  hover:font-bold" :class="[Productopen ? 'bg-[#bb48bd0f]' : '']" @click="toggleProduct()"><span :class="[Productopen ? 'custom_text_gradient' : '']">Products </span><i class="ml-2" :class="[Productopen ? 'bi bi-chevron-up' : 'bi bi-chevron-down']"></i></a>
+            <div class="duration-500 ease-in" :class="[Productopen ? 'visible opacity-100 block' : 'invisible opacity-0 hidden']" >
               <div class="ml-[50px] mt-[24px]">
                 <div class="-translate-x-[26px] text-white"><a href="/"  @click="MenuOpen()" class=""><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized messenger<i class="bi bi-arrow-right arrow text-[20px] ml-2"></i></a></div>
                 <div class=" text-left mt-[8px] w-[300px]">Gain access to Aardvark messengers sophisticated features. Experience.</div>
@@ -87,29 +87,16 @@
           <li
             v-for="link in Links"
             :key="link.link"
-            class=" text-base pt-[32px] pb-[32px] border-b-[0.1px] " @click="MenuOpen()"
+            class=" text-base flex  flex-col" @click="MenuOpen()"
           >
-            <a :href="link.link" class="ml-[32px]  font-semibold leading-[24px]">{{ link.name }}</a>
+            <a :href="link.link" class="font-semibold leading-[24px] -translate-y-[0.5px] border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px] pl-[32px] md:pl-[64px]">{{ link.name }}</a>
           </li>
         </ul>
 
-        <div class="mx-auto mt-28 text-center">
+        <div class="mx-auto mt-14 text-center">
           <div class="">
             <DappButtonLite />
           </div>
-        </div>
-
-        <div class="mx-auto mt-28 mb-8 flex justify-center text-center">
-          <img
-            src="../../../assets/twitter.svg"
-            alt="twitter"
-            class="h-[48px] w-[48px]"
-          />
-          <img
-            src="../../../assets/discord.png"
-            alt="discord"
-            class="ml-4 h-[48px] w-[48px]"
-          />
         </div>
       </div>
     </div>

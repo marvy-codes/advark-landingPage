@@ -50,6 +50,23 @@ a:active {
   mask-composite: exclude;
 }
 
+.border_gradient {
+  border-radius: 16px;
+}
+.border_gradient::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  border-width: 1px;
+  border: 2px solid transparent; /*2*/
+  background: linear-gradient(45deg, #db00fb, #ff6000) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+
 .partner::before {
   content: 'send us a message';
   background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
@@ -96,7 +113,7 @@ a:active {
   visibility: hidden;
   opacity: 0;
   /* transition: visibility 0.2s linear; */
-  transition: visibility 0.2s, opacity 0.5s linear;;
+  transition: visibility 0.2s, opacity 0.5s linear;
 }
 /* .trigger::after {
   content: url(../src/assets/arrowdown.png);
@@ -130,6 +147,8 @@ a:active {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
+  background-image: none;
+  transition: background-image 1s linear;
 }
 .product__one:hover {
   background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);

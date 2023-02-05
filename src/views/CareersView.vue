@@ -17,7 +17,7 @@
 
         <!--  -->
         <h1
-          class="text-center text-[40px] font-bold leading-[64px] text-white lg:text-[64px]"
+          class=" md:mt-[240px] mt-[168px] text-center text-[40px] font-bold leading-[64px] text-white lg:text-[64px]"
         >
           Aardvark Careers
         </h1>
