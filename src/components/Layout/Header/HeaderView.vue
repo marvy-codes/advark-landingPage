@@ -66,21 +66,21 @@
         class="absolute left-0 top-0 bottom-0 z-10 block h-screen w-full bg-[#151315] duration-500 ease-in lg:hidden overflow-scroll"
         :class="[open ? 'top-0' : 'top-[-1600%]']"
       >
-        <div class="ml-[32px]  mt-7 h-[27px] w-[127px] mb-[80px]">
+        <div class="ml-[32px]  mt-7 h-[27px] w-[127px] mb-[32px]">
           <img src="../../../assets/advark.svg" alt="aardvark" />
         </div>
 
         <ul class="mx-auto text-base ">
           <li class=" text-base  flex flex-col">
             <a class="font-semibold leading-[24px] border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px] pl-[32px] md:pl-[64px]  hover:font-bold" :class="[Productopen ? 'bg-[#bb48bd0f]' : '']" @click="toggleProduct()"><span :class="[Productopen ? 'custom_text_gradient' : '']">Products </span><i class="ml-2" :class="[Productopen ? 'bi bi-chevron-up' : 'bi bi-chevron-down']"></i></a>
-            <div class="duration-500 ease-in" :class="[Productopen ? 'visible opacity-100 block' : 'invisible opacity-0 hidden']" >
-              <div class="ml-[50px] mt-[24px]">
-                <div class="-translate-x-[26px] text-white"><a href="/"  @click="MenuOpen()" class=""><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized messenger<i class="bi bi-arrow-right arrow text-[20px] ml-2"></i></a></div>
-                <div class=" text-left mt-[8px] w-[300px]">Gain access to Aardvark messengers sophisticated features. Experience.</div>
+            <div class="duration-500 ease-in ml-[32px]" :class="[Productopen ? 'visible opacity-100 block' : 'invisible opacity-0 hidden']" >
+              <div class=" mt-[24px]">
+                <div class=" text-white text-sm font-semibold"><a href="/"  @click="MenuOpen()" class=""><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized messenger<i class="bi bi-arrow-right arrow text-[20px] ml-2"></i></a></div>
+                <div class=" text-left mt-[8px] w-[300px] ml-[24px] text-sm font-normal">Gain access to Aardvark messengers sophisticated features. Experience.</div>
               </div>
-              <div class="ml-[50px] mb-[24px] mt-[32px]">
-                <div class="-translate-x-[26px] text-white"><a href="/"  @click="MenuOpen()" class=""><i class="bi bi-cpu mr-2"></i>Embedded wallet based messenger<i class="bi bi-arrow-right arrow text-[20px] ml-2"></i></a></div>
-                <div class="text-left mt-[8px] w-[300px]">Integrate web3 chat in your project quickly and securely! </div>
+              <div class="] mb-[24px] mt-[32px]">
+                <div class=" text-white text-sm font-semibold"><a href="/"  @click="MenuOpen()" class=""><i class="bi bi-cpu mr-2"></i>Embedded wallet based messenger<i class="bi bi-arrow-right arrow text-[20px] ml-2"></i></a></div>
+                <div class="text-left mt-[8px] w-[300px] ml-[24px] text-sm font-normal">Integrate web3 chat in your project quickly and securely! </div>
               </div>
             </div>
           </li>
