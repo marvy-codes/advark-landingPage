@@ -14,23 +14,51 @@
         <!-- desktop navigation -->
         <ul class="mx-auto hidden text-center md:items-center lg:flex">
           <li class="overlay_container">
-            <a class="trigger hover:font-bold py-[8px] lg:px-[12px]">Products</a>
-            <div class="overlay absolute w-[396px]  h-[232px] bg-[#FFFFFF] rounded-2xl -translate-x-4 top-16 border_gradient shadow-lg shadow-[#c52eb348]">
-              <img src="../../../assets/polygon.png" class="-translate-y-[15px] translate-x-9 " />
+            <a class="trigger py-[8px] hover:font-bold lg:px-[12px]"
+              >Products</a
+            >
+            <div
+              class="overlay border_gradient absolute top-16 h-[232px] w-[396px] -translate-x-4 rounded-2xl bg-[#FFFFFF] shadow-lg shadow-[#c52eb348]"
+            >
+              <img
+                src="../../../assets/polygon.png"
+                class="-translate-y-[15px] translate-x-9"
+              />
               <div class="ml-[50px] mt-[4px]">
-                <div class="-translate-x-[26px]"><a href="/" class="product__one"><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized messenger<i class="bi bi-arrow-right arrow text-[20px] ml-2"></i></a></div>
-                <div class="product__description text-left mt-[8px]">Gain access to Aardvark messengers sophisticated features. Experience.</div>
+                <div class="-translate-x-[26px]">
+                  <a href="/" class="product__one"
+                    ><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized
+                    messenger<i
+                      class="bi bi-arrow-right arrow ml-2 text-[20px]"
+                    ></i
+                  ></a>
+                </div>
+                <div class="product__description mt-[8px] text-left">
+                  Gain access to Aardvark messengers sophisticated features.
+                  Experience.
+                </div>
               </div>
               <div class="ml-[50px] mb-[24px] mt-[32px]">
-                <div class="-translate-x-[26px]"><a href="/" class="product__one"><i class="bi bi-cpu mr-2"></i>Embedded wallet based messenger<i class="bi bi-arrow-right arrow text-[20px] ml-2"></i></a></div>
-                <div class="product__description text-left mt-[8px] w-[300px]">Integrate web3 chat in your project quickly and securely! </div>
+                <div class="-translate-x-[26px]">
+                  <a href="/" class="product__one"
+                    ><i class="bi bi-cpu mr-2"></i>Embedded wallet based
+                    messenger<i
+                      class="bi bi-arrow-right arrow ml-2 text-[20px]"
+                    ></i
+                  ></a>
+                </div>
+                <div class="product__description mt-[8px] w-[300px] text-left">
+                  Integrate web3 chat in your project quickly and securely!
+                </div>
               </div>
             </div>
           </li>
           <li v-for="link in Links" :key="link.link" class="ml-5 xl:ml-14">
-            <a class="duration-900 transition ease-in hover:font-bold py-[8px] lg:px-[12px]" :href="link.link">{{
-              link.name
-            }}</a>
+            <a
+              class="duration-900 py-[8px] transition ease-in hover:font-bold lg:px-[12px]"
+              :href="link.link"
+              >{{ link.name }}</a
+            >
           </li>
         </ul>
 
@@ -54,7 +82,7 @@
         </div>
 
         <div
-          class="top-5 z-30 -translate-x-[16px] cursor-pointer text-3xl lg:hidden"
+          class="top-5 z-30 -translate-x-[16px] cursor-pointer text-3xl lg:hidden  text-white"
           @click="MenuOpen()"
         >
           <i :class="[open ? 'bi bi-x' : 'bi bi-list']"></i>
@@ -63,33 +91,80 @@
 
       <!-- mobile navigation -->
       <div
-        class="absolute left-0 top-0 bottom-0 z-10 block h-screen w-full bg-[#151315] duration-500 ease-in lg:hidden overflow-scroll"
+        class="absolute left-0 top-0 bottom-0 z-10 block h-screen w-full overflow-scroll bg-[#151315] duration-500 ease-in lg:hidden"
         :class="[open ? 'top-0' : 'top-[-1600%]']"
       >
-        <div class="ml-[32px]  mt-7 h-[27px] w-[127px] mb-[32px]">
+        <div class="ml-[32px] mt-7 mb-[32px] h-[27px] w-[127px]">
           <img src="../../../assets/advark.svg" alt="aardvark" />
         </div>
 
-        <ul class="mx-auto text-base ">
-          <li class=" text-base  flex flex-col">
-            <a class="font-semibold leading-[24px] border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px] pl-[32px] md:pl-[64px]  hover:font-bold" :class="[Productopen ? 'bg-[#bb48bd0f]' : '']" @click="toggleProduct()"><span :class="[Productopen ? 'custom_text_gradient' : '']">Products </span><i class="ml-2" :class="[Productopen ? 'bi bi-chevron-up' : 'bi bi-chevron-down']"></i></a>
-            <div class="duration-500 ease-in ml-[32px]" :class="[Productopen ? 'visible opacity-100 block' : 'invisible opacity-0 hidden']" >
-              <div class=" mt-[24px]">
-                <div class=" text-white text-sm font-semibold"><a href="/"  @click="MenuOpen()" class=""><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized messenger<i class="bi bi-arrow-right arrow text-[20px] ml-2"></i></a></div>
-                <div class=" text-left mt-[8px] w-[300px] ml-[24px] text-sm font-normal">Gain access to Aardvark messengers sophisticated features. Experience.</div>
+        <ul class="mx-auto text-base duration-500 ease-in">
+          <li class="flex flex-col text-base">
+            <a
+              class="border-t-[0.1px] border-b-[0.1px] pt-[32px]  text-white pb-[32px] pl-[32px] font-semibold leading-[24px] hover:font-bold md:pl-[64px]"
+              :class="[Productopen ? 'bg-[#bb48bd0f]' : '']"
+              @click="toggleProduct()"
+              ><span :class="[Productopen ? 'custom_text_gradient' : '']"
+                >Products </span
+              ><i
+                class="ml-2"
+                :class="[
+                  Productopen ? 'bi bi-chevron-up' : 'bi bi-chevron-down',
+                ]"
+              ></i
+            ></a>
+            <div
+              class="ml-[32px] duration-500 ease-in"
+              :class="[
+                Productopen
+                  ? 'visible block opacity-100'
+                  : 'invisible hidden opacity-0',
+              ]"
+            >
+              <div class="mt-[24px]">
+                <div class="text-sm font-semibold text-white">
+                  <a href="/" class="" @click="MenuOpen()"
+                    ><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized
+                    messenger<i
+                      class="bi bi-arrow-right arrow ml-2 text-[20px]"
+                    ></i
+                  ></a>
+                </div>
+                <div
+                  class="mt-[8px] ml-[22px] w-[300px] text-left text-sm font-normal"
+                >
+                  Gain access to Aardvark messengers sophisticated features.
+                  Experience.
+                </div>
               </div>
               <div class="] mb-[24px] mt-[32px]">
-                <div class=" text-white text-sm font-semibold"><a href="/"  @click="MenuOpen()" class=""><i class="bi bi-cpu mr-2"></i>Embedded wallet based messenger<i class="bi bi-arrow-right arrow text-[20px] ml-2"></i></a></div>
-                <div class="text-left mt-[8px] w-[300px] ml-[24px] text-sm font-normal">Integrate web3 chat in your project quickly and securely! </div>
+                <div class="text-sm font-semibold text-white">
+                  <a href="/" class="" @click="MenuOpen()"
+                    ><i class="bi bi-cpu mr-2"></i>Embedded wallet based
+                    messenger<i
+                      class="bi bi-arrow-right arrow ml-2 text-[20px]"
+                    ></i
+                  ></a>
+                </div>
+                <div
+                  class="mt-[8px] ml-[22px] w-[300px] text-left text-sm font-normal"
+                >
+                  Integrate web3 chat in your project quickly and securely!
+                </div>
               </div>
             </div>
           </li>
           <li
             v-for="link in Links"
             :key="link.link"
-            class=" text-base flex  flex-col" @click="MenuOpen()"
+            class="flex flex-col text-base"
+            @click="MenuOpen()"
           >
-            <a :href="link.link" class="font-semibold leading-[24px] -translate-y-[0.5px] border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px] pl-[32px] md:pl-[64px]">{{ link.name }}</a>
+            <a
+              :href="link.link"
+              class="-translate-y-[0.5px] border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px] text-white pl-[32px] font-semibold leading-[24px] md:pl-[64px]"
+              >{{ link.name }}</a
+            >
           </li>
         </ul>
 
@@ -98,6 +173,11 @@
             <DappButtonLite />
           </div>
         </div>
+
+        <div >
+          <img class="absolute left-0 right-0 w-[100%] bottom-0" src="../../../assets/frame.png"/>
+        </div>
+
       </div>
     </div>
   </div>
@@ -105,13 +185,11 @@
 
 <script>
 import { ref } from 'vue';
-import DappButton from '../../Button/DappButton.vue';
 import DappButtonLite from '../../Button/DappButtonLite.vue';
 
 export default {
   name: 'HeaderView',
   components: {
-    DappButton,
     DappButtonLite,
   },
   setup() {
@@ -126,11 +204,11 @@ export default {
 
     function MenuOpen() {
       open.value = !open.value;
-    };
+    }
     function toggleProduct() {
       Productopen.value = !Productopen.value;
-    };
-    return { Links, open,  Productopen, MenuOpen, toggleProduct };
+    }
+    return { Links, open, Productopen, MenuOpen, toggleProduct };
   },
 };
 </script>

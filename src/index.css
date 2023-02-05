@@ -66,7 +66,6 @@ a:active {
   mask-composite: exclude;
 }
 
-
 .partner::before {
   content: 'send us a message';
   background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
@@ -108,10 +107,9 @@ a:active {
   mask-composite: exclude;
 }
 
-
 .overlay {
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
   /* transition: visibility 0.2s linear; */
   transition: visibility 0.2s, opacity 0.5s linear;
 }
@@ -139,8 +137,6 @@ a:active {
   opacity: 1;
 }
 
-
-
 .product__one {
   color: rgba(0, 0, 0, 0.87);
   font-style: normal;
@@ -164,5 +160,5 @@ a:active {
 }
 
 .arrow {
-  translate:(-8px, 0);
+  translate: (-8px, 0);
 }

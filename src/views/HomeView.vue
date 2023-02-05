@@ -57,7 +57,7 @@
         </div>
 
         <div
-          class="absolute left-0 right-0 mt-[125px] bg-[#ffffff0d] pt-4 pb-7 md:mt-[168px] md:pb-5 border-t-[0.5px] border-b-[0.5px] border-[#9a959589]"
+          class="absolute left-0 right-0 mt-[125px] border-t-[0.5px] border-b-[0.5px] border-[#9a959589] bg-[#ffffff0d] pt-4 pb-7 md:mt-[168px] md:pb-5"
         >
           <div>
             <div class="text-center sm:ml-20 xl:hidden">
