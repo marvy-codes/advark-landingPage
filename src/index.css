@@ -7,13 +7,16 @@
   padding: 0;
   margin: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: #151315;
   color: #ffffff79;
 }
+
 .custom_text_gradient {
   background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
   -webkit-background-clip: text;
@@ -23,21 +26,19 @@ body {
 a:hover {
   color: #ffffff;
 }
-/* a:visited {
-  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}  */
+
 a:active {
   background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .custom_border_gradient {
   position: relative;
   padding: 3.5px 14px;
   border-radius: 8px;
 }
+
 .custom_border_gradient::before {
   content: '';
   position: absolute;
@@ -53,6 +54,7 @@ a:active {
 .border_gradient {
   border-radius: 16px;
 }
+
 .border_gradient::before {
   content: '';
   position: absolute;
@@ -79,6 +81,7 @@ a:active {
   padding-top: 0px;
   border-radius: 8px;
 }
+
 .message::after {
   z-index: -8;
   content: '';
@@ -108,21 +111,10 @@ a:active {
 }
 
 .overlay {
-  visibility: visible;
-  opacity: 1;
-  /* transition: visibility 0.2s linear; */
+  visibility: hidden;
+  opacity: 0;
   transition: visibility 0.2s, opacity 0.5s linear;
 }
-/* .trigger::after {
-  content: url(../src/assets/arrowdown.png);
-  margin-left: 12px;
-  padding-bottom: 4px;
-  translate:(-6px, 0) ;
-} */
-
-/* .overlay_container:hover > a::after {
-  content: url(../src/assets/arrowup.png);
-} */
 
 .overlay_container:hover > a {
   color: #ffffff;
@@ -138,45 +130,33 @@ a:active {
 }
 
 
-
-
-
-
 .product__one {
   color: rgba(0, 0, 0, 0.87);
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  background-image:none;
-  transition: all;
   transition: 0.3s;
   position: relative;
   display: flex;
 }
-
 .p__arrow {
   visibility: hidden;
+  transition: 0.3s;
+  position: relative;
+  transition-delay: 0.2s;
+  transform: translate(-4px);
 }
 .product__one:hover .p__arrow {
   visibility: visible;
-  transform: translateX(4px);
-  color: #ff6200;
-  }
-
-  .product__one .p__arrow  {
-    transition: 0.3s;
-    position: relative;
-    transition-delay: 0.2s;
-  }
-
+  transform: translateX(8px) scale(1.2);
+  color: #ff6200; 
+}
 .product__one:hover {
   background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: background-image 0.2s ease-in-out;
 }
-
 .product__description {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 500;

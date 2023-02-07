@@ -35,7 +35,7 @@
                       width="24"
                       height="24"
                       fill="currentColor"
-                      class="bi bi-arrow-right-short ml-2 p__arrow"
+                      class="bi bi-arrow-right-short p__arrow"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -60,7 +60,7 @@
                       width="24"
                       height="24"
                       fill="currentColor"
-                      class="bi bi-arrow-right-short ml-2 p__arrow"
+                      class="bi bi-arrow-right-short p__arrow"
                       viewBox="0 0 16 16"
                     >
                       <path
