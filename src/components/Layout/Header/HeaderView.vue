@@ -124,8 +124,8 @@
         <ul class="mx-auto text-base duration-500 ease-in">
           <li class="flex flex-col text-base">
             <a
-              class="border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px] pl-[32px] font-semibold leading-[24px] text-white hover:font-bold md:pl-[64px]"
-              :class="[Productopen ? 'bg-[#bb48bd0f]' : '']"
+              class="border-t-[0.1px] border-b-[0.1px] border-[#ffffff79] pt-[32px] pb-[32px] pl-[32px] font-semibold leading-[24px] text-white font-normal md:pl-[64px]"
+              :class="[Productopen ? 'bg-[#bb48bd0f] ' : '']"
               @click="toggleProduct()"
               ><span :class="[Productopen ? 'custom_text_gradient' : '']"
                 >Products </span
@@ -149,7 +149,6 @@
                   <a href="/" class="" @click="MenuOpen()"
                     ><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized
                     messenger
-                    <i class="bi bi-arrow-right arrow ml-2 text-[20px]"></i>
                   </a>
                 </div>
                 <div
@@ -163,10 +162,8 @@
                 <div class="text-sm font-semibold text-white">
                   <a href="/" class="" @click="MenuOpen()"
                     ><i class="bi bi-cpu mr-2"></i>Embedded wallet based
-                    messenger<i
-                      class="bi bi-arrow-right arrow ml-2 text-[20px]"
-                    ></i
-                  ></a>
+                    messenger
+                  </a>
                 </div>
                 <div
                   class="mt-[8px] ml-[22px] w-[300px] text-left text-sm font-normal"
@@ -184,7 +181,7 @@
           >
             <a
               :href="link.link"
-              class="-translate-y-[0.5px] border-t-[0.1px] border-b-[0.1px] pt-[32px] pb-[32px] pl-[32px] font-semibold leading-[24px] text-white md:pl-[64px]"
+              class="-translate-y-[0.5px] border-t-[0.1px] border-b-[0.1px] border-[#ffffff79] font-normal pt-[32px] pb-[32px] pl-[32px] font-semibold leading-[24px] text-white md:pl-[64px]"
               >{{ link.name }}</a
             >
           </li>
