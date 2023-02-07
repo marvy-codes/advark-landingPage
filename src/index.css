@@ -137,19 +137,44 @@ a:active {
   opacity: 1;
 }
 
+
+
+
+
+
 .product__one {
   color: rgba(0, 0, 0, 0.87);
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  background-image: none;
-  transition: background-image 1s linear;
+  background-image:none;
+  transition: all;
+  transition: 0.3s;
+  position: relative;
+  display: flex;
 }
+
+.p__arrow {
+  visibility: hidden;
+}
+.product__one:hover .p__arrow {
+  visibility: visible;
+  transform: translateX(4px);
+  color: #ff6200;
+  }
+
+  .product__one .p__arrow  {
+    transition: 0.3s;
+    position: relative;
+    transition-delay: 0.2s;
+  }
+
 .product__one:hover {
   background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: background-image 0.2s ease-in-out;
 }
 
 .product__description {
@@ -157,8 +182,4 @@ a:active {
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
-}
-
-.arrow {
-  translate: (-8px, 0);
 }

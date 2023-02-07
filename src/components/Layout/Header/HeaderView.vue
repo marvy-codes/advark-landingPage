@@ -18,20 +18,32 @@
               >Products</a
             >
             <div
-              class="overlay border_gradient absolute top-16 h-[232px] w-[396px] -translate-x-4 rounded-2xl bg-[#FFFFFF] shadow-lg shadow-[#c52eb348]"
+              class="overlay border_gradient absolute top-16 h-[232px] w-[400px] -translate-x-4 rounded-2xl bg-[#FFFFFF] shadow-lg shadow-[#c52eb348]"
             >
               <img
                 src="../../../assets/polygon.png"
                 class="-translate-y-[15px] translate-x-9"
               />
-              <div class="ml-[50px] mt-[4px]">
+               <div class="ml-[50px] mt-[4px] product">
                 <div class="-translate-x-[26px]">
                   <a href="/" class="product__one"
-                    ><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized
-                    messenger<i
-                      class="bi bi-arrow-right arrow ml-2 text-[20px]"
-                    ></i
-                  ></a>
+                    >
+                    <span class="product__link"><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized
+                    messenger</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short ml-2 p__arrow"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                      />
+                    </svg>
+                  </a>
                 </div>
                 <div class="product__description mt-[8px] text-left">
                   Gain access to Aardvark messengers sophisticated features.
@@ -42,10 +54,21 @@
                 <div class="-translate-x-[26px]">
                   <a href="/" class="product__one"
                     ><i class="bi bi-cpu mr-2"></i>Embedded wallet based
-                    messenger<i
-                      class="bi bi-arrow-right arrow ml-2 text-[20px]"
-                    ></i
-                  ></a>
+                    messenger
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short ml-2 p__arrow"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                      />
+                    </svg>
+                  </a>
                 </div>
                 <div class="product__description mt-[8px] w-[300px] text-left">
                   Integrate web3 chat in your project quickly and securely!
@@ -114,7 +137,7 @@
               ></i
             ></a>
             <div
-              class="ml-[32px] duration-500 ease-in"
+              class="ml-[32px] duration-500 ease-in md:ml-[64px]"
               :class="[
                 Productopen
                   ? 'visible block opacity-100'
@@ -125,10 +148,9 @@
                 <div class="text-sm font-semibold text-white">
                   <a href="/" class="" @click="MenuOpen()"
                     ><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized
-                    messenger<i
-                      class="bi bi-arrow-right arrow ml-2 text-[20px]"
-                    ></i
-                  ></a>
+                    messenger
+                    <i class="bi bi-arrow-right arrow ml-2 text-[20px]"></i>
+                  </a>
                 </div>
                 <div
                   class="mt-[8px] ml-[22px] w-[300px] text-left text-sm font-normal"
@@ -185,7 +207,7 @@
 
         <div>
           <img
-            class="absolute left-0 right-0 bottom-0 w-[100%]"
+            class="absolute left-0 right-0 bottom-0 -z-10 w-[100%]"
             src="../../../assets/frame.png"
           />
         </div>
