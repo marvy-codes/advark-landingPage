@@ -17,7 +17,7 @@
         <!--  -->
 
         <div
-          class="relative mx-auto mt-[168px] w-[340px] text-center sm:w-[650px] md:mt-[240px] md:w-[700px] lg:w-[1100px] lg:pl-10 lg:scale-75 xl:scale-90"
+          class="relative mx-auto mt-[168px] w-[340px] text-center sm:w-[650px] md:mt-[240px] md:w-[700px] lg:w-[1100px] lg:scale-75 lg:pl-10 xl:scale-90"
         >
           <div class="absolute -left-8 top-5 hidden xl:block">
             <img src="../assets/pharaohicon.svg" class="h-[161px] w-[122px]" />
@@ -520,7 +520,7 @@
             /></a>
           </div>
         </div>
-      </div>      
+      </div>
     </PageLayout>
   </div>
 </template>

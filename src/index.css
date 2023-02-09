@@ -129,7 +129,6 @@ a:active {
   opacity: 1;
 }
 
-
 .product__one {
   color: rgba(0, 0, 0, 0.87);
   font-style: normal;
@@ -150,7 +149,7 @@ a:active {
 .product__one:hover .p__arrow {
   visibility: visible;
   transform: translateX(8px) scale(1.2);
-  color: #ff6200; 
+  color: #ff6200;
 }
 .product__one:hover {
   background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);

@@ -1,33 +1,5 @@
-const routeNames = {
-  HOME: 'Home',
-  TEAM: 'Team',
-  TERMS: 'Terms',
-  PRIVACY: 'Privacy',
-  CAREERS: 'Careers',
-};
-
-const routes = [
-  {
-    name: routeNames.HOME,
-    path: '/',
-  },
-  {
-    name: routeNames.TEAM,
-    path: '/Team',
-  },
-  {
-    name: routeNames.TERMS,
-    path: '/Terms',
-  },
-  {
-    name: routeNames.PRIVACY,
-    path: '/Privacy',
-  },
-  {
-    name: routeNames.CAREERS,
-    path: '/Careers',
-  },
-];
+import { routeNames } from './routeNames';
+import { routes } from './routeNames';
 
 export { routes, routeNames };
 

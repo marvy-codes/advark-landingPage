@@ -24,12 +24,13 @@
                 src="../../../assets/polygon.png"
                 class="-translate-y-[15px] translate-x-9"
               />
-               <div class="ml-[50px] mt-[4px] product">
+              <div class="product ml-[50px] mt-[4px]">
                 <div class="-translate-x-[26px]">
-                  <a href="/" class="product__one"
+                  <a href="/" class="product__one">
+                    <span class="product__link"
+                      ><i class="bi bi-chat-text mr-2"></i>Aardvark
+                      decentralized messenger</span
                     >
-                    <span class="product__link"><i class="bi bi-chat-text mr-2"></i>Aardvark decentralized
-                    messenger</span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -52,7 +53,7 @@
               </div>
               <div class="ml-[50px] mb-[24px] mt-[32px]">
                 <div class="-translate-x-[26px]">
-                  <a href="/" class="product__one"
+                  <a href="/product" class="product__one"
                     ><i class="bi bi-cpu mr-2"></i>Embedded wallet based
                     messenger
                     <svg
@@ -124,7 +125,7 @@
         <ul class="mx-auto text-base duration-500 ease-in">
           <li class="flex flex-col text-base">
             <a
-              class="border-t-[0.1px] border-b-[0.1px] border-[#ffffff79] pt-[32px] pb-[32px] pl-[32px] font-semibold leading-[24px] text-white font-normal md:pl-[64px]"
+              class="border-t-[0.1px] border-b-[0.1px] border-[#ffffff79] pt-[32px] pb-[32px] pl-[32px] font-semibold font-normal leading-[24px] text-white md:pl-[64px]"
               :class="[Productopen ? 'bg-[#bb48bd0f] ' : '']"
               @click="toggleProduct()"
               ><span :class="[Productopen ? 'custom_text_gradient' : '']"
@@ -160,7 +161,7 @@
               </div>
               <div class="] mb-[24px] mt-[32px]">
                 <div class="text-sm font-semibold text-white">
-                  <a href="/" class="" @click="MenuOpen()"
+                  <a href="/product" class="" @click="MenuOpen()"
                     ><i class="bi bi-cpu mr-2"></i>Embedded wallet based
                     messenger
                   </a>
@@ -181,7 +182,7 @@
           >
             <a
               :href="link.link"
-              class="-translate-y-[0.5px] border-t-[0.1px] border-b-[0.1px] border-[#ffffff79] font-normal pt-[32px] pb-[32px] pl-[32px] font-semibold leading-[24px] text-white md:pl-[64px]"
+              class="-translate-y-[0.5px] border-t-[0.1px] border-b-[0.1px] border-[#ffffff79] pt-[32px] pb-[32px] pl-[32px] font-normal font-semibold leading-[24px] text-white md:pl-[64px]"
               >{{ link.name }}</a
             >
           </li>
