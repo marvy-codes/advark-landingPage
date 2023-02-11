@@ -17,6 +17,10 @@ body {
   color: #ffffff79;
 }
 
+input {
+  color: #ffffff14
+}
+
 .custom_text_gradient {
   background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
   -webkit-background-clip: text;
