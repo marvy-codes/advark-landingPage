@@ -92,7 +92,7 @@
           <div class="">
             <DappButtonLite />
           </div>
-          <div class="hidden xl:flex">
+          <div class="hidden 2xl:flex">
             <a href="https://twitter.com/Aard_Tech"
               ><img src="../../../assets/twitter.svg" alt="twitter"
             /></a>
