@@ -77,7 +77,7 @@
               </div>
             </div>
           </li>
-          <li v-for="link in Links" :key="link.link" class="ml-5 xl:ml-14">
+          <li v-for="link in Links" :key="link.link" class="xl:ml-5">
             <a
               class="duration-900 py-[8px] transition ease-in hover:font-bold lg:px-[12px]"
               :href="link.link"
@@ -92,7 +92,7 @@
           <div class="">
             <DappButtonLite />
           </div>
-          <div class="hidden 2xl:flex">
+          <div class="hidden xl:flex">
             <a href="https://twitter.com/Aard_Tech"
               ><img src="../../../assets/twitter.svg" alt="twitter"
             /></a>
