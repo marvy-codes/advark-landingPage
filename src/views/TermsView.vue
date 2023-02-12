@@ -2,7 +2,7 @@
   <div>
     <PageLayout>
       <!-- Hero -->
-      <div>
+      <div  class="mx-4 mt-6  max-w-screen-2xl font-pop sm:mx-8 md:mx-12 2xl:mx-auto 2xl:px-[100px]">
         <!-- background images -->
         <div class="">
           <img

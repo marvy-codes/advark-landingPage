@@ -145,7 +145,7 @@ a:active {
 }
 .p__arrow {
   visibility: hidden;
-  transition: 0.3s;
+  transition: 0.2s;
   position: relative;
   transition-delay: 0.2s;
   transform: translate(-4px);

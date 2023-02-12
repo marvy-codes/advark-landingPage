@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mt-[100px] justify-between border-t-[1px] border-[#ffffff1a] py-[87px] md:py-[45px] lg:mt-[128px] lg:flex"
+    class="mt-[100px] justify-between border-t-[1px] border-[#ffffff1a] py-[87px] md:py-[45px] lg:mt-[128px] lg:flex mx-4 mt-6  max-w-screen-2xl font-pop sm:mx-8 md:mx-12 2xl:mx-auto 2xl:px-[100px]"
   >
     <div class="text-center lg:text-left">
       <div class="">
