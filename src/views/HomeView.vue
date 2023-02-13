@@ -92,7 +92,7 @@
             <div class="mt-[48px] md:mt-[88px]">
               <!-- card 1 -->
               <div
-                class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:min-h-[470px] lg:w-auto lg:max-w-[1200px]"
+                class="overflow-hidden justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex  lg:h-[470px]  lg:w-auto lg:max-w-[1200px]"
               >
                 <div
                   class="text-center lg:ml-[78px] lg:mb-[110px] lg:w-[450px] lg:text-left"
@@ -131,10 +131,10 @@
               <!-- card 2 -->
               <div class="mt-[48px]">
                 <div
-                  class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:min-h-[470px] lg:w-auto lg:max-w-[1200px] xl:h-[470px]"
+                  class="overflow-hidden justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:h-[390px] xl:h-[470px] lg:w-auto lg:max-w-[1200px]"
                 >
                   <div
-                    class="text-center lg:mb-[110px] lg:w-[450px] lg:text-left xl:-translate-x-36"
+                    class="text-center lg:w-[450px] lg:text-left xl:-translate-x-36"
                   >
                     <h2
                       class="custom_text_gradient mx-auto mt-[24px] w-[320px] px-[14px] text-[32px] font-bold sm:w-auto md:w-auto xl:mt-[50px]"
@@ -149,11 +149,11 @@
                     </div>
                   </div>
                   <div
-                    class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
+                    class="relative overflow-hidden rounded-3xl md:w-[600px] lg:w-[800px]"
                   >
                     <img
-                      class="-top-20 -left-14 xl:absolute xl:h-[600px]"
-                      src="../assets/whyimage2.png"
+                      class="xl:absolute"
+                      src="../assets/whyimaged2.png"
                       alt="encryption"
                     />
                   </div>
@@ -163,7 +163,7 @@
               <!-- card 3 -->
               <div class="mt-[48px]">
                 <div
-                  class="justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:min-h-[470px] lg:w-auto lg:max-w-[1200px]"
+                  class="overflow-hidden justify-betwee mx-auto rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:h-[390px] xl:h-[470px] lg:w-auto lg:max-w-[1200px]"
                 >
                   <div
                     class="text-center lg:ml-[78px] lg:mb-[110px] lg:w-[450px] lg:text-left"
@@ -184,8 +184,8 @@
                     class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
                   >
                     <img
-                      class="xl:absolute"
-                      src="../assets/whyimage3.png"
+                      class="lg:translate-y-20 xl:translate-y-0 xl:absolute"
+                      src="../assets/whyimaged3.png"
                       alt="encryption"
                     />
                   </div>
@@ -193,12 +193,12 @@
               </div>
 
               <!-- card 4 -->
-              <div class="mt-[48px]">
+              <div class="mt-[48px] overflow-hidden">
                 <div
-                  class="justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] bg-[#ffffff0d] md:w-[600px] lg:flex lg:min-h-[470px] lg:w-auto lg:max-w-[1200px] xl:h-[470px]"
+                  class="overflow-hidden justify-betwee mx-auto flex-row-reverse rounded-3xl border-2 border-[#ffffff1a] lg:h-[390px] xl:h-[470px] bg-[#ffffff0d] md:w-[600px] lg:flex lg:min-h-[470px] lg:w-auto lg:max-w-[1200px] xl:h-[470px]"
                 >
                   <div
-                    class="text-center lg:mb-[110px] lg:w-[450px] lg:text-left xl:-translate-x-36"
+                    class="text-center lg:w-[450px] lg:text-left xl:-translate-x-14"
                   >
                     <h2
                       class="custom_text_gradient mx-auto mt-[24px] w-[320px] px-[14px] text-[32px] font-bold sm:w-auto md:w-auto xl:mt-[50px]"
@@ -254,18 +254,18 @@
                     </div>
                   </div>
                   <div
-                    class="relative overflow-hidden rounded-3xl md:w-[600px] xl:w-[800px]"
+                    class="relative rounded-3xl md:w-[600px] xl:w-[800px]"
                   >
                     <img
-                      class="-top-20 -left-14 block translate-y-16 scale-125 md:translate-y-0 md:scale-100 lg:hidden xl:absolute xl:h-[600px]"
-                      src="../assets/whyimage4.png"
+                      class="lg:translate-y-40 lg:scale-150 xl:scale-100 xl:translate-y-0 xl:absolute lg:-translate-x-28 xl:-translate-x-0"
+                      src="../assets/whyimaged4.png"
                       alt="encryption"
                     />
-                    <img
+                    <!-- <img
                       class="-top-20 -left-14 hidden lg:block xl:absolute xl:h-[600px]"
                       src="../assets/whyimage4d.png"
                       alt="encryption"
-                    />
+                    /> -->
                   </div>
                 </div>
               </div>
