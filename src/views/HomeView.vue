@@ -78,7 +78,7 @@
 
         <div class="mx-4 mt-6  max-w-screen-2xl font-pop sm:mx-8 md:mx-12 2xl:mx-auto 2xl:px-[100px]">
           <!-- why aadvark section -->
-          <div class="mt-[440px] md:mt-[486px]">
+          <div class="md:mt-[100px]">
             <div id="about">
               <SubHeading>Why use Aardvark</SubHeading>
             </div>
