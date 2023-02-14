@@ -213,34 +213,32 @@
             class="mx-[42px] mt-[18px] text-center text-sm leading-[22px] lg:mx-auto lg:w-[833px] lg:text-base lg:font-normal lg:leading-6"
           >
             Aardvark comes out of the box compatible with more than 20 leading
-            blockchains, and we are adding support for more chains every day.
+            blockchains, and we are adding support for more chai     ns every day.
           </div>
 
-          <div class="md:mt[80px] mt-[56px] justify-between md:flex">
-            <div class="">
+          <div class="md:mt[80px] mt-[56px] lg:flex justify-between items-center  ">
+            <div class="lg:mr-16 mb-[40px] lg:mb-[0px]">
               <img
                 src="../assets/howimage.png"
                 alt="aadvark"
-                class="lg:max-h-[517px] lg:max-w-[616px]"
-              />
-            </div>
-
-            <div>
-              <ul>
+                class="scale-90 lg:scale-100  mx-auto ">
+              </div>
+            <div class="">
+              <ul class="mx-auto">
                 <li
-                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] md:mb-[37px] md:text-[20px] md:leading-[32px]"
+                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] lg:mb-[10px] xl:mb-[37px] md:text-[20px] md:leading-[32px] lg:max-w-[492px]"
                 >
                   <img
-                    src="../assets/howicon1.png"
+                    src="../assets/howicon1.png" 3uyasb
                     alt="aadvark"
                     class="mr-[32px]"
                   />
-                  <span class="max-w-[472px] text-white"
+                  <span class=" text-white"
                     >1. Sign up for Aardvark developer portal</span
                   >
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] md:mb-[37px] md:text-[20px] md:leading-[32px]"
+                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] lg:mb-[10px] xl:mb-[37px] md:text-[20px] md:leading-[32px]  lg:max-w-[492px]"
                 >
                   <img
                     src="../assets/howicon2.png"
@@ -250,20 +248,20 @@
                   <span class="text-white">2. Install Aardvark SDK</span>
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] md:mb-[37px] md:text-[20px] md:leading-[32px]"
+                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] lg:mb-[10px] xl:mb-[37px] md:text-[20px] md:leading-[32px]  lg:max-w-[492px]"
                 >
                   <img
                     src="../assets/howicon3.png"
                     alt="aadvark"
                     class="mr-[32px]"
                   />
-                  <span class="max-w-[472px] text-white"
+                  <span class="text-white"
                     >3. Use default chat components or customize look and
                     feel.</span
                   >
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] md:mb-[37px] md:text-[20px] md:leading-[32px]"
+                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] lg:mb-[10px] xl:mb-[37px] md:text-[20px] md:leading-[32px] lg:max-w-[492px]"
                 >
                   <img
                     src="../assets/howicon4.png"
@@ -273,10 +271,10 @@
                   <span class="text-white">4. Add chat moderation rules</span>
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] md:mb-[37px] md:text-[20px] md:leading-[32px]"
+                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] lg:mb-[10px] xl:mb-[37px] md:text-[20px] md:leading-[32px] lg:max-w-[492px]"
                 >
                   <img
-                    src="../assets/howicon2.png"
+                    src="../assets/howicon5.png"
                     alt="aadvark"
                     class="mr-[32px]"
                   />
@@ -284,7 +282,7 @@
                 </li>
               </ul>
 
-              <div class="mt-[54px] text-center md:text-left">
+              <div class="mt-[54px] lg:mt-[10px] text-center lg:text-left">
                 <button
                   class="rounded-lg bg-gradient-to-r from-[#db00fb] to-[#ff6000] px-[24px] py-[14px] text-xl font-semibold leading-8 text-[#FFFFFF]"
                 >
