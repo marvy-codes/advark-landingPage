@@ -79,6 +79,20 @@ a:active {
   -webkit-text-fill-color: transparent;
 }
 
+.why3::before {
+  content: 'Get SDK';
+  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text1::before {
+  content: 'Developer docs';
+  background-image: -webkit-linear-gradient(45deg, #db00fb, #ff6200);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .message {
   position: relative;
   padding: 6px 8px;
