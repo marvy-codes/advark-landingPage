@@ -111,7 +111,7 @@
           </div>
         </div>
         <!-- CARDS -->
-        <div class="rounded-[32px] border-[1px] border-[#ffffff1a] bg-[#ffffff0d] overflow-hidden mt-[48px] md:mt-[80px] relative max-w-[1300px] mx-auto">
+        <div class="rounded-[32px] border-[1px] border-[#ffffff1a] bg-[#ffffff0d] overflow-hidden mt-[48px] md:mt-[80px] relative max-w-[1200px] mx-auto">
           <div class="md:flex justify-between items-center lg:items-start">
             <div class="mt-[16px] md:-mt-[10px] lg:mt-[71px] md:ml-[64px] text-center md:text-left">
               <div class="block mx-auto md:hidden">
@@ -122,7 +122,7 @@
                     />
               </div>
               <div class="md:flex items-center">
-                <h1 class="custom_text_gradient md:mr-[15px] text-[27px] font-bold leading-[54px] xl:text-[48px] lg:leading-[80px]  md:w-fit " >
+                <h1 class="custom_text_gradient md:mr-[15px] text-[27px] font-bold leading-[54px] lg:text-[36px] xl:text-[44px] lg:leading-[80px]  md:w-fit " >
                   &lt;In-Game chat&gt;
                 </h1>
                 <div class="hidden lg:block">
@@ -151,18 +151,18 @@
           </div>
 
           <div>
-            <img src="../assets/fs1.png" class="absolute hidden lg:block xl:top-[550px] top-[500px] left-[64px] -z-10" />
+            <img src="../assets/fs1.png" class="absolute hidden lg:block  top-[480px] left-[64px] -z-10" />
           </div>
 
           <div class="mt-[66px] text-center text-[20px] font-semibold leading-[32px] text-white block md:hidden" >
               features
           </div>
           <!-- detailed sections -->
-            <div class="md:mx-[64px] mb-[70px]">
+            <div class="md:mx-[64px] mb-[70px] hidden md:block">
               <div class="mt-[20px] md:mt-[32px]  flex flex-wrap justify-center ">
 
-                <div class="flex mx-[24px] my-[20px]">
-                  <div class="text-left max-w-[524px] md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
+                <div class="flex mx-[12px] my-[10px]   w-auto lg:w-[370px] xl:w-[490px]">
+                  <div class="text-left  md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
                         <img src="../assets/wallet.png" alt="aadvark" />
@@ -182,8 +182,8 @@
                   </div>
                 </div>
                 
-                <div class="flex mx-[24px] my-[20px]">
-                  <div class="text-left max-w-[524px] md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
+                <div class="flex mx-[12px] my-[10px]  w-auto lg:w-[370px] xl:w-[490px]">
+                  <div class="text-left md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
                         <img src="../assets/wallet.png" alt="aadvark" />
@@ -203,8 +203,8 @@
                   </div>
                 </div>
 
-                <div class="flex mx-[24px] my-[20px]">
-                  <div class="text-left max-w-[524px] md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
+                <div class="flex mx-[12px] my-[10px]   w-auto lg:w-[370px] xl:w-[490px]">
+                  <div class="text-left  md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
                         <img src="../assets/wallet.png" alt="aadvark" />
@@ -224,8 +224,8 @@
                   </div>
                 </div>
 
-                <div class="flex mx-[24px] my-[20px]">
-                  <div class="text-left max-w-[524px] md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14]  p-[24px]">
+                <div class="flex mx-[12px] my-[10px]    w-auto lg:w-[370px] xl:w-[490px]">
+                  <div class="text-left md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14]  p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
                         <img src="../assets/wallet.png" alt="aadvark" />
@@ -244,7 +244,7 @@
                     </div>
                   </div>
                 </div>
-            </div>
+              </div>
             </div>
         </div>
 
@@ -527,6 +527,9 @@
 import PageLayout from '@/components/Layout/PageLayout.vue';
 import DappButton from '@/components/Button/DappButton.vue';
 import SubHeading from '@/components/utils/SubHeading.vue';
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
 export default {
   name: 'ProductView',
@@ -534,6 +537,7 @@ export default {
     PageLayout,
     DappButton,
     SubHeading,
+    VueSlickCarousel 
   },
 };
 </script>
