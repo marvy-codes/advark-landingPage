@@ -154,7 +154,7 @@
             <img src="../assets/fs1.png" class="absolute hidden lg:block  top-[480px] left-[64px] -z-10" />
           </div>
 
-          <div class="mt-[66px] text-center text-[20px] font-semibold leading-[32px] text-white block md:hidden" >
+          <div class="-mt-[70px] md:mt-[66px] text-center text-[24px] font-semibold leading-[40px] text-white block lg:hidden" >
               features
           </div>
 
@@ -163,7 +163,7 @@
             <div class="md:mx-[64px] mb-[70px] hidden lg:block">
               <div class="mt-[20px] md:mt-[32px]  flex flex-wrap justify-center ">
 
-                <div class="flex mx-[12px] my-[10px]   w-auto lg:w-[370px] xl:w-[490px]">
+                <div class="flex mx-[10px] my-[10px]   w-auto lg:w-[370px] xl:w-[490px]">
                   <div class="text-left  md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
@@ -184,7 +184,7 @@
                   </div>
                 </div>
                 
-                <div class="flex mx-[12px] my-[10px]  w-auto lg:w-[370px] xl:w-[490px]">
+                <div class="flex mx-[10px] my-[10px]  w-auto lg:w-[370px] xl:w-[490px]">
                   <div class="text-left md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
@@ -205,7 +205,7 @@
                   </div>
                 </div>
 
-                <div class="flex mx-[12px] my-[10px]   w-auto lg:w-[370px] xl:w-[490px]">
+                <div class="flex mx-[10px] my-[10px]   w-auto lg:w-[370px] xl:w-[490px]">
                   <div class="text-left  md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
@@ -226,7 +226,7 @@
                   </div>
                 </div>
 
-                <div class="flex mx-[12px] my-[10px]    w-auto lg:w-[370px] xl:w-[490px]">
+                <div class="flex mx-[10px] my-[10px]    w-auto lg:w-[370px] xl:w-[490px]">
                   <div class="text-left md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14]  p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
@@ -251,10 +251,16 @@
 
 
             <!-- Detailed Sections Mobile -->
-            <div class="block lg:hidden ">
-              <div class="mt-[20px] md:mt-[32px]">
+            <div class="lg:hidden block">
+              <div class="mt-[20px] md:mt-[32px] mx-[24px]">
 
-                <VueAIcarousel  :Property="{ID: 'Unique_id'}">
+                <VueAIcarousel :Property="{
+        ID: 'ShouldBe_Unique', 
+        NavBtn: 'naveBtnStyle',
+        CountPos: 'CounterPosition',
+        CounterStyle: 'counterNewStyle',
+        CounterActiveStyle: 'CAnewStyle',
+        }">
                   <div class="mx-[12px] my-[10px] w-[327px]">
                     <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                       <div class="flex justify-start mb-[12px]">
@@ -295,7 +301,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class=" mx-[12px] my-[10px] w-[327px]">
+                  <div class="mx-[12px] my-[10px] w-[327px]">
                     <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                       <div class="flex justify-start mb-[12px]">
                         <div class="mr-[8px]">
@@ -335,7 +341,7 @@
                       </div>
                     </div>
                   </div>
-                </VueAIcarousel >
+                </VueAIcarousel>
 
               </div>
             </div>
@@ -622,6 +628,10 @@ import PageLayout from '@/components/Layout/PageLayout.vue';
 import DappButton from '@/components/Button/DappButton.vue';
 import SubHeading from '@/components/utils/SubHeading.vue';
 
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+
 import VueAIcarousel from "vue-ai-carousel"
 
 export default {
@@ -630,7 +640,37 @@ export default {
     PageLayout,
     DappButton,
     SubHeading,
+    VueSlickCarousel,
     VueAIcarousel
   },
 };
 </script>
+
+<style scoped>
+.cards{
+  background: #8688fc;
+  height: 8rem;
+  width: 12rem;
+}
+</style>
+
+<style >
+.naveBtnStyle{
+  display: hidden;
+}
+
+.counterNewStyle{
+  margin-top: 10px;
+  margin-bottom: 14px;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(255, 255, 255, 0.185);
+  color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  margin-left: 6px;
+}
+.CAnewStyle{
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+</style>
