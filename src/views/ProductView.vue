@@ -169,12 +169,12 @@
                   <div class="text-left  md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
-                        <img src="../assets/wallet.png" alt="aadvark" />
+                        <img src="../assets/comp1.svg" alt="aadvark" />
                       </div>
                       <h1
                         class="custom_text_gradient text-left text-[20px] font-semibold"
                       >
-                        wallet &lt;&gt; wallet messaging
+                        wallet messaging
                       </h1>
                     </div>
                     <div class="text-[14px] leading-[22px] font-normal">
@@ -190,20 +190,17 @@
                   <div class="text-left md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
-                        <img src="../assets/wallet.png" alt="aadvark" />
+                        <img src="../assets/comp2.svg" alt="aadvark" />
                       </div>
                       <h1
                         class="custom_text_gradient text-left text-[20px] font-semibold"
                       >
-                        wallet &lt;&gt; wallet messaging
+                      Chat chanels
                       </h1>
                     </div>
                     <div class="text-[14px] leading-[22px] font-normal">
-                      Need to enable chat between two wallets in game? We support
-                      a number of different message types and you can send
-                      messages between Users, Wallets and NFTs, with more coming
-                      soon.
-                    </div>
+                      Easily create channels with fine-grained access control to create public channels (#general, #trading, etc) that are game-wide and available to all players.
+                          </div>
                   </div>
                 </div>
 
@@ -211,19 +208,16 @@
                   <div class="text-left  md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
-                        <img src="../assets/wallet.png" alt="aadvark" />
+                        <img src="../assets/comp3.svg" alt="aadvark" />
                       </div>
                       <h1
                         class="custom_text_gradient text-left text-[20px] font-semibold"
                       >
-                        wallet &lt;&gt; wallet messaging
+                      Moderation
                       </h1>
                     </div>
                     <div class="text-[14px] leading-[22px] font-normal">
-                      Need to enable chat between two wallets in game? We support
-                      a number of different message types and you can send
-                      messages between Users, Wallets and NFTs, with more coming
-                      soon.
+                      Bans, deleted messages and more! Aardvark gives community managers and moderators control over the content and messages being sent in game, configurable permission sets allow moderators protect your community.
                     </div>
                   </div>
                 </div>
@@ -232,19 +226,16 @@
                   <div class="text-left md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14]  p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
-                        <img src="../assets/wallet.png" alt="aadvark" />
+                        <img src="../assets/comp4.svg" alt="aadvark" />
                       </div>
                       <h1
                         class="custom_text_gradient text-left text-[20px] font-semibold"
                       >
-                        wallet &lt;&gt; wallet messaging
+                      Direct messages
                       </h1>
                     </div>
                     <div class="text-[14px] leading-[22px] font-normal">
-                      Need to enable chat between two wallets in game? We support
-                      a number of different message types and you can send
-                      messages between Users, Wallets and NFTs, with more coming
-                      soon.
+                      Messages between users and/or wallets make in-game communication, trading and community building easy to facilitate.
                     </div>
                   </div>
                 </div>
@@ -258,11 +249,11 @@
                 <vueper-slides :arrows="false" :slide-content-outside="false"   class="no-shadow" >
                   <VueperSlide :key="1">
                     <template #content>
-                      <div class="mx-[12px] my-[10px] w-auto">
-                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
+                      <div class="mx-[12px] my-[10px] w-auto ">
+                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] min-h-[186px]">
                           <div class="flex justify-start mb-[12px]">
                           <div class="mr-[8px]">
-                            <img src="../assets/comp1.png" alt="aadvark" />
+                            <img src="../assets/comp1.svg" alt="aadvark" />
                           </div>
                           <h1 class="custom_text_gradient text-left text-[20px] font-semibold">
                               wallet messaging
@@ -281,20 +272,17 @@
                   <VueperSlide :key="2">
                     <template #content>
                       <div class="mx-[12px] my-[10px] w-auto">
-                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
+                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] min-h-[186px]">
                           <div class="flex justify-start mb-[12px]">
                           <div class="mr-[8px]">
-                            <img src="../assets/comp1.png" alt="aadvark" />
+                            <img src="../assets/comp2.svg" alt="aadvark" />
                           </div>
                           <h1 class="custom_text_gradient text-left text-[20px] font-semibold">
-                              wallet messaging
+                            Chat chanels
                           </h1>
                           </div>
                           <div class="text-[14px] leading-[22px] font-normal">
-                            Need to enable chat between two wallets in game? We support
-                            a number of different message types and you can send
-                            messages between Users, Wallets and NFTs, with more coming
-                            soon.
+                            Easily create channels with fine-grained access control to create public channels (#general, #trading, etc) that are game-wide and available to all players.
                           </div>
                         </div>
                         </div>
@@ -302,43 +290,37 @@
                   </VueperSlide>
                   <VueperSlide :key="3">
                     <template #content>
-                      <div class="mx-[12px] my-[10px] w-auto">
-                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
+                      <div class="mx-[12px] my-[10px] w-auto ">
+                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] min-h-[186px]">
                           <div class="flex justify-start mb-[12px]">
                           <div class="mr-[8px]">
-                            <img src="../assets/comp1.png" alt="aadvark" />
+                            <img src="../assets/comp3.svg" alt="aadvark" />
                           </div>
                           <h1 class="custom_text_gradient text-left text-[20px] font-semibold">
-                              wallet messaging
+                            Moderation
                           </h1>
                           </div>
                           <div class="text-[14px] leading-[22px] font-normal">
-                            Need to enable chat between two wallets in game? We support
-                            a number of different message types and you can send
-                            messages between Users, Wallets and NFTs, with more coming
-                            soon.
-                          </div>
+                            Bans, deleted messages and more! Aardvark gives community managers and moderators control over the content and messages being sent in game, configurable permission sets allow moderators protect your community.
+                    </div>
                         </div>
                       </div>
                     </template>
                   </VueperSlide>
                   <VueperSlide :key="4">
                     <template #content>
-                      <div class="mx-[12px] my-[10px] w-auto">
-                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
+                      <div class="mx-[12px] my-[10px] w-auto ">
+                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] min-h-[186px]">
                           <div class="flex justify-start mb-[12px]">
                           <div class="mr-[8px]">
-                            <img src="../assets/comp1.png" alt="aadvark" />
+                            <img src="../assets/comp4.svg" alt="aadvark" />
                           </div>
                           <h1 class="custom_text_gradient text-left text-[20px] font-semibold">
-                              wallet messaging
+                            Direct messages
                           </h1>
                           </div>
                           <div class="text-[14px] leading-[22px] font-normal">
-                            Need to enable chat between two wallets in game? We support
-                            a number of different message types and you can send
-                            messages between Users, Wallets and NFTs, with more coming
-                            soon.
+                            Messages between users and/or wallets make in-game communication, trading and community building easy to facilitate.
                           </div>
                         </div>
                       </div>
@@ -353,33 +335,33 @@
 
 
 
+
+
         <!-- Compatible Card 2 -->
         <div class="rounded-[32px] border-[1px] border-[#ffffff1a] bg-[#ffffff0d] overflow-hidden mt-[48px] md:mt-[80px] relative max-w-[1200px] mx-auto">
           <div class="md:flex justify-between items-center lg:items-start">
             <div class="mt-[16px] md:-mt-[10px] lg:mt-[71px] md:ml-[64px] text-center md:text-left">
               <div class="block mx-auto md:hidden">
                 <img
-                    src="../assets/pad.png"
+                    src="../assets/world.svg"
                     alt="aadvvark"
                     class="h-[40px] w-[40px] mx-auto"
                     />
               </div>
               <div class="md:flex items-center">
                 <h1 class="custom_text_gradient md:mr-[15px] text-[27px] font-bold leading-[54px] lg:text-[36px] xl:text-[44px] lg:leading-[80px]  md:w-fit " >
-                  &lt;In-Game chat&gt;
+                  &lt;Web app chat&gt;
                 </h1>
                 <div class="hidden lg:block">
                   <img
-                    src="../assets/pad.png"
+                    src="../assets/world.svg"
                     alt="aadvvark"
                     class="h-[40px] w-[40px] xl:h-[56px] xl:w-[56px]"
                     />
                 </div>
               </div>
               <div class="px-[16px] sm:px-[0px] mt-[18px] text-sm leading-[22px] mx-auto max-w-[489px] lg:text-base lg:font-normal lg:leading-6">
-                The decentralized nature of Web3 technologies means that users are in complete control of their data, giving them more privacy 
-                and security than ever before. This makes Aardvark messaging an ideal solution for in-game chat, where players need to share 
-                sensitive information and communicate quickly and effectively.
+                Traditionally, web app chat has been centralized and controlled by the app developers, with users having limited control over their data and no guarantee of privacy. With Aardvark messaging, web app chat becomes a decentralized and peer-to-peer service, giving users complete control over their data and privacy.
               </div>
               <div class="mt-[40px] mb-[52px] md:mb-[0px]">
                 <button class="rounded-lg bg-gradient-to-r from-[#db00fb] to-[#ff6000] px-[20px] lg:px-[24px] py-[12px] lg:py-[14px] text-[16px] lg:text-xl font-semibold leading-[24px] lg:leading-8 text-[#FFFFFF]">
@@ -389,7 +371,7 @@
             </div>
 
             <div class="">
-              <img src="../assets/ingame.png" alt="aadvark" class=" " />
+              <img src="../assets/webapp.svg" alt="aadvark" class=" " />
             </div>
           </div>
 
@@ -403,26 +385,23 @@
 
 
           <!-- Detailed Sections Desktop -->
-            <div class="md:mx-[64px] mb-[70px] hidden lg:block">
+          <div class="md:mx-[64px] mb-[70px] hidden lg:block">
               <div class="mt-[20px] md:mt-[32px]  flex flex-wrap justify-center ">
 
                 <div class="flex mx-[10px] my-[10px]   w-auto lg:w-[370px] xl:w-[490px]">
                   <div class="text-left  md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
-                        <img src="../assets/wallet.png" alt="aadvark" />
+                        <img src="../assets/comp5.svg" alt="aadvark" />
                       </div>
                       <h1
                         class="custom_text_gradient text-left text-[20px] font-semibold"
                       >
-                        wallet &lt;&gt; wallet messaging
+                      Wallet based notification
                       </h1>
                     </div>
                     <div class="text-[14px] leading-[22px] font-normal">
-                      Need to enable chat between two wallets in game? We support
-                      a number of different message types and you can send
-                      messages between Users, Wallets and NFTs, with more coming
-                      soon.
+                      Send notifications to users based on wallet public keys. Keep users engaged and interested in your value proposition by providing timely and actionable notifications and insights.
                     </div>
                   </div>
                 </div>
@@ -431,20 +410,16 @@
                   <div class="text-left md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
-                        <img src="../assets/wallet.png" alt="aadvark" />
+                        <img src="../assets/comp6.svg" alt="aadvark" />
                       </div>
                       <h1
                         class="custom_text_gradient text-left text-[20px] font-semibold"
                       >
-                        wallet &lt;&gt; wallet messaging
+                      Community channels
                       </h1>
                     </div>
                     <div class="text-[14px] leading-[22px] font-normal">
-                      Need to enable chat between two wallets in game? We support
-                      a number of different message types and you can send
-                      messages between Users, Wallets and NFTs, with more coming
-                      soon.
-                    </div>
+                      Create channels to allow your community to rally behind your product and improve activation, retention and engagement by giving your users a sense of community in app. Harness the power of your community and see where it can take you.</div>
                   </div>
                 </div>
 
@@ -452,20 +427,16 @@
                   <div class="text-left  md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
-                        <img src="../assets/wallet.png" alt="aadvark" />
+                        <img src="../assets/comp7.svg" alt="aadvark" />
                       </div>
                       <h1
                         class="custom_text_gradient text-left text-[20px] font-semibold"
                       >
-                        wallet &lt;&gt; wallet messaging
+                      Direct Messages
                       </h1>
                     </div>
                     <div class="text-[14px] leading-[22px] font-normal">
-                      Need to enable chat between two wallets in game? We support
-                      a number of different message types and you can send
-                      messages between Users, Wallets and NFTs, with more coming
-                      soon.
-                    </div>
+                      Messages between users and/or wallets make in-app/dapp communication, trading and community building easy to facilitate. Allow users to contact each other, and even facilitate transactions directly in your app.</div>
                   </div>
                 </div>
 
@@ -473,19 +444,16 @@
                   <div class="text-left md:h-[202px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14]  p-[24px]">
                     <div class="flex justify-start mb-[12px]">
                       <div class="mr-[8px]">
-                        <img src="../assets/wallet.png" alt="aadvark" />
+                        <img src="../assets/comp8.svg" alt="aadvark" />
                       </div>
                       <h1
                         class="custom_text_gradient text-left text-[20px] font-semibold"
                       >
-                        wallet &lt;&gt; wallet messaging
+                      Moderation
                       </h1>
                     </div>
                     <div class="text-[14px] leading-[22px] font-normal">
-                      Need to enable chat between two wallets in game? We support
-                      a number of different message types and you can send
-                      messages between Users, Wallets and NFTs, with more coming
-                      soon.
+                      Bans, deleted messages and more! Aardvark gives community managers and moderators control over the content and messages being sent in game, configurable permission sets allow moderators protect your community.
                     </div>
                   </div>
                 </div>
@@ -499,21 +467,18 @@
                 <vueper-slides :arrows="false" :slide-content-outside="false"   class="no-shadow" >
                   <VueperSlide :key="1">
                     <template #content>
-                      <div class="mx-[12px] my-[10px] w-auto">
-                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
+                      <div class="mx-[12px] my-[10px] w-auto ">
+                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] min-h-[186px]">
                           <div class="flex justify-start mb-[12px]">
                           <div class="mr-[8px]">
-                            <img src="../assets/comp1.png" alt="aadvark" />
+                            <img src="../assets/comp5.svg" alt="aadvark" />
                           </div>
                           <h1 class="custom_text_gradient text-left text-[20px] font-semibold">
-                              wallet messaging
+                            Wallet based notification
                           </h1>
                           </div>
                           <div class="text-[14px] leading-[22px] font-normal">
-                            Need to enable chat between two wallets in game? We support
-                            a number of different message types and you can send
-                            messages between Users, Wallets and NFTs, with more coming
-                            soon.
+                            Send notifications to users based on wallet public keys. Keep users engaged and interested in your value proposition by providing timely and actionable notifications and insights.
                           </div>
                         </div>
                       </div>
@@ -522,65 +487,54 @@
                   <VueperSlide :key="2">
                     <template #content>
                       <div class="mx-[12px] my-[10px] w-auto">
-                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
+                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] min-h-[186px]">
                           <div class="flex justify-start mb-[12px]">
                           <div class="mr-[8px]">
-                            <img src="../assets/comp1.png" alt="aadvark" />
+                            <img src="../assets/comp6.svg" alt="aadvark" />
                           </div>
                           <h1 class="custom_text_gradient text-left text-[20px] font-semibold">
-                              wallet messaging
+                            Community channels
                           </h1>
                           </div>
                           <div class="text-[14px] leading-[22px] font-normal">
-                            Need to enable chat between two wallets in game? We support
-                            a number of different message types and you can send
-                            messages between Users, Wallets and NFTs, with more coming
-                            soon.
-                          </div>
+                            Create channels to allow your community to rally behind your product and improve activation, retention and engagement by giving your users a sense of community in app. Harness the power of your community and see where it can take you. </div>
                         </div>
                         </div>
                     </template>
                   </VueperSlide>
                   <VueperSlide :key="3">
                     <template #content>
-                      <div class="mx-[12px] my-[10px] w-auto">
-                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
+                      <div class="mx-[12px] my-[10px] w-auto ">
+                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] min-h-[186px]">
                           <div class="flex justify-start mb-[12px]">
                           <div class="mr-[8px]">
-                            <img src="../assets/comp1.png" alt="aadvark" />
+                            <img src="../assets/comp7.svg" alt="aadvark" />
                           </div>
                           <h1 class="custom_text_gradient text-left text-[20px] font-semibold">
-                              wallet messaging
+                            Direct Messages
                           </h1>
                           </div>
                           <div class="text-[14px] leading-[22px] font-normal">
-                            Need to enable chat between two wallets in game? We support
-                            a number of different message types and you can send
-                            messages between Users, Wallets and NFTs, with more coming
-                            soon.
+                            Messages between users and/or wallets make in-app/dapp communication, trading and community building easy to facilitate. Allow users to contact each other, and even facilitate transactions directly in your app.
                           </div>
-                        </div>
+                          </div>
                       </div>
                     </template>
                   </VueperSlide>
                   <VueperSlide :key="4">
                     <template #content>
-                      <div class="mx-[12px] my-[10px] w-auto">
-                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
+                      <div class="mx-[12px] my-[10px] w-auto ">
+                        <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] min-h-[186px]">
                           <div class="flex justify-start mb-[12px]">
                           <div class="mr-[8px]">
-                            <img src="../assets/comp1.png" alt="aadvark" />
+                            <img src="../assets/comp8.svg" alt="aadvark" />
                           </div>
                           <h1 class="custom_text_gradient text-left text-[20px] font-semibold">
-                              wallet messaging
+                            Moderation
                           </h1>
                           </div>
                           <div class="text-[14px] leading-[22px] font-normal">
-                            Need to enable chat between two wallets in game? We support
-                            a number of different message types and you can send
-                            messages between Users, Wallets and NFTs, with more coming
-                            soon.
-                          </div>
+                            Bans, deleted messages and more! Aardvark gives community managers and moderators control over the content and messages being sent in game, configurable permission sets allow moderators protect your community.</div>
                         </div>
                       </div>
                     </template>
@@ -591,11 +545,6 @@
             </div>
 
         </div>
-
-
-
-
-
 
 
         <!-- Why use aadvark -->
@@ -912,44 +861,26 @@ export default {
   height: 16px;
 }
 .vueperslides__parallax-wrapper {
-  height: 280px;
+  height: 300px;
 }
 
-@media (min-width: 490px) {
+@media (min-width: 400px) {
   .vueperslides__parallax-wrapper {
-    height: 250px;
-  }
+  height: 280px;
 }
+}
+
 @media (min-width: 580px) {
   .vueperslides__parallax-wrapper {
-    height: 230px;
+    height: 260px;
   }
 }
 @media (min-width: 800px) {
   .vueperslides__parallax-wrapper {
-    height: 180px;
+    height: 250px;
   }
 }
-@media (min-width: 850px) {
-  .vueperslides__parallax-wrapper {
-    height: 80px;
-    margin: 0px;
-    transform: translateY(30px);
-  }
-  .features {
-    transform: translateY(40px);
-  }
-}
-@media (min-width: 950px) {
-  .vueperslides__parallax-wrapper {
-    height: 80px;
-    margin: 0px;
-    transform: translateY(70px);
-  }
-  .features {
-    transform: translateY(60px);
-  }
-}
+
 
 .vueperslides__bullet--active .default {background-color: #FFFFFF;}
 
