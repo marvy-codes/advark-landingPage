@@ -96,6 +96,12 @@
           </div>
         </div>
 
+        <img
+                src="../assets/bgleft.png"
+                class="absolute left-0 -z-30 h-[1200px] md:h-auto "
+          />
+
+
         <!-- Compatible platforms -->
         <div class="">
           <h2
@@ -463,6 +469,7 @@
             />
           </div>
 
+          
           <div
             class="features -mb-[20px] block text-center text-[24px] font-semibold leading-[40px] text-white sm:-mt-[60px] md:mt-[66px] lg:hidden"
           >
@@ -693,6 +700,10 @@
           </div>
         </div>
 
+          <img
+            src="../assets/bgleft.png"
+            class="absolute left-0 -z-30 h-[1200px] md:h-auto"
+          />
         <!-- Why use aadvark -->
         <div class="md:mt[200px] mt-[112px]">
           <h2
@@ -892,6 +903,11 @@
           </div>
         </div>
 
+        <img
+                src="../assets/bgright.png"
+                class="absolute right-0 -z-30 h-[1200px] md:h-auto"
+          />
+
         <!-- Testimonials -->
         <div class="md:mt[200px] mt-[112px]">
           <h2
@@ -1031,12 +1047,6 @@
 import PageLayout from '@/components/Layout/PageLayout.vue';
 import DappButton from '@/components/Button/DappButton.vue';
 import SubHeading from '@/components/utils/SubHeading.vue';
-
-// import VueSlickCarousel from 'vue-slick-carousel'
-// import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-// import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
-
-// import VueAIcarousel from "vue-ai-carousel"
 
 import { VueperSlides, VueperSlide } from 'vueperslides';
 import 'vueperslides/dist/vueperslides.css';
