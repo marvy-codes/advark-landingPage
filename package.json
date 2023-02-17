@@ -12,7 +12,8 @@
   "dependencies": {
     "vue": "^3.2.25",
     "vue-ai-carousel": "^1.1.1",
-    "vue-router": "^4.0.15"
+    "vue-router": "^4.0.15",
+    "vueperslides": "^3.5.1"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.6.2",
