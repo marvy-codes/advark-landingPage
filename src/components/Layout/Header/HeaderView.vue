@@ -46,7 +46,7 @@
                     </svg>
                   </a>
                 </div>
-                <div class="product__description mt-[8px] text-left  w-[300px]">
+                <div class="product__description mt-[8px] w-[300px] text-left">
                   Gain access to Aardvark messengers sophisticated features.
                   Experience.
                 </div>
