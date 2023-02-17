@@ -160,7 +160,7 @@
 
 
           <!-- Detailed Sections Desktop -->
-            <div class="md:mx-[64px] mb-[70px] hidden md:block">
+            <div class="md:mx-[64px] mb-[70px] hidden lg:block">
               <div class="mt-[20px] md:mt-[32px]  flex flex-wrap justify-center ">
 
                 <div class="flex mx-[12px] my-[10px]   w-auto lg:w-[370px] xl:w-[490px]">
@@ -251,11 +251,11 @@
 
 
             <!-- Detailed Sections Mobile -->
-            <div class="md:mx-[64px] mb-[70px] md:hidden block">
+            <div class="block lg:hidden ">
               <div class="mt-[20px] md:mt-[32px]">
 
-                <VueSlickCarousel :arrows="false" :dots="true">
-                  <div class="flex mx-[12px] my-[10px] w-[327px]">
+                <VueAIcarousel  :Property="{ID: 'Unique_id'}">
+                  <div class="mx-[12px] my-[10px] w-[327px]">
                     <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                       <div class="flex justify-start mb-[12px]">
                         <div class="mr-[8px]">
@@ -275,7 +275,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="flex mx-[12px] my-[10px] w-[327px]">
+                  <div class="mx-[12px] my-[10px] w-[327px]">
                     <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                       <div class="flex justify-start mb-[12px]">
                         <div class="mr-[8px]">
@@ -295,7 +295,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="flex mx-[12px] my-[10px] w-[327px]">
+                  <div class=" mx-[12px] my-[10px] w-[327px]">
                     <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                       <div class="flex justify-start mb-[12px]">
                         <div class="mr-[8px]">
@@ -315,7 +315,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="flex mx-[12px] my-[10px] w-[327px]">
+                  <div class="mx-[12px] my-[10px] w-[327px]">
                     <div class="text-left rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px]">
                       <div class="flex justify-start mb-[12px]">
                         <div class="mr-[8px]">
@@ -335,7 +335,7 @@
                       </div>
                     </div>
                   </div>
-                </VueSlickCarousel>
+                </VueAIcarousel >
 
               </div>
             </div>
@@ -621,9 +621,8 @@
 import PageLayout from '@/components/Layout/PageLayout.vue';
 import DappButton from '@/components/Button/DappButton.vue';
 import SubHeading from '@/components/utils/SubHeading.vue';
-import VueSlickCarousel from 'vue-slick-carousel'
-import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+
+import VueAIcarousel from "vue-ai-carousel"
 
 export default {
   name: 'ProductView',
@@ -631,7 +630,7 @@ export default {
     PageLayout,
     DappButton,
     SubHeading,
-    VueSlickCarousel 
+    VueAIcarousel
   },
 };
 </script>

@@ -53,7 +53,7 @@
               </div>
               <div class="ml-[50px] mb-[24px] mt-[32px]">
                 <div class="-translate-x-[26px]">
-                  <a href="/" class="product__one"
+                  <a href="/Product" class="product__one"
                     ><i class="bi bi-cpu mr-2"></i>Embedded wallet based
                     messenger
                     <svg
@@ -161,7 +161,7 @@
               </div>
               <div class="] mb-[24px] mt-[32px]">
                 <div class="text-sm font-semibold text-white">
-                  <a href="/" class="" @click="MenuOpen()"
+                  <a href="/Product" class="" @click="MenuOpen()"
                     ><i class="bi bi-cpu mr-2"></i>Embedded wallet based
                     messenger
                   </a>
