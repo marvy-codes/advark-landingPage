@@ -410,7 +410,7 @@
         </div>
 
         <!-- Compatible Card 2 -->
-        <div
+        <div 
           class="relative mx-auto mt-[48px] max-w-[1200px] overflow-hidden rounded-[32px] border-[1px] border-[#ffffff1a] bg-[#ffffff0d] md:mt-[80px]"
         >
           <div class="items-center justify-between md:flex lg:items-start">
@@ -461,7 +461,7 @@
             </div>
 
             <div class="">
-              <img src="../assets/webapp.svg" alt="aadvark" class=" " />
+              <img src="../assets/webapp.png" alt="aadvark" class=" " />
             </div>
           </div>
 
@@ -762,12 +762,12 @@
               <img
                 src="../assets/why2.png"
                 alt="aadvark"
-                class="mx-auto hidden scale-90 md:block lg:scale-100"
+                class="mx-auto hidden scale-90 lg:block lg:scale-100"
               />
               <img
                 src="../assets/why22.png"
                 alt="aadvark"
-                class="mx-auto md:hidden"
+                class="mx-auto lg:hidden"
               />
             </div>
           </div>
