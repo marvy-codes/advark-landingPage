@@ -47,17 +47,23 @@
             </button>
           </div>
 
-          
-
-        <div
-          class="relative  md:-mt-[40px] lg:-mt-[80px]"
-        >
-          <div class="">
-              <img src="../assets/producthero.png" alt="aadvark" class="mx-auto hidden sm:block" />
-              <img src="../assets/productherom.png" alt="aadvark" class="mx-auto sm:hidden" />
+          <div class="relative md:-mt-[40px] lg:-mt-[80px]">
+            <div class="">
+              <img
+                src="../assets/producthero.png"
+                alt="aadvark"
+                class="mx-auto hidden sm:block"
+              />
+              <img
+                src="../assets/productherom.png"
+                alt="aadvark"
+                class="mx-auto sm:hidden"
+              />
             </div>
           </div>
-          <div class="absolute left-0 right-0 border-t-[0.5px] border-b-[0.5px] border-[#9a959589] bg-[#ffffff0d] pt-4 pb-7 md:pb-5">
+          <div
+            class="absolute left-0 right-0 border-t-[0.5px] border-b-[0.5px] border-[#9a959589] bg-[#ffffff0d] pt-4 pb-7 md:pb-5"
+          >
             <div class="text-center sm:ml-20 xl:hidden">
               <img
                 src="../assets/thundercorelogo.png"
@@ -96,14 +102,12 @@
               <img src="../assets/dundeadlogo.png" alt="logo" class="inline" />
             </div>
           </div>
-      </div>
-
+        </div>
 
         <img
-                src="../assets/bgleft.png"
-                class="absolute left-0 -z-30 h-[1200px] md:h-auto "
-          />
-
+          src="../assets/bgleft.png"
+          class="absolute left-0 -z-30 h-[1200px] md:h-auto"
+        />
 
         <!-- Compatible platforms -->
         <div class="mt-[285px]">
@@ -261,8 +265,7 @@
                   <div class="text-[14px] font-normal leading-[22px]">
                     Bans, deleted messages and more! Aardvark gives community
                     managers and moderators control over the content and
-                    messages being sent in game, configurable permission sets
-                    allow moderators protect your community.
+                    messages being sent in game,and protect your community.
                   </div>
                 </div>
               </div>
@@ -305,7 +308,7 @@
                   <template #content>
                     <div class="mx-[12px] my-[10px] w-auto">
                       <div
-                        class="min-h-[186px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left"
+                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
                       >
                         <div class="mb-[12px] flex justify-start">
                           <div class="mr-[8px]">
@@ -331,7 +334,7 @@
                   <template #content>
                     <div class="mx-[12px] my-[10px] w-auto">
                       <div
-                        class="min-h-[186px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left"
+                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
                       >
                         <div class="mb-[12px] flex justify-start">
                           <div class="mr-[8px]">
@@ -356,7 +359,7 @@
                   <template #content>
                     <div class="mx-[12px] my-[10px] w-auto">
                       <div
-                        class="min-h-[186px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left"
+                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
                       >
                         <div class="mb-[12px] flex justify-start">
                           <div class="mr-[8px]">
@@ -371,9 +374,8 @@
                         <div class="text-[14px] font-normal leading-[22px]">
                           Bans, deleted messages and more! Aardvark gives
                           community managers and moderators control over the
-                          content and messages being sent in game, configurable
-                          permission sets allow moderators protect your
-                          community.
+                          content and messages being sent in game,and protect
+                          your community.
                         </div>
                       </div>
                     </div>
@@ -383,7 +385,7 @@
                   <template #content>
                     <div class="mx-[12px] my-[10px] w-auto">
                       <div
-                        class="min-h-[186px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left"
+                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
                       >
                         <div class="mb-[12px] flex justify-start">
                           <div class="mr-[8px]">
@@ -410,7 +412,7 @@
         </div>
 
         <!-- Compatible Card 2 -->
-        <div 
+        <div
           class="relative mx-auto mt-[48px] max-w-[1200px] overflow-hidden rounded-[32px] border-[1px] border-[#ffffff1a] bg-[#ffffff0d] md:mt-[80px]"
         >
           <div class="items-center justify-between md:flex lg:items-start">
@@ -472,7 +474,6 @@
             />
           </div>
 
-          
           <div
             class="features -mb-[20px] block text-center text-[24px] font-semibold leading-[40px] text-white sm:-mt-[60px] md:mt-[66px] lg:hidden"
           >
@@ -596,7 +597,7 @@
                   <template #content>
                     <div class="mx-[12px] my-[10px] w-auto">
                       <div
-                        class="min-h-[186px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left"
+                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
                       >
                         <div class="mb-[12px] flex justify-start">
                           <div class="mr-[8px]">
@@ -622,7 +623,7 @@
                   <template #content>
                     <div class="mx-[12px] my-[10px] w-auto">
                       <div
-                        class="min-h-[186px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left"
+                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
                       >
                         <div class="mb-[12px] flex justify-start">
                           <div class="mr-[8px]">
@@ -638,8 +639,7 @@
                           Create channels to allow your community to rally
                           behind your product and improve activation, retention
                           and engagement by giving your users a sense of
-                          community in app. Harness the power of your community
-                          and see where it can take you.
+                          community in app. Harness the power of your community.
                         </div>
                       </div>
                     </div>
@@ -649,7 +649,7 @@
                   <template #content>
                     <div class="mx-[12px] my-[10px] w-auto">
                       <div
-                        class="min-h-[186px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left"
+                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
                       >
                         <div class="mb-[12px] flex justify-start">
                           <div class="mr-[8px]">
@@ -662,10 +662,10 @@
                           </h1>
                         </div>
                         <div class="text-[14px] font-normal leading-[22px]">
-                          Messages between users and/or wallets make in-app/dapp
+                          Messages between users or wallets make in-app/dapp
                           communication, trading and community building easy to
-                          facilitate. Allow users to contact each other, and
-                          even facilitate transactions directly in your app.
+                          facilitate. Allow users contact each other, and
+                          facilitate transactions directly in your app.
                         </div>
                       </div>
                     </div>
@@ -675,7 +675,7 @@
                   <template #content>
                     <div class="mx-[12px] my-[10px] w-auto">
                       <div
-                        class="min-h-[186px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left"
+                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
                       >
                         <div class="mb-[12px] flex justify-start">
                           <div class="mr-[8px]">
@@ -690,9 +690,8 @@
                         <div class="text-[14px] font-normal leading-[22px]">
                           Bans, deleted messages and more! Aardvark gives
                           community managers and moderators control over the
-                          content and messages being sent in game, configurable
-                          permission sets allow moderators protect your
-                          community.
+                          content and messages being sent in game,and protect
+                          your community.
                         </div>
                       </div>
                     </div>
@@ -703,10 +702,10 @@
           </div>
         </div>
 
-          <img
-            src="../assets/bgleft.png"
-            class="absolute left-0 -z-30 h-[1200px] md:h-auto"
-          />
+        <img
+          src="../assets/bgleft.png"
+          class="absolute left-0 -z-30 h-[1200px] md:h-auto"
+        />
         <!-- Why use aadvark -->
         <div class="md:mt[200px] mt-[112px]">
           <h2
@@ -715,7 +714,7 @@
             Why use Aardvark Embedded messenger?
           </h2>
 
-          <div class="mt-[64px] justify-between lg:mt-[88px] lg:flex">
+          <div class="mt-[64px] justify-around lg:mt-[88px] lg:flex">
             <div class="mr-6 lg:ml-14">
               <h1
                 class="custom_text_gradient mx-auto w-[234px] text-center text-[24px] font-semibold leading-[40px] lg:w-[500px] lg:text-left lg:text-[48px] lg:font-bold lg:leading-[80px]"
@@ -723,7 +722,7 @@
                 Unparalleled chain compatibility
               </h1>
               <div
-                class="mx-auto mt-[24px] text-center text-[16px] font-normal leading-[24px] lg:w-[490px] lg:text-left"
+                class="mx-auto mt-[24px] text-center text-[16px] font-normal leading-[24px] md:w-[490px] lg:text-left"
               >
                 Aardvark comes out of the box compatible with more than 20
                 leading blockchains, and we are adding support for more chains
@@ -740,7 +739,7 @@
           </div>
 
           <div
-            class="mt-[72px] flex-row-reverse justify-between lg:mt-[150px] lg:flex"
+            class="mt-[72px] flex-row-reverse justify-around lg:mt-[150px] lg:flex"
           >
             <div class="mr-6">
               <h1
@@ -749,7 +748,7 @@
                 Reliable & Secure
               </h1>
               <div
-                class="mx-auto mt-[24px] text-center text-[16px] font-normal leading-[24px] lg:w-[490px] lg:text-left"
+                class="mx-auto mt-[24px] text-center text-[16px] font-normal leading-[24px] md:w-[490px] lg:text-left"
               >
                 Aardvark has > 99.99% uptime and our cryptographic proofs ensure
                 messages are always delivered to the correct recipient, with no
@@ -772,9 +771,7 @@
             </div>
           </div>
 
-          <div
-            class="mt-[64px] mt-[72px] justify-between lg:mt-[150px] lg:flex"
-          >
+          <div class="mt-[64px] mt-[72px] justify-around lg:mt-[150px] lg:flex">
             <div class="mr-6 lg:ml-14">
               <h1
                 class="custom_text_gradient mx-auto w-[234px] text-center text-[24px] font-semibold leading-[40px] lg:w-[500px] lg:text-left lg:text-[48px] lg:font-bold lg:leading-[80px]"
@@ -782,7 +779,7 @@
                 SDKs available
               </h1>
               <div
-                class="mx-auto mt-[24px] text-center text-[16px] font-normal leading-[24px] lg:w-[490px] lg:text-left"
+                class="mx-auto mt-[24px] text-center text-[16px] font-normal leading-[24px] md:w-[490px] lg:text-left"
               >
                 Aardvark offer software development kits (SDKs) that allow
                 developers to build and integrate decentralized messaging
@@ -836,7 +833,7 @@
             <div class="xl:-translate-x-16 2xl:-translate-x-20">
               <ul class="mx-auto">
                 <li
-                  class="mb-[24px] flex items-center text-[16px] md:font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
+                  class="mb-[24px] flex items-center text-[16px] leading-[24px] md:text-[20px] md:font-semibold md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
                 >
                   <img
                     src="../assets/howicon1.png"
@@ -848,7 +845,7 @@
                   >
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] md:font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
+                  class="mb-[24px] flex items-center text-[16px] leading-[24px] md:text-[20px] md:font-semibold md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
                 >
                   <img
                     src="../assets/howicon2.png"
@@ -858,7 +855,7 @@
                   <span class="text-white">2. Install Aardvark SDK</span>
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] md:font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
+                  class="mb-[24px] flex items-center text-[16px] leading-[24px] md:text-[20px] md:font-semibold md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
                 >
                   <img
                     src="../assets/howicon3.png"
@@ -871,7 +868,7 @@
                   >
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] md:font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
+                  class="mb-[24px] flex items-center text-[16px] leading-[24px] md:text-[20px] md:font-semibold md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
                 >
                   <img
                     src="../assets/howicon4.png"
@@ -881,7 +878,7 @@
                   <span class="text-white">4. Add chat moderation rules</span>
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] md:font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
+                  class="mb-[24px] flex items-center text-[16px] leading-[24px] md:text-[20px] md:font-semibold md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
                 >
                   <img
                     src="../assets/howicon5.png"
@@ -907,9 +904,9 @@
         </div>
 
         <img
-                src="../assets/bgright.png"
-                class="absolute right-0 -z-30 h-[1200px] md:h-auto"
-          />
+          src="../assets/bgright.png"
+          class="absolute right-0 -z-30 h-[1200px] md:h-auto"
+        />
 
         <!-- Testimonials -->
         <div class="md:mt[200px] mt-[112px]">
@@ -930,7 +927,7 @@
             class="mx-auto mt-[40px] flex-wrap justify-center md:mt-[70px] md:flex"
           >
             <div
-              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px]  md:w-[340px] mtext-left xl:w-[380px]"
+              class="mtext-left m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] md:w-[340px] xl:w-[380px]"
             >
               <div class="text-sm font-normal leading-6">
                 I and our cryptographic proofs ensure messages are always
@@ -955,7 +952,7 @@
               </div>
             </div>
             <div
-              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] md:w-[340px] text-left xl:w-[380px]"
+              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-left md:w-[340px] xl:w-[380px]"
             >
               <div class="text-sm font-normal leading-6">
                 I and our cryptographic proofs ensure messages are always
@@ -980,7 +977,7 @@
               </div>
             </div>
             <div
-              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] md:w-[340px] text-left xl:w-[380px]"
+              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-left md:w-[340px] xl:w-[380px]"
             >
               <div class="text-sm font-normal leading-6">
                 I and our cryptographic proofs ensure messages are always
@@ -1007,7 +1004,7 @@
           </div>
 
           <div
-            class="lg:[200px] mt-[64px] mt-[72px] mt-[93px] flex-row-reverse justify-between lg:mt-[150px] lg:flex"
+            class="lg:[200px] mt-[64px] mt-[72px] mt-[93px] flex-row-reverse justify-around lg:mt-[150px] lg:flex"
           >
             <div class="mr-6">
               <h1
@@ -1025,7 +1022,7 @@
               </div>
               <div class="mx-auto w-[261px] lg:ml-[0px]">
                 <a
-                  class="text1 mt-[56px] block rounded-lg bg-white px-[24px] py-[14px] text-xl font-semibold leading-8 w-[235px]"
+                  class="text1 mt-[56px] block w-[235px] rounded-lg bg-white px-[24px] py-[14px] text-xl font-semibold leading-8"
                   href=""
                 >
                 </a>
