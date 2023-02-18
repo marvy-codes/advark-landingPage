@@ -47,15 +47,17 @@
             </button>
           </div>
 
-          <div class="mx-auto">
-            <img src="../assets/producthero.png" alt="aadvark" class="" />
-          </div>
-        </div>
+          
 
         <div
-          class="absolute left-0 right-0 mt-[125px] -translate-y-[420px] border-t-[0.5px] border-b-[0.5px] border-[#9a959589] bg-[#ffffff0d] pt-4 pb-7 md:mt-[168px] md:pb-5"
+          class="relative  md:-mt-[40px] lg:-mt-[80px]"
         >
-          <div>
+          <div class="">
+              <img src="../assets/producthero.png" alt="aadvark" class="mx-auto hidden sm:block" />
+              <img src="../assets/productherom.png" alt="aadvark" class="mx-auto sm:hidden" />
+            </div>
+          </div>
+          <div class="absolute left-0 right-0 border-t-[0.5px] border-b-[0.5px] border-[#9a959589] bg-[#ffffff0d] pt-4 pb-7 md:pb-5">
             <div class="text-center sm:ml-20 xl:hidden">
               <img
                 src="../assets/thundercorelogo.png"
@@ -94,7 +96,8 @@
               <img src="../assets/dundeadlogo.png" alt="logo" class="inline" />
             </div>
           </div>
-        </div>
+      </div>
+
 
         <img
                 src="../assets/bgleft.png"
@@ -103,7 +106,7 @@
 
 
         <!-- Compatible platforms -->
-        <div class="">
+        <div class="mt-[285px]">
           <h2
             class="px-[65px] text-center text-[32px] font-semibold leading-[52px] text-[#ffffffde] md:text-[42px] md:font-bold md:leading-[80px]"
           >
