@@ -791,7 +791,7 @@
                 and sending messages, managing identities, and handling
                 transactions on a decentralized network.
               </div>
-              <div class="mx-auto w-[136px] lg:ml-[0px]">
+              <div class="mx-auto w-[160px] lg:ml-[0px]">
                 <a
                   class="why3 mt-[56px] block rounded-lg bg-white px-[24px] py-[14px] text-xl font-semibold leading-8"
                   href=""
@@ -1023,9 +1023,9 @@
                 step-by-step instructions for integrating and using these
                 elements in their projects.
               </div>
-              <div class="mx-auto w-[215px] lg:ml-[0px]">
+              <div class="mx-auto w-[261px] lg:ml-[0px]">
                 <a
-                  class="text1 mt-[56px] block rounded-lg bg-white px-[24px] py-[14px] text-xl font-semibold leading-8"
+                  class="text1 mt-[56px] block rounded-lg bg-white px-[24px] py-[14px] text-xl font-semibold leading-8 w-[235px]"
                   href=""
                 >
                 </a>
