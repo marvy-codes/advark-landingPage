@@ -184,7 +184,7 @@
           <div>
             <img
               src="../assets/fs1.png"
-              class="absolute top-[480px] left-[64px] -z-10 hidden lg:block"
+              class="absolute top-[480px] left-[64px] -z-10 hidden xl:block"
             />
           </div>
 
@@ -196,7 +196,7 @@
 
           <!-- Detailed Sections Desktop -->
           <div class="mb-[70px] hidden md:mx-[64px] lg:block">
-            <div class="mt-[20px] flex flex-wrap justify-center md:mt-[32px]">
+            <div class="lg:-mt-[100px] flex flex-wrap justify-center ">
               <div
                 class="mx-[10px] my-[10px] flex w-auto lg:w-[370px] xl:w-[490px]"
               >
@@ -470,7 +470,7 @@
           <div>
             <img
               src="../assets/fs1.png"
-              class="absolute top-[480px] left-[64px] -z-10 hidden lg:block"
+              class="absolute top-[480px] left-[64px] -z-10 hidden xl:block"
             />
           </div>
 
@@ -482,7 +482,7 @@
 
           <!-- Detailed Sections Desktop -->
           <div class="mb-[70px] hidden md:mx-[64px] lg:block">
-            <div class="mt-[20px] flex flex-wrap justify-center md:mt-[32px]">
+            <div class="lg:-mt-[100px] flex flex-wrap justify-center">
               <div
                 class="mx-[10px] my-[10px] flex w-auto lg:w-[370px] xl:w-[490px]"
               >
@@ -707,14 +707,14 @@
           class="absolute left-0 -z-30 h-[1200px] md:h-auto"
         />
         <!-- Why use aadvark -->
-        <div class="md:mt[200px] mt-[112px]">
+        <div class="md:mt-[205px] mt-[112px]">
           <h2
             class="mx-auto max-w-[564px] text-center text-[32px] font-semibold leading-[52px] text-[#ffffffde] md:text-[42px] md:font-bold md:leading-[80px]"
           >
             Why use Aardvark Embedded messenger?
           </h2>
 
-          <div class="mt-[64px] justify-around lg:mt-[88px] lg:flex">
+          <div class="mt-[64px] justify-around items-center lg:mt-[88px] lg:flex">
             <div class="mr-6 lg:ml-14">
               <h1
                 class="custom_text_gradient mx-auto w-[234px] text-center text-[24px] font-semibold leading-[40px] lg:w-[500px] lg:text-left lg:text-[48px] lg:font-bold lg:leading-[80px]"
@@ -739,7 +739,7 @@
           </div>
 
           <div
-            class="mt-[72px] flex-row-reverse justify-around lg:mt-[150px] lg:flex"
+            class="mt-[72px] flex-row-reverse justify-around items-center  lg:mt-[150px] lg:flex"
           >
             <div class="mr-6">
               <h1
@@ -771,7 +771,7 @@
             </div>
           </div>
 
-          <div class="mt-[64px] mt-[72px] justify-around lg:mt-[150px] lg:flex">
+          <div class="mt-[64px] mt-[72px] justify-around items-center lg:mt-[150px] lg:flex">
             <div class="mr-6 lg:ml-14">
               <h1
                 class="custom_text_gradient mx-auto w-[234px] text-center text-[24px] font-semibold leading-[40px] lg:w-[500px] lg:text-left lg:text-[48px] lg:font-bold lg:leading-[80px]"
@@ -807,7 +807,7 @@
         </div>
 
         <!-- How aadvark messanger works -->
-        <div class="md:mt[240px] mt-[112px]">
+        <div class="md:mt-[205px] mt-[112px]">
           <h2
             class="mx-auto max-w-[650px] text-center text-[32px] font-semibold leading-[52px] text-[#ffffffde] md:text-[42px] md:font-bold md:leading-[80px]"
           >
@@ -815,7 +815,7 @@
           </h2>
 
           <div
-            class="md:mt[80px] mt-[56px] items-center justify-between lg:flex"
+            class="md:mt-[80px] mt-[56px] items-center justify-between items-center  lg:flex"
           >
             <div class="mb-[40px] lg:mr-16 lg:mb-[0px] lg:ml-14">
               <img
@@ -903,7 +903,7 @@
         />
 
         <!-- Testimonials -->
-        <div class="md:mt[200px] mt-[112px]">
+        <div class="md:mt-[205px] mt-[112px]">
           <h2
             class="mx-auto max-w-[564px] text-center text-[32px] font-semibold leading-[52px] text-[#ffffffde] md:text-[42px] md:font-bold md:leading-[80px]"
           >
@@ -998,7 +998,7 @@
           </div>
 
           <div
-            class="lg:[200px] mt-[64px] mt-[72px] mt-[93px] flex-row-reverse justify-around lg:mt-[150px] lg:flex"
+            class="lg:[200px] mt-[64px] mt-[72px] mt-[93px] items-center  flex-row-reverse justify-around lg:mt-[150px] lg:flex"
           >
             <div class="mr-6">
               <h1
