@@ -813,12 +813,6 @@
           >
             How does Aardvark Embedded messenger work?
           </h2>
-          <div
-            class="mx-[42px] mt-[18px] text-center text-sm leading-[22px] lg:mx-auto lg:w-[833px] lg:text-base lg:font-normal lg:leading-6"
-          >
-            Aardvark comes out of the box compatible with more than 20 leading
-            blockchains, and we are adding support for more chai ns every day.
-          </div>
 
           <div
             class="md:mt[80px] mt-[56px] items-center justify-between lg:flex"
