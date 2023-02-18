@@ -836,7 +836,7 @@
             <div class="xl:-translate-x-16 2xl:-translate-x-20">
               <ul class="mx-auto">
                 <li
-                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
+                  class="mb-[24px] flex items-center text-[16px] md:font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
                 >
                   <img
                     src="../assets/howicon1.png"
@@ -848,7 +848,7 @@
                   >
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
+                  class="mb-[24px] flex items-center text-[16px] md:font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
                 >
                   <img
                     src="../assets/howicon2.png"
@@ -858,7 +858,7 @@
                   <span class="text-white">2. Install Aardvark SDK</span>
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
+                  class="mb-[24px] flex items-center text-[16px] md:font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
                 >
                   <img
                     src="../assets/howicon3.png"
@@ -871,7 +871,7 @@
                   >
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
+                  class="mb-[24px] flex items-center text-[16px] md:font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
                 >
                   <img
                     src="../assets/howicon4.png"
@@ -881,7 +881,7 @@
                   <span class="text-white">4. Add chat moderation rules</span>
                 </li>
                 <li
-                  class="mb-[24px] flex items-center text-[16px] font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
+                  class="mb-[24px] flex items-center text-[16px] md:font-semibold leading-[24px] md:text-[20px] md:leading-[32px] lg:mb-[10px] lg:max-w-[492px] xl:mb-[37px]"
                 >
                   <img
                     src="../assets/howicon5.png"
@@ -925,11 +925,12 @@
             messenger have to say!
           </div>
 
+          <!-- cards -->
           <div
             class="mx-auto mt-[40px] flex-wrap justify-center md:mt-[70px] md:flex"
           >
             <div
-              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-center md:w-[340px] md:text-left xl:w-[380px]"
+              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px]  md:w-[340px] mtext-left xl:w-[380px]"
             >
               <div class="text-sm font-normal leading-6">
                 I and our cryptographic proofs ensure messages are always
@@ -937,10 +938,10 @@
                 data like other messaging providers.
               </div>
               <div
-                class="md:leading-40px mx-auto mt-[66px] mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+                class="md:leading-40px mx-auto mt-[26px] mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
               >
                 <img
-                  src="../assets/Consolidatedinbox.png"
+                  src="../assets/testbg.png"
                   alt=""
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
@@ -954,7 +955,7 @@
               </div>
             </div>
             <div
-              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-center md:w-[340px] md:text-left xl:w-[380px]"
+              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] md:w-[340px] text-left xl:w-[380px]"
             >
               <div class="text-sm font-normal leading-6">
                 I and our cryptographic proofs ensure messages are always
@@ -962,10 +963,10 @@
                 data like other messaging providers.
               </div>
               <div
-                class="md:leading-40px mx-auto mt-[66px] mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+                class="md:leading-40px mx-auto mt-[26px] mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
               >
                 <img
-                  src="../assets/Consolidatedinbox.png"
+                  src="../assets/testbg.png"
                   alt=""
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
@@ -979,7 +980,7 @@
               </div>
             </div>
             <div
-              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-center md:w-[340px] md:text-left xl:w-[380px]"
+              class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] md:w-[340px] text-left xl:w-[380px]"
             >
               <div class="text-sm font-normal leading-6">
                 I and our cryptographic proofs ensure messages are always
@@ -987,10 +988,10 @@
                 data like other messaging providers.
               </div>
               <div
-                class="md:leading-40px mx-auto mt-[66px] mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+                class="md:leading-40px mx-auto mt-[26px] mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
               >
                 <img
-                  src="../assets/Consolidatedinbox.png"
+                  src="../assets/testbg.png"
                   alt=""
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
