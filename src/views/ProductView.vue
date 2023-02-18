@@ -821,7 +821,7 @@
               <img
                 src="../assets/howimage.png"
                 alt="aadvark"
-                class="mx-auto scale-90 lg:scale-100"
+                class="mx-auto scale-90 "
               />
             </div>
             <div class="xl:-translate-x-16 2xl:-translate-x-20">
@@ -883,7 +883,7 @@
                 </li>
               </ul>
 
-              <div class="mt-[54px] text-center lg:mt-[10px] lg:text-left">
+              <div class="mt-[54px] lg:mt-[94px] text-center lg:mt-[10px] lg:text-left">
                 <button
                   class="rounded-lg bg-gradient-to-r from-[#db00fb] to-[#ff6000] px-[24px] py-[14px] text-xl font-semibold leading-8 text-[#FFFFFF]"
                 >
@@ -918,29 +918,27 @@
 
           <!-- cards -->
           <div
-            class="mx-auto mt-[40px] flex-wrap justify-center md:mt-[70px] md:flex"
+            class="  mx-auto mt-[40px] flex-wrap justify-center md:mt-[70px] md:flex "
           >
             <div
-              class="mtext-left m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] md:w-[340px] xl:w-[380px]"
+              class="text-left m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] md:w-[340px] xl:w-[380px]"
             >
               <div class="text-sm font-normal leading-6">
-                I and our cryptographic proofs ensure messages are always
-                delivered to the correct recipient, with no leakage of personal
-                data like other messaging providers.
+                As someone who values their privacy, I can't recommend Aardvark messenger enough. It's a breath of fresh air in a world where online privacy is increasingly hard to come by.
               </div>
               <div
-                class="md:leading-40px mx-auto mt-[26px] mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+                class="md:leading-40px mx-auto mt-[66px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
               >
                 <img
-                  src="../assets/testbg.png"
+                  src="../assets/testicon1.png"
                   alt=""
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
                 <div>
-                  <span>Defi Kingdoms</span><br />
+                  <span>TempestOG</span><br />
                   <span
                     class="text-sm leading-[22px] lg:text-base lg:font-normal lg:leading-6"
-                    >Gaming platform</span
+                    >Individual</span
                   >
                 </div>
               </div>
@@ -949,23 +947,20 @@
               class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-left md:w-[340px] xl:w-[380px]"
             >
               <div class="text-sm font-normal leading-6">
-                I and our cryptographic proofs ensure messages are always
-                delivered to the correct recipient, with no leakage of personal
-                data like other messaging providers.
-              </div>
+                I've tried a lot of messaging platforms over the years, but none of them come close to Aardvark messenger in terms of security and user experience. It's a must-try!</div>
               <div
-                class="md:leading-40px mx-auto mt-[26px] mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+                class="md:leading-40px mx-auto mt-[66px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
               >
                 <img
-                  src="../assets/testbg.png"
+                  src="../assets/testicon2.png"
                   alt=""
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
                 <div>
-                  <span>Defi Kingdoms</span><br />
+                  <span>Undead0x</span><br />
                   <span
                     class="text-sm leading-[22px] lg:text-base lg:font-normal lg:leading-6"
-                    >Gaming platform</span
+                    >Web3 enthusiast</span
                   >
                 </div>
               </div>
@@ -974,15 +969,12 @@
               class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-left md:w-[340px] xl:w-[380px]"
             >
               <div class="text-sm font-normal leading-6">
-                I and our cryptographic proofs ensure messages are always
-                delivered to the correct recipient, with no leakage of personal
-                data like other messaging providers.
-              </div>
+                Thanks to Aardvark messenger, we've been able to build a strong community around our games. It's great to see players connecting with each other and sharing their experiences.</div>
               <div
-                class="md:leading-40px mx-auto mt-[26px] mb-[28px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+                class="md:leading-40px mx-auto mt-[66px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
               >
                 <img
-                  src="../assets/testbg.png"
+                  src="../assets/testicon3.png"
                   alt=""
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
@@ -990,7 +982,7 @@
                   <span>Defi Kingdoms</span><br />
                   <span
                     class="text-sm leading-[22px] lg:text-base lg:font-normal lg:leading-6"
-                    >Gaming platform</span
+                    >Defi Kingdoms</span
                   >
                 </div>
               </div>
@@ -998,7 +990,7 @@
           </div>
 
           <div
-            class="lg:[200px] mt-[64px] mt-[72px] mt-[93px] items-center  flex-row-reverse justify-around lg:mt-[150px] lg:flex"
+            class="lg:[200px] mt-[64px] sm:mt-[72px] md:mt-[93px] items-center  flex-row-reverse justify-around lg:mt-[240px] lg:flex"
           >
             <div class="mr-6">
               <h1
