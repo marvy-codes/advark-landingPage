@@ -918,12 +918,12 @@
 
           <!-- cards -->
           <div
-            class="  mx-auto mt-[40px] flex-wrap justify-center md:mt-[70px] md:flex "
+            class=" mx-auto mt-[40px] flex-wrap justify-center md:mt-[70px] flex "
           >
             <div
               class="text-left m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] md:w-[340px] xl:w-[380px]"
             >
-              <div class="text-sm font-normal leading-6">
+              <div class="text-xl font-normal leading-6">
                 As someone who values their privacy, I can't recommend Aardvark messenger enough. It's a breath of fresh air in a world where online privacy is increasingly hard to come by.
               </div>
               <div
@@ -935,7 +935,7 @@
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
                 <div>
-                  <span>TempestOG</span><br />
+                  <span class="font-JetBrains">TempestOG</span><br />
                   <span
                     class="text-sm leading-[22px] lg:text-base lg:font-normal lg:leading-6"
                     >Individual</span
@@ -946,7 +946,7 @@
             <div
               class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-left md:w-[340px] xl:w-[380px]"
             >
-              <div class="text-sm font-normal leading-6">
+              <div class="text-xl font-normal leading-6">
                 I've tried a lot of messaging platforms over the years, but none of them come close to Aardvark messenger in terms of security and user experience. It's a must-try!</div>
               <div
                 class="md:leading-40px mx-auto mt-[66px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
@@ -957,7 +957,7 @@
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
                 <div>
-                  <span>Undead0x</span><br />
+                  <span class="font-JetBrains">Undead0x</span><br />
                   <span
                     class="text-sm leading-[22px] lg:text-base lg:font-normal lg:leading-6"
                     >Web3 enthusiast</span
@@ -968,7 +968,7 @@
             <div
               class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-left md:w-[340px] xl:w-[380px]"
             >
-              <div class="text-sm font-normal leading-6">
+              <div class="text-[20px] font-normal leading-6">
                 Thanks to Aardvark messenger, we've been able to build a strong community around our games. It's great to see players connecting with each other and sharing their experiences.</div>
               <div
                 class="md:leading-40px mx-auto mt-[66px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
@@ -979,7 +979,7 @@
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
                 <div>
-                  <span>Defi Kingdoms</span><br />
+                  <span class="font-JetBrains">Defi Kingdoms</span><br />
                   <span
                     class="text-sm leading-[22px] lg:text-base lg:font-normal lg:leading-6"
                     >Defi Kingdoms</span

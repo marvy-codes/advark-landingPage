@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...theme.fontFamily.sans],
         pop: ['Poppins', 'sans-serif'],
+        JetBrains: ['Jet-Brains', 'sans-serif']
       },
     },
     colors: {
