@@ -1092,11 +1092,17 @@ export default {
     height: 260px;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 880px) {
   .vueperslides__parallax-wrapper {
-    height: 250px;
+    height: 255px;
   }
 }
+@media (min-width: 940px) {
+  .vueperslides__parallax-wrapper {
+    height: 235px;
+  }
+}
+
 
 .vueperslides__bullet--active .default {
   background-color: #ffffff;
