@@ -9,7 +9,7 @@
         <div class="">
           <img
             src="../assets/background.png"
-            class="md::w-fit absolute top-0 -z-30 h-screen w-[95%] md:left-0 md:-ml-[40px]"
+            class="md:w-fit absolute top-0 -z-30 h-screen w-[95%] md:left-0 md:-ml-[40px]"
           />
           <img
             src="../assets/background.png"
@@ -298,116 +298,7 @@
 
           <!-- Detailed Sections Mobile -->
           <div class="block lg:hidden">
-            <div class="mt-[20px] mb-[40px] md:mt-[32px]">
-              <vueper-slides
-                :arrows="false"
-                :slide-content-outside="false"
-                class="no-shadow"
-              >
-                <VueperSlide :key="1">
-                  <template #content>
-                    <div class="mx-[12px] my-[10px] w-auto">
-                      <div
-                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
-                      >
-                        <div class="mb-[12px] flex justify-start">
-                          <div class="mr-[8px]">
-                            <img src="../assets/comp1.svg" alt="aadvark" />
-                          </div>
-                          <h1
-                            class="custom_text_gradient text-left text-[20px] font-semibold"
-                          >
-                            wallet messaging
-                          </h1>
-                        </div>
-                        <div class="text-[14px] font-normal leading-[22px]">
-                          Need to enable chat between two wallets in game? We
-                          support a number of different message types and you
-                          can send messages between Users, Wallets and NFTs,
-                          with more coming soon.
-                        </div>
-                      </div>
-                    </div>
-                  </template>
-                </VueperSlide>
-                <VueperSlide :key="2">
-                  <template #content>
-                    <div class="mx-[12px] my-[10px] w-auto">
-                      <div
-                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
-                      >
-                        <div class="mb-[12px] flex justify-start">
-                          <div class="mr-[8px]">
-                            <img src="../assets/comp2.svg" alt="aadvark" />
-                          </div>
-                          <h1
-                            class="custom_text_gradient text-left text-[20px] font-semibold"
-                          >
-                            Chat chanels
-                          </h1>
-                        </div>
-                        <div class="text-[14px] font-normal leading-[22px]">
-                          Easily create channels with fine-grained access
-                          control to create public channels (#general, #trading,
-                          etc) that are game-wide and available to all players.
-                        </div>
-                      </div>
-                    </div>
-                  </template>
-                </VueperSlide>
-                <VueperSlide :key="3">
-                  <template #content>
-                    <div class="mx-[12px] my-[10px] w-auto">
-                      <div
-                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
-                      >
-                        <div class="mb-[12px] flex justify-start">
-                          <div class="mr-[8px]">
-                            <img src="../assets/comp3.svg" alt="aadvark" />
-                          </div>
-                          <h1
-                            class="custom_text_gradient text-left text-[20px] font-semibold"
-                          >
-                            Moderation
-                          </h1>
-                        </div>
-                        <div class="text-[14px] font-normal leading-[22px]">
-                          Bans, deleted messages and more! Aardvark gives
-                          community managers and moderators control over the
-                          content and messages being sent in game,and protect
-                          your community.
-                        </div>
-                      </div>
-                    </div>
-                  </template>
-                </VueperSlide>
-                <VueperSlide :key="4">
-                  <template #content>
-                    <div class="mx-[12px] my-[10px] w-auto">
-                      <div
-                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
-                      >
-                        <div class="mb-[12px] flex justify-start">
-                          <div class="mr-[8px]">
-                            <img src="../assets/comp4.svg" alt="aadvark" />
-                          </div>
-                          <h1
-                            class="custom_text_gradient text-left text-[20px] font-semibold"
-                          >
-                            Direct messages
-                          </h1>
-                        </div>
-                        <div class="text-[14px] font-normal leading-[22px]">
-                          Messages between users and/or wallets make in-game
-                          communication, trading and community building easy to
-                          facilitate.
-                        </div>
-                      </div>
-                    </div>
-                  </template>
-                </VueperSlide>
-              </vueper-slides>
-            </div>
+           <CardSlide1 />
           </div>
         </div>
 
@@ -587,118 +478,7 @@
 
           <!-- Detailed Sections Mobile -->
           <div class="block lg:hidden">
-            <div class="mt-[20px] mb-[40px] md:mt-[32px]">
-              <vueper-slides
-                :arrows="false"
-                :slide-content-outside="false"
-                class="no-shadow"
-              >
-                <VueperSlide :key="1">
-                  <template #content>
-                    <div class="mx-[12px] my-[10px] w-auto">
-                      <div
-                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
-                      >
-                        <div class="mb-[12px] flex justify-start">
-                          <div class="mr-[8px]">
-                            <img src="../assets/comp5.svg" alt="aadvark" />
-                          </div>
-                          <h1
-                            class="custom_text_gradient text-left text-[20px] font-semibold"
-                          >
-                            Wallet based notification
-                          </h1>
-                        </div>
-                        <div class="text-[14px] font-normal leading-[22px]">
-                          Send notifications to users based on wallet public
-                          keys. Keep users engaged and interested in your value
-                          proposition by providing timely and actionable
-                          notifications and insights.
-                        </div>
-                      </div>
-                    </div>
-                  </template>
-                </VueperSlide>
-                <VueperSlide :key="2">
-                  <template #content>
-                    <div class="mx-[12px] my-[10px] w-auto">
-                      <div
-                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
-                      >
-                        <div class="mb-[12px] flex justify-start">
-                          <div class="mr-[8px]">
-                            <img src="../assets/comp6.svg" alt="aadvark" />
-                          </div>
-                          <h1
-                            class="custom_text_gradient text-left text-[20px] font-semibold"
-                          >
-                            Community channels
-                          </h1>
-                        </div>
-                        <div class="text-[14px] font-normal leading-[22px]">
-                          Create channels to allow your community to rally
-                          behind your product and improve activation, retention
-                          and engagement by giving your users a sense of
-                          community in app. Harness the power of your community.
-                        </div>
-                      </div>
-                    </div>
-                  </template>
-                </VueperSlide>
-                <VueperSlide :key="3">
-                  <template #content>
-                    <div class="mx-[12px] my-[10px] w-auto">
-                      <div
-                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
-                      >
-                        <div class="mb-[12px] flex justify-start">
-                          <div class="mr-[8px]">
-                            <img src="../assets/comp7.svg" alt="aadvark" />
-                          </div>
-                          <h1
-                            class="custom_text_gradient text-left text-[20px] font-semibold"
-                          >
-                            Direct Messages
-                          </h1>
-                        </div>
-                        <div class="text-[14px] font-normal leading-[22px]">
-                          Messages between users or wallets make in-app/dapp
-                          communication, trading and community building easy to
-                          facilitate. Allow users contact each other, and
-                          facilitate transactions directly in your app.
-                        </div>
-                      </div>
-                    </div>
-                  </template>
-                </VueperSlide>
-                <VueperSlide :key="4">
-                  <template #content>
-                    <div class="mx-[12px] my-[10px] w-auto">
-                      <div
-                        class="h-[200px] rounded-[16px] border-[1px] border-[#ffffff1a] bg-[#ffffff14] p-[24px] text-left sm:min-h-[186px]"
-                      >
-                        <div class="mb-[12px] flex justify-start">
-                          <div class="mr-[8px]">
-                            <img src="../assets/comp8.svg" alt="aadvark" />
-                          </div>
-                          <h1
-                            class="custom_text_gradient text-left text-[20px] font-semibold"
-                          >
-                            Moderation
-                          </h1>
-                        </div>
-                        <div class="text-[14px] font-normal leading-[22px]">
-                          Bans, deleted messages and more! Aardvark gives
-                          community managers and moderators control over the
-                          content and messages being sent in game,and protect
-                          your community.
-                        </div>
-                      </div>
-                    </div>
-                  </template>
-                </VueperSlide>
-              </vueper-slides>
-            </div>
+            <CardSlide2 />
           </div>
         </div>
 
@@ -918,7 +698,7 @@
 
           <!-- cards -->
           <div
-            class=" mx-auto mt-[40px] flex-wrap justify-center md:mt-[70px] flex "
+            class="hidden md:block  mx-auto mt-[40px] flex-wrap lg:flex-nowrap justify-center md:mt-[70px] md:flex "
           >
             <div
               class="text-left m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] md:w-[340px] xl:w-[380px]"
@@ -927,7 +707,7 @@
                 As someone who values their privacy, I can't recommend Aardvark messenger enough. It's a breath of fresh air in a world where online privacy is increasingly hard to come by.
               </div>
               <div
-                class="md:leading-40px mx-auto mt-[66px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+                class="md:leading-[40px] mx-auto mt-[66px] flex items-center text-xl font-semibold text-[#ffffffde] md:text-2xl justify-start"
               >
                 <img
                   src="../assets/testicon1.png"
@@ -936,10 +716,6 @@
                 />
                 <div>
                   <span class="font-JetBrains">TempestOG</span><br />
-                  <span
-                    class="text-sm leading-[22px] lg:text-base lg:font-normal lg:leading-6"
-                    >Individual</span
-                  >
                 </div>
               </div>
             </div>
@@ -949,7 +725,7 @@
               <div class="text-xl font-normal leading-6">
                 I've tried a lot of messaging platforms over the years, but none of them come close to Aardvark messenger in terms of security and user experience. It's a must-try!</div>
               <div
-                class="md:leading-40px mx-auto mt-[66px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+                class="md:leading-[40px] mx-auto mt-[66px] flex items-center text-xl font-semibold text-[#ffffffde] md:text-2xl justify-start"
               >
                 <img
                   src="../assets/testicon2.png"
@@ -958,39 +734,37 @@
                 />
                 <div>
                   <span class="font-JetBrains">Undead0x</span><br />
-                  <span
-                    class="text-sm leading-[22px] lg:text-base lg:font-normal lg:leading-6"
-                    >Web3 enthusiast</span
-                  >
                 </div>
               </div>
             </div>
             <div
               class="m-[16px] rounded-3xl border-[1px] border-[#ffffff1a] bg-[#ffffff0d] p-[24px] text-left md:w-[340px] xl:w-[380px]"
             >
-              <div class="text-[20px] font-normal leading-6">
-                Thanks to Aardvark messenger, we've been able to build a strong community around our games. It's great to see players connecting with each other and sharing their experiences.</div>
+              <div class="text-[20px] font-normal leading-6">The messaging service is advanced, with features such as end-to-end encryption and wallet-based services. After using it on both PC and mobile, it will be my go-to Web3 messaging service.</div>
               <div
-                class="md:leading-40px mx-auto mt-[66px] flex items-center justify-center text-xl font-semibold text-[#ffffffde] md:text-2xl xl:justify-start"
+                class="md:leading-[40px] mx-auto mt-[66px] flex items-center text-xl font-semibold text-[#ffffffde] md:text-2xl justify-start"
               >
                 <img
-                  src="../assets/testicon3.png"
+                  src="../assets/nnn.png"
                   alt=""
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
                 <div>
                   <span class="font-JetBrains">Defi Kingdoms</span><br />
-                  <span
-                    class="text-sm leading-[22px] lg:text-base lg:font-normal lg:leading-6"
-                    >Defi Kingdoms</span
-                  >
                 </div>
               </div>
             </div>
           </div>
 
+
           <div
-            class="lg:[200px] mt-[64px] sm:mt-[72px] md:mt-[93px] items-center  flex-row-reverse justify-around lg:mt-[240px] lg:flex"
+            class="md:hidden block  mx-auto mt-[40px] "
+          >
+            <TestimonialSlide />
+          </div>
+
+          <div
+            class="lg:[200px] mt-[174px] sm:mt-[172px] md:mt-[130px] items-center  flex-row-reverse justify-around lg:mt-[240px] lg:flex"
           >
             <div class="mr-6">
               <h1
@@ -1034,9 +808,9 @@
 import PageLayout from '@/components/Layout/PageLayout.vue';
 import DappButton from '@/components/Button/DappButton.vue';
 import SubHeading from '@/components/utils/SubHeading.vue';
-
-import { VueperSlides, VueperSlide } from 'vueperslides';
-import 'vueperslides/dist/vueperslides.css';
+import TestimonialSlide from '@/components/utils/TestimonialSlide.vue';
+import CardSlide1 from '@/components/utils/CardSlide1.vue';
+import CardSlide2 from '@/components/utils/CardSlide2.vue';
 
 export default {
   name: 'ProductView',
@@ -1044,60 +818,9 @@ export default {
     PageLayout,
     DappButton,
     SubHeading,
-    VueperSlides,
-    VueperSlide,
+    TestimonialSlide,
+    CardSlide1,
+    CardSlide2
   },
 };
 </script>
-
-<style>
-.vueperslide__content-wrapper {
-  height: 200px;
-}
-
-.vueperslides__bullet .default {
-  background-color: rgba(255, 255, 255, 0.11);
-  border: none;
-  box-shadow: none;
-  transition: 0.3s;
-  width: 16px;
-  height: 16px;
-}
-.vueperslides__parallax-wrapper {
-  height: 300px;
-}
-
-@media (min-width: 400px) {
-  .vueperslides__parallax-wrapper {
-    height: 280px;
-  }
-}
-
-@media (min-width: 580px) {
-  .vueperslides__parallax-wrapper {
-    height: 260px;
-  }
-}
-@media (min-width: 880px) {
-  .vueperslides__parallax-wrapper {
-    height: 255px;
-  }
-}
-@media (min-width: 940px) {
-  .vueperslides__parallax-wrapper {
-    height: 235px;
-  }
-}
-
-
-.vueperslides__bullet--active .default {
-  background-color: #ffffff;
-}
-
-.vueperslides__bullet span {
-  display: block;
-  color: #fff;
-  font-size: 10px;
-  opacity: 0.8;
-}
-</style>

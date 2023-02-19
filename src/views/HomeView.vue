@@ -7,7 +7,7 @@
         <div class="">
           <img
             src="../assets/background.png"
-            class="absolute top-0 -z-30 h-screen md:left-0 md:-ml-[40px]"
+            class="md:w-fit absolute top-0 -z-30 h-screen w-[60%] md:left-0 md:-ml-[40px]"
           />
           <img
             src="../assets/background.png"
