@@ -66,7 +66,7 @@
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
                 <div>
-                  <span class="font-JetBrains">Defi Kingdoms</span><br />
+                  <span class="font-JetBrains">Neefus</span><br />
                   
                 </div>
               </div>

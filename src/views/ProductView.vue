@@ -742,7 +742,7 @@
             >
               <div class="text-[20px] font-normal leading-6">The messaging service is advanced, with features such as end-to-end encryption and wallet-based services. After using it on both PC and mobile, it will be my go-to Web3 messaging service.</div>
               <div
-                class="md:leading-[40px] mx-auto mt-[66px] flex items-center text-xl font-semibold text-[#ffffffde] md:text-2xl justify-start"
+                class="md:leading-[40px] mx-auto mt-[36px] flex items-center text-xl font-semibold text-[#ffffffde] md:text-2xl justify-start"
               >
                 <img
                   src="../assets/nnn.png"
@@ -750,7 +750,7 @@
                   class="mr-3 md:h-[48px] md:w-[48px]"
                 />
                 <div>
-                  <span class="font-JetBrains">Defi Kingdoms</span><br />
+                  <span class="font-JetBrains">Neefus</span><br />
                 </div>
               </div>
             </div>
